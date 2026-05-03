@@ -1,95 +1,88 @@
-**Smart Campus Navigator**
+# Smart Campus Navigator
 
-- **Overview:**: A compact research / engineering project that parses university timetables, builds a room-level and building-level spatial model of a campus, visualises the graphs, and provides a hierarchical navigation engine (A*). The project is intended as a reproducible demonstration of data engineering, algorithm design, and system integration — a strong portfolio piece for recruiters.
+Smart Campus Navigator is a compact, reproducible project that:
 
-**Repository Layout**
-- **Files:**: [README.md](README.md) — this file.
-- **Data & Artifacts:**: [all_rooms.csv](all_rooms.csv), [rooms_complete.csv](rooms_complete.csv), [room_timetable.xlsx](room_timetable.xlsx), [room_availability_histogram.png](room_availability_histogram.png)
-- **Scripts:**: See `scripts/`:
-  - **1_extract_rooms.py**: Merge/extract room list from timetables (produces `all_rooms.csv`).
-  - **2_free_rooms_hourly_availability.py**: Hourly free-room analysis and histogram (produces `room_availability_histogram.png`).
-  - **3_extract_occupancy_by_room.py**: Produce room-centric timetable Excel (`room_timetable.xlsx`).
-  - **4_visualise_graph.py**: Create interactive HTML visualisations of building and room graphs (saved to `University_Graph/`).
-  - **hierarchical_navigator.py**: Navigation engine — hierarchical A* (room-level + building-level).
-  - **test_navigator.py**: Unit tests / expectations for navigation.
+- Parses university timetables and extracts a canonical room inventory.
+- Builds a two-layer spatial model (building-level + room-level).
+- Visualises campus topology and room graphs (interactive HTML).
+- Implements a hierarchical A* navigator with admissible, monotone heuristics.
 
-**Design & Decision Framework**
+This repository is an example of data engineering + algorithms + systems integration — a strong portfolio item to showcase in interviews.
 
-**1) Data ingestion and room modelling**
-- **Goal:** produce a canonical list of rooms with building & floor metadata that other components can rely on.
-- **Decisions:**
-  - Parse both Computing (FSC) and Management (FSM) timetables and merge unique room names; this avoids depending on a single source and handles naming differences.
-  - Classify rooms by simple deterministic rules (`classify_room()` in [scripts/3_extract_occupancy_by_room.py](scripts/3_extract_occupancy_by_room.py)): prefix heuristics plus explicit mapping for special names (Old Audi, CRMG, Micro Lab, Seminar Hall). Rule-based classification is robust, explainable, and easy to adjust.
-  - Infer floor via numeric patterns (`extract_floor_number()`): interpretable heuristic that works for formats like `F-201`, `C-10`, `Lab-1`.
+## Repository structure
 
-**Why this approach:** Clean deterministic extraction gives reliable inputs for routing and visualization without needing manual data cleaning or fragile regexes; it is easy to audit for correctness.
+```
+Smart_Campus_Navigator/
+├── README.md                          # this file (high-level)
+├── DECISIONS.md                       # detailed design & decision rationale (per-step)
+├── config.py                          # shared graph + layout configuration
+├── all_rooms.csv                      # extracted rooms (intermediate)
+├── rooms_complete.csv                 # consolidated rooms (production input)
+├── room_timetable.xlsx                # room-centric timetable (output)
+├── room_availability_histogram.png    # visualisation output
+├── University_Graph/                  # interactive HTML visualisations (output)
+└── scripts/
+    ├── 1_extract_rooms.py
+    ├── 2_free_rooms_hourly_availability.py
+    ├── 3_extract_occupancy_by_room.py
+    ├── 4_visualise_graph.py
+    ├── hierarchical_navigator.py
+    └── test_navigator.py
+```
 
-**2) Spatial modelling & graphs**
-- **Two-layer model:**
-  - **Building graph (macro):** Nodes are buildings, edges have hand-tuned walking costs (e.g., F ↔ D = 15). Positions used for visualization are stored in `config.py` as `BUILDING_POS`.
-  - **Room graph (micro):** For each building, rooms are nodes; corridor edges connect adjacent room numbers on the same floor (cost = 1); stairs are explicit edges defined in `STAIRS_CONFIG` (cost = 5).
+## Quickstart
 
-**Decisions & rationale:**
-  - Corridor adjacency by numeric ordering is simple, deterministic, and matches site maps: nearby room numbers are usually physically adjacent.
-  - Explicit stairs: some buildings have stair connections not derivable from numbering; these are enumerated in `STAIRS_CONFIG` so the routing graph matches reality.
-  - Separate graphs allow hierarchical search (room-level A* inside buildings + building-level A* between buildings) which keeps search space small and modular.
-
-**3) Pathfinding: Hierarchical A***
-- **Formulation:** We compute paths as three segments: start → start-building-exit, building-path (sequence of building nodes), exit → goal. The total cost is the sum of: intra-building path costs + building-graph path cost + intra-building path costs at destination.
-
-- **Heuristic design (key contribution):**
-  - At both the building-level and room-level we use Euclidean straight-line distances scaled conservatively to ensure **admissibility** (never overestimates true cost) and **consistency/monotonicity** (g(n) + h(n) never decreases along edges). That lets us apply A* correctly and achieve optimality while improving performance over plain Dijkstra.
-  - Implementation detail: compute minimal ratio r = min(edge_weight / euclidean(u,v)) across edges (for buildings or rooms). Then heuristic h(x) = r * euclidean(pos(x), pos(goal)). Because every edge cost >= r * euclid(edge), h is admissible.
-
-**Why this heuristic:** It is domain-aware (uses real layout positions) and conservative (scaling ensures correctness). It reduces nodes expanded compared to h=0 while guaranteeing optimal paths.
-
-**4) Visualisation & Debugging**
-- The project includes `scripts/4_visualise_graph.py` which produces per-building and campus-level HTML visualisations in `University_Graph/`. These make the topology and edge weights explicit and help validate stairs, corridor adjacency, and building positions.
-- The room position logic: for each building, rooms are grouped by floor; rooms on a floor are sorted by their numeric suffix; X coordinate is proportional to sorted index, Y coordinate maps to floor. This makes same-floor room chains linear and stair links vertical — ideal for readable visual maps.
-
-**How to run (quick start)**
-- Setup: ensure you have Python 3.10+ and packages in `requirements.txt` (pandas, networkx, plotly, matplotlib, openpyxl). If you want, I can export a `requirements.txt` for you. Example install:
+1. Install dependencies (example):
 
 ```bash
 python -m pip install pandas networkx plotly matplotlib openpyxl joblib
 ```
 
-- Generate the visual graphs (writes into `University_Graph/`):
+2. Generate visualisations (saves into `University_Graph/`):
 
 ```bash
 python scripts/4_visualise_graph.py
 ```
 
-- Run the navigator demo and tests:
+3. Run navigator demo and tests:
 
 ```bash
-python scripts/hierarchical_navigator.py    # demo run
-python scripts/test_navigator.py           # run unit tests (11 tests expected)
+python scripts/hierarchical_navigator.py
+python scripts/test_navigator.py
 ```
 
-**Files to inspect**
-- **Config:**: [config.py](config.py) — centralizes `BUILDING_GRAPH`, `BUILDING_POS`, and `STAIRS_CONFIG` so you can tune weights and layout in one place.
-- **Visuals:**: Open `University_Graph/building_graph.html` and the `room_graph_*.html` files with a browser. The histogram `room_availability_histogram.png` is available at repo root.
+## Core concepts (short)
 
-**Testing & Validation**
-- `scripts/test_navigator.py` encodes several realistic scenarios (same-floor, different-floor, cross-building) and asserts expected cost ranges. After the heuristic change all tests pass locally (11/11).
+- Data ingestion: deterministic rule-based parsing extracts rooms and infers `building` and `floor` from names.
+- Spatial model: two layers — building graph (macro) and room graphs (micro). Corridor edges connect adjacent room numbers, stairs are explicit.
+- Navigation: hierarchical A* — room-level A* inside buildings, building-level A* between buildings. Heuristics are Euclidean distances scaled conservatively to guarantee admissibility & consistency.
 
-**Engineering trade-offs and notes for recruiters**
-- **Rule-based parsing vs ML for extraction:** Chosen rule-based parsing for determinism and auditability (parsing correctness is crucial for navigation). Machine learning could classify rooms from messy text, but adds opacity and data needs.
-- **Hierarchical A*:** Combining micro and macro graphs reduces search cost compared to a single monolithic graph. It also maps directly to how humans think when navigating (exit-building → cross campus → enter target building).
-- **Heuristic scaling approach:** Conservative scaling ensures A* correctness while using spatial intuition. This is a pragmatic compromise between pure geometric heuristics (fast but possibly inadmissible if weights differ) and blind search.
+## Configuration
 
-**Next steps & extensions (recommended)**
-- Add `scripts/recommender.py` to combine occupancy predictions with path costs (top-k recommendations). The project already contains `ml_integration.py` scaffolding for a classifier.
-- Add dynamic weights (e.g., crowding or stairs accessibility) to favour accessible routes.
-- Add a REST API wrapper for the recommender & navigator for integration with a web or mobile frontend.
+All topology, edge weights, and layout positions live in `config.py`:
+- `BUILDING_GRAPH`: inter-building weighted adjacency.
+- `BUILDING_POS`: (x,y) positions for visualisation and heuristics.
+- `STAIRS_CONFIG`: explicit (room1, room2) stair links per building.
 
-**Attribution & contact**
-- The repository demonstrates data parsing, graph modelling, A* heuristic design, and visualization — good interview talking points: explain how you ensured admissibility, how you derived stair edges, how you tested routing on edge cases.
+## Design highlights (short)
 
-**Selected visuals**
-- Room availability histogram: ![Availability](room_availability_histogram.png)
-- Campus graph & per-building visualisations: open `University_Graph/building_graph.html` and the `room_graph_*.html` files in a browser for interactive diagrams.
+- Heuristics: For each search (building-level or room-level) we compute r = min(edge_cost / euclidean(u,v)) across edges, then set h(x) = r * euclidean(pos(x), pos(goal)). This guarantees h <= true shortest-path cost (admissible) and preserves monotonicity.
+- Room layout: rooms per floor are sorted by numeric suffix, X positions are proportional to index, Y positions map to floor — this makes straight-line heuristics spatially meaningful.
+
+## Visuals
+
+- Open `University_Graph/building_graph.html` and `University_Graph/room_graph_*.html` in a browser.
+- The repo root contains `room_availability_histogram.png` showing hourly free-room distribution.
+
+## Next steps (recommended)
+
+- Add `scripts/recommender.py` to combine occupancy predictions with routing for top-k recommendations.
+- Add CI with GitHub Actions to run `scripts/test_navigator.py` on push.
+- Convert `config.py` into a small YAML or JSON if you want non-Python editing of layout/weights.
+
+## Contact / Notes
+
+If you want a compact interview one-pager summarising technical decisions, I can add `README_SAMPLE.md`. The repository already includes `DECISIONS.md` with step-by-step rationale.
 
 ---
 If you'd like, I can also:
