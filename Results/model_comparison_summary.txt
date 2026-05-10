@@ -1,0 +1,47 @@
+ROOM USABILITY MODEL COMPARISON
+================================================================
+
+Ranking criterion: final test macro-F1 from the saved run report
+
+Rank  Model                          Test F1   ROC-AUC     CV F1    Thresh
+--------------------------------------------------------------------------
+1     Baseline Random Forest          0.9328    0.9834
+2     Tuned Random Forest             0.9321    0.9881    0.9334      0.52
+3     Tuned ANN                       0.9321    0.9849    0.9259      0.48
+4     Tuned Logistic Regression       0.8751    0.9598    0.8705      0.40
+
+Best observed run: Baseline Random Forest (0.9328 test macro-F1)
+
+Per-run notes:
+- Baseline Random Forest: Untuned baseline from script 8.
+  Source: Results\training_report.txt
+  Test ROC-AUC: 0.9834
+
+- Tuned Random Forest: Random Forest tuned with RandomizedSearchCV
+  Source: Results\training_report_tuned_rf.txt
+  CV best macro-F1: 0.9334
+  Validation threshold: 0.52
+  Test macro-F1 @0.50: 0.9329
+  Test macro-F1 @tuned: 0.9321
+  Test ROC-AUC: 0.9881
+
+- Tuned Logistic Regression: Logistic Regression tuned with L1/L2
+  Source: Results\training_report_tuned_lr.txt
+  CV best macro-F1: 0.8705
+  Validation threshold: 0.40
+  Test macro-F1 @0.50: 0.8624
+  Test macro-F1 @tuned: 0.8751
+  Test ROC-AUC: 0.9598
+
+- Tuned ANN: ANN tuned with MLPClassifier
+  Source: Results\training_report_tuned_ann.txt
+  CV best macro-F1: 0.9259
+  Validation threshold: 0.48
+  Test macro-F1 @0.50: 0.9337
+  Test macro-F1 @tuned: 0.9321
+  Test ROC-AUC: 0.9849
+
+Recommendation:
+- If you want the highest reported test macro-F1 right now, keep the baseline Random Forest.
+- If you want the strongest tuned candidate with a clean cross-validation search, the tuned Random Forest remains the best tuned model.
+- Logistic Regression is a weaker but interpretable fallback; ANN is close to RF but does not clearly surpass it on the held-out test set.

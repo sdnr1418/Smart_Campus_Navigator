@@ -12,7 +12,7 @@ import numpy as np
 
 # Get paths
 TIMETABLES_DIR = os.path.join(os.path.dirname(__file__), '..', 'TimeTables')
-ROOMS_CSV = os.path.join(os.path.dirname(__file__), '..', 'all_rooms.csv')
+ROOMS_CSV = os.path.join(os.path.dirname(__file__), '..', 'Data', 'raw', 'all_rooms.csv')
 
 COMPUTING_FILE = os.path.join(TIMETABLES_DIR, "FSC TT Spring 2026 v1.3.xlsx")
 COMPUTING_SHEETS = ["CS", "DS", "SE", "AI", "CY"]

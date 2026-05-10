@@ -23,7 +23,12 @@ from config import BUILDING_GRAPH, BUILDING_POS, STAIRS_CONFIG
 # ============================================================
 # LOAD ROOMS INFO
 # ============================================================
-def load_rooms(csv_path="rooms_complete.csv"):
+def load_rooms(csv_path=None):
+    # default to Data/raw/all_rooms.csv in project root
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    if csv_path is None:
+        csv_path = os.path.join(project_root, 'Data', 'raw', 'all_rooms.csv')
     df = pd.read_csv(csv_path)
     rooms_info = {}
     for _, row in df.iterrows():

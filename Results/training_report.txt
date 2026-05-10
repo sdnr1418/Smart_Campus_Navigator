@@ -1,0 +1,108 @@
+ROOM USABILITY CLASSIFIER - TRAINING REPORT
+Dataset rows : 6006
+Features     : 19
+Train / Test : 4804 / 1202 (80/20 stratified)
+Class balance: 4072 usable  |  1934 not-usable
+
+============================================================
+MODEL 1: Logistic Regression (Baseline)
+============================================================
+Rationale: Linear baseline to understand feature relationships.
+Provides interpretable coefficients but cannot capture non-linear patterns.
+
+              precision    recall  f1-score   support
+
+  Not Usable      0.789     0.832     0.810       387
+      Usable      0.918     0.894     0.906       815
+
+    accuracy                          0.874      1202
+   macro avg      0.854     0.863     0.858      1202
+weighted avg      0.877     0.874     0.875      1202
+
+Confusion Matrix:
+[[322  65]
+ [ 86 729]]
+ROC-AUC: 0.9601
+
+============================================================
+MODEL 2: Random Forest
+============================================================
+Rationale: Tree-based ensemble captures non-linear interactions naturally.
+No hyperparameter tuning; using sensible defaults.
+Config: n_estimators=100, max_depth=15, random_state=42
+
+              precision    recall  f1-score   support
+
+  Not Usable      0.899     0.920     0.909       387
+      Usable      0.962     0.951     0.956       815
+
+    accuracy                          0.941      1202
+   macro avg      0.930     0.935     0.933      1202
+weighted avg      0.941     0.941     0.941      1202
+
+Confusion Matrix:
+[[356  31]
+ [ 40 775]]
+ROC-AUC: 0.9834
+
+Feature Importances (top 10):
+  day_of_week               0.2265  #############################################
+  is_special                0.1675  #################################
+  room_overall_occupancy_rate 0.1589  ###############################
+  room_popularity_bucket    0.0608  ############
+  hour                      0.0599  ###########
+  hour_sin                  0.0555  ###########
+  hour_cos                  0.0490  #########
+  neighbor_hour_occupancy_rate 0.0457  #########
+  is_weekday                0.0421  ########
+  block_hour_occupancy_rate 0.0310  ######
+
+============================================================
+MODEL 3: Artificial Neural Network (ANN)
+============================================================
+Rationale: Deep learning baseline with two hidden layers (64, 32).
+Can learn complex patterns but requires careful regularization.
+Config: hidden_layers=(64, 32), max_iter=500, early_stopping=True
+
+              precision    recall  f1-score   support
+
+  Not Usable      0.885     0.894     0.889       387
+      Usable      0.949     0.945     0.947       815
+
+    accuracy                          0.928      1202
+   macro avg      0.917     0.919     0.918      1202
+weighted avg      0.929     0.928     0.929      1202
+
+Confusion Matrix:
+[[346  41]
+ [ 45 770]]
+ROC-AUC: 0.9818
+
+============================================================
+MODEL COMPARISON
+============================================================
+Model                    F1-macro    ROC-AUC
+--------------------------------------------
+Logistic Regression        0.8581     0.9601
+Random Forest              0.9328     0.9834
+Neural Network             0.9183     0.9818
+
+WINNER: Random Forest  (F1-macro=0.9328)
+
+============================================================
+FAILURE ANALYSIS
+============================================================
+1. Logistic Regression underperformed because the decision boundary
+   between usable/not-usable is inherently non-linear:
+   - A room may be free at 08:00 Mon (usable) but not at 09:00 Mon
+     (buffer before 10:00 class). A linear model cannot capture the
+     interaction between (hour, prev_hour_occupied) without polynomial
+     feature expansion, which we deliberately avoided to keep the
+     feature space interpretable.
+
+2. B-Block (CRMG, Embedded Lab) has 0% usable slots across all hours
+   because both rooms are classified as 'special'. Any model trained
+   on this data will always predict not-usable for B-Block, which is
+   correct by design but means the model offers no value for B-Block
+   specifically. A real-world fix would involve collecting booking
+   calendar data for these rooms.

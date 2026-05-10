@@ -1,0 +1,4447 @@
+Room,Day,Hour,Building,Floor,Status
+C-1,Mon,8,C-Block (Computing),1,1
+C-13,Mon,8,C-Block (Computing),2,1
+C-14,Mon,8,C-Block (Computing),2,1
+C-2,Mon,8,C-Block (Computing),1,0
+C-3,Mon,8,C-Block (Computing),1,1
+C-4,Mon,8,C-Block (Computing),1,1
+C-5,Mon,8,C-Block (Computing),1,1
+C-6,Mon,8,C-Block (Computing),1,0
+C-7,Mon,8,C-Block (Computing),1,0
+D-11,Mon,8,D-Block (Electrical/Management),2,0
+D-2,Mon,8,D-Block (Electrical/Management),1,0
+D-5,Mon,8,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,8,E-Block (Library),1,0
+Eng Lab-1,Mon,8,E-Block (Library),1,0
+Eng Lab-2,Mon,8,E-Block (Library),1,0
+Eng Lab-3,Mon,8,E-Block (Library),1,0
+Eng Lab-4,Mon,8,E-Block (Library),1,0
+Eng Lab-5,Mon,8,E-Block (Library),1,0
+Eng Lab-6,Mon,8,E-Block (Library),1,0
+F-201,Mon,8,F-Block (New Building),2,1
+F-202,Mon,8,F-Block (New Building),2,1
+F-203,Mon,8,F-Block (New Building),2,1
+F-204,Mon,8,F-Block (New Building),2,1
+F-205,Mon,8,F-Block (New Building),2,1
+F-206,Mon,8,F-Block (New Building),2,1
+F-207,Mon,8,F-Block (New Building),2,1
+F-208,Mon,8,F-Block (New Building),2,0
+F-209,Mon,8,F-Block (New Building),2,1
+F-210,Mon,8,F-Block (New Building),2,1
+F-301,Mon,8,F-Block (New Building),3,1
+F-302,Mon,8,F-Block (New Building),3,0
+F-303,Mon,8,F-Block (New Building),3,0
+F-304,Mon,8,F-Block (New Building),3,0
+F-305,Mon,8,F-Block (New Building),3,0
+F-306,Mon,8,F-Block (New Building),3,0
+F-307,Mon,8,F-Block (New Building),3,1
+F-308,Mon,8,F-Block (New Building),3,0
+F-309,Mon,8,F-Block (New Building),3,0
+F-310,Mon,8,F-Block (New Building),3,0
+F-311,Mon,8,F-Block (New Building),3,0
+F-312,Mon,8,F-Block (New Building),3,0
+Lab-1,Mon,8,L-Block (Labs),1,0
+Lab-13,Mon,8,L-Block (Labs),2,1
+Lab-14,Mon,8,L-Block (Labs),2,1
+Lab-15,Mon,8,L-Block (Labs),2,1
+Lab-16,Mon,8,L-Block (Labs),2,1
+Lab-17,Mon,8,L-Block (Labs),2,0
+Lab-18,Mon,8,L-Block (Labs),2,0
+Lab-2,Mon,8,L-Block (Labs),1,0
+Lab-3,Mon,8,L-Block (Labs),1,0
+Lab-4,Mon,8,L-Block (Labs),1,0
+Lab-6,Mon,8,L-Block (Labs),1,0
+Lab-8,Mon,8,L-Block (Labs),1,0
+Micro Lab,Mon,8,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,8,D-Block (Electrical/Management),1,0
+S. Hall,Mon,8,D-Block (Electrical/Management),1,0
+lab-17,Mon,8,L-Block (Labs),2,0
+C-1,Mon,9,C-Block (Computing),1,0
+C-13,Mon,9,C-Block (Computing),2,0
+C-14,Mon,9,C-Block (Computing),2,0
+C-2,Mon,9,C-Block (Computing),1,0
+C-3,Mon,9,C-Block (Computing),1,0
+C-4,Mon,9,C-Block (Computing),1,0
+C-5,Mon,9,C-Block (Computing),1,0
+C-6,Mon,9,C-Block (Computing),1,0
+C-7,Mon,9,C-Block (Computing),1,0
+D-11,Mon,9,D-Block (Electrical/Management),2,0
+D-2,Mon,9,D-Block (Electrical/Management),1,0
+D-5,Mon,9,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,9,E-Block (Library),1,0
+Eng Lab-1,Mon,9,E-Block (Library),1,0
+Eng Lab-2,Mon,9,E-Block (Library),1,0
+Eng Lab-3,Mon,9,E-Block (Library),1,0
+Eng Lab-4,Mon,9,E-Block (Library),1,0
+Eng Lab-5,Mon,9,E-Block (Library),1,0
+Eng Lab-6,Mon,9,E-Block (Library),1,0
+F-201,Mon,9,F-Block (New Building),2,0
+F-202,Mon,9,F-Block (New Building),2,0
+F-203,Mon,9,F-Block (New Building),2,0
+F-204,Mon,9,F-Block (New Building),2,0
+F-205,Mon,9,F-Block (New Building),2,0
+F-206,Mon,9,F-Block (New Building),2,0
+F-207,Mon,9,F-Block (New Building),2,0
+F-208,Mon,9,F-Block (New Building),2,0
+F-209,Mon,9,F-Block (New Building),2,0
+F-210,Mon,9,F-Block (New Building),2,0
+F-301,Mon,9,F-Block (New Building),3,0
+F-302,Mon,9,F-Block (New Building),3,0
+F-303,Mon,9,F-Block (New Building),3,0
+F-304,Mon,9,F-Block (New Building),3,0
+F-305,Mon,9,F-Block (New Building),3,0
+F-306,Mon,9,F-Block (New Building),3,0
+F-307,Mon,9,F-Block (New Building),3,0
+F-308,Mon,9,F-Block (New Building),3,0
+F-309,Mon,9,F-Block (New Building),3,0
+F-310,Mon,9,F-Block (New Building),3,0
+F-311,Mon,9,F-Block (New Building),3,0
+F-312,Mon,9,F-Block (New Building),3,0
+Lab-1,Mon,9,L-Block (Labs),1,0
+Lab-13,Mon,9,L-Block (Labs),2,0
+Lab-14,Mon,9,L-Block (Labs),2,0
+Lab-15,Mon,9,L-Block (Labs),2,0
+Lab-16,Mon,9,L-Block (Labs),2,0
+Lab-17,Mon,9,L-Block (Labs),2,0
+Lab-18,Mon,9,L-Block (Labs),2,0
+Lab-2,Mon,9,L-Block (Labs),1,0
+Lab-3,Mon,9,L-Block (Labs),1,0
+Lab-4,Mon,9,L-Block (Labs),1,0
+Lab-6,Mon,9,L-Block (Labs),1,0
+Lab-8,Mon,9,L-Block (Labs),1,0
+Micro Lab,Mon,9,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,9,D-Block (Electrical/Management),1,0
+S. Hall,Mon,9,D-Block (Electrical/Management),1,0
+lab-17,Mon,9,L-Block (Labs),2,0
+C-1,Mon,10,C-Block (Computing),1,1
+C-13,Mon,10,C-Block (Computing),2,1
+C-14,Mon,10,C-Block (Computing),2,1
+C-2,Mon,10,C-Block (Computing),1,0
+C-3,Mon,10,C-Block (Computing),1,1
+C-4,Mon,10,C-Block (Computing),1,1
+C-5,Mon,10,C-Block (Computing),1,1
+C-6,Mon,10,C-Block (Computing),1,1
+C-7,Mon,10,C-Block (Computing),1,1
+D-11,Mon,10,D-Block (Electrical/Management),2,0
+D-2,Mon,10,D-Block (Electrical/Management),1,1
+D-5,Mon,10,D-Block (Electrical/Management),1,1
+Embedded Lab,Mon,10,E-Block (Library),1,0
+Eng Lab-1,Mon,10,E-Block (Library),1,0
+Eng Lab-2,Mon,10,E-Block (Library),1,0
+Eng Lab-3,Mon,10,E-Block (Library),1,0
+Eng Lab-4,Mon,10,E-Block (Library),1,0
+Eng Lab-5,Mon,10,E-Block (Library),1,0
+Eng Lab-6,Mon,10,E-Block (Library),1,0
+F-201,Mon,10,F-Block (New Building),2,0
+F-202,Mon,10,F-Block (New Building),2,1
+F-203,Mon,10,F-Block (New Building),2,0
+F-204,Mon,10,F-Block (New Building),2,1
+F-205,Mon,10,F-Block (New Building),2,1
+F-206,Mon,10,F-Block (New Building),2,0
+F-207,Mon,10,F-Block (New Building),2,1
+F-208,Mon,10,F-Block (New Building),2,1
+F-209,Mon,10,F-Block (New Building),2,1
+F-210,Mon,10,F-Block (New Building),2,1
+F-301,Mon,10,F-Block (New Building),3,1
+F-302,Mon,10,F-Block (New Building),3,1
+F-303,Mon,10,F-Block (New Building),3,1
+F-304,Mon,10,F-Block (New Building),3,1
+F-305,Mon,10,F-Block (New Building),3,1
+F-306,Mon,10,F-Block (New Building),3,1
+F-307,Mon,10,F-Block (New Building),3,1
+F-308,Mon,10,F-Block (New Building),3,1
+F-309,Mon,10,F-Block (New Building),3,1
+F-310,Mon,10,F-Block (New Building),3,1
+F-311,Mon,10,F-Block (New Building),3,1
+F-312,Mon,10,F-Block (New Building),3,1
+Lab-1,Mon,10,L-Block (Labs),1,0
+Lab-13,Mon,10,L-Block (Labs),2,0
+Lab-14,Mon,10,L-Block (Labs),2,0
+Lab-15,Mon,10,L-Block (Labs),2,0
+Lab-16,Mon,10,L-Block (Labs),2,0
+Lab-17,Mon,10,L-Block (Labs),2,0
+Lab-18,Mon,10,L-Block (Labs),2,0
+Lab-2,Mon,10,L-Block (Labs),1,0
+Lab-3,Mon,10,L-Block (Labs),1,0
+Lab-4,Mon,10,L-Block (Labs),1,0
+Lab-6,Mon,10,L-Block (Labs),1,0
+Lab-8,Mon,10,L-Block (Labs),1,0
+Micro Lab,Mon,10,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,10,D-Block (Electrical/Management),1,0
+S. Hall,Mon,10,D-Block (Electrical/Management),1,1
+lab-17,Mon,10,L-Block (Labs),2,0
+C-1,Mon,11,C-Block (Computing),1,0
+C-13,Mon,11,C-Block (Computing),2,0
+C-14,Mon,11,C-Block (Computing),2,0
+C-2,Mon,11,C-Block (Computing),1,1
+C-3,Mon,11,C-Block (Computing),1,0
+C-4,Mon,11,C-Block (Computing),1,0
+C-5,Mon,11,C-Block (Computing),1,1
+C-6,Mon,11,C-Block (Computing),1,0
+C-7,Mon,11,C-Block (Computing),1,0
+D-11,Mon,11,D-Block (Electrical/Management),2,0
+D-2,Mon,11,D-Block (Electrical/Management),1,0
+D-5,Mon,11,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,11,E-Block (Library),1,0
+Eng Lab-1,Mon,11,E-Block (Library),1,0
+Eng Lab-2,Mon,11,E-Block (Library),1,0
+Eng Lab-3,Mon,11,E-Block (Library),1,0
+Eng Lab-4,Mon,11,E-Block (Library),1,0
+Eng Lab-5,Mon,11,E-Block (Library),1,0
+Eng Lab-6,Mon,11,E-Block (Library),1,0
+F-201,Mon,11,F-Block (New Building),2,1
+F-202,Mon,11,F-Block (New Building),2,1
+F-203,Mon,11,F-Block (New Building),2,1
+F-204,Mon,11,F-Block (New Building),2,1
+F-205,Mon,11,F-Block (New Building),2,0
+F-206,Mon,11,F-Block (New Building),2,1
+F-207,Mon,11,F-Block (New Building),2,1
+F-208,Mon,11,F-Block (New Building),2,1
+F-209,Mon,11,F-Block (New Building),2,1
+F-210,Mon,11,F-Block (New Building),2,1
+F-301,Mon,11,F-Block (New Building),3,1
+F-302,Mon,11,F-Block (New Building),3,1
+F-303,Mon,11,F-Block (New Building),3,1
+F-304,Mon,11,F-Block (New Building),3,1
+F-305,Mon,11,F-Block (New Building),3,1
+F-306,Mon,11,F-Block (New Building),3,0
+F-307,Mon,11,F-Block (New Building),3,0
+F-308,Mon,11,F-Block (New Building),3,1
+F-309,Mon,11,F-Block (New Building),3,1
+F-310,Mon,11,F-Block (New Building),3,1
+F-311,Mon,11,F-Block (New Building),3,1
+F-312,Mon,11,F-Block (New Building),3,0
+Lab-1,Mon,11,L-Block (Labs),1,1
+Lab-13,Mon,11,L-Block (Labs),2,1
+Lab-14,Mon,11,L-Block (Labs),2,1
+Lab-15,Mon,11,L-Block (Labs),2,1
+Lab-16,Mon,11,L-Block (Labs),2,1
+Lab-17,Mon,11,L-Block (Labs),2,0
+Lab-18,Mon,11,L-Block (Labs),2,0
+Lab-2,Mon,11,L-Block (Labs),1,0
+Lab-3,Mon,11,L-Block (Labs),1,0
+Lab-4,Mon,11,L-Block (Labs),1,1
+Lab-6,Mon,11,L-Block (Labs),1,0
+Lab-8,Mon,11,L-Block (Labs),1,1
+Micro Lab,Mon,11,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,11,D-Block (Electrical/Management),1,0
+S. Hall,Mon,11,D-Block (Electrical/Management),1,1
+lab-17,Mon,11,L-Block (Labs),2,0
+C-1,Mon,12,C-Block (Computing),1,0
+C-13,Mon,12,C-Block (Computing),2,0
+C-14,Mon,12,C-Block (Computing),2,0
+C-2,Mon,12,C-Block (Computing),1,0
+C-3,Mon,12,C-Block (Computing),1,0
+C-4,Mon,12,C-Block (Computing),1,0
+C-5,Mon,12,C-Block (Computing),1,0
+C-6,Mon,12,C-Block (Computing),1,0
+C-7,Mon,12,C-Block (Computing),1,0
+D-11,Mon,12,D-Block (Electrical/Management),2,0
+D-2,Mon,12,D-Block (Electrical/Management),1,0
+D-5,Mon,12,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,12,E-Block (Library),1,0
+Eng Lab-1,Mon,12,E-Block (Library),1,0
+Eng Lab-2,Mon,12,E-Block (Library),1,0
+Eng Lab-3,Mon,12,E-Block (Library),1,0
+Eng Lab-4,Mon,12,E-Block (Library),1,0
+Eng Lab-5,Mon,12,E-Block (Library),1,0
+Eng Lab-6,Mon,12,E-Block (Library),1,0
+F-201,Mon,12,F-Block (New Building),2,0
+F-202,Mon,12,F-Block (New Building),2,0
+F-203,Mon,12,F-Block (New Building),2,0
+F-204,Mon,12,F-Block (New Building),2,0
+F-205,Mon,12,F-Block (New Building),2,0
+F-206,Mon,12,F-Block (New Building),2,0
+F-207,Mon,12,F-Block (New Building),2,0
+F-208,Mon,12,F-Block (New Building),2,0
+F-209,Mon,12,F-Block (New Building),2,0
+F-210,Mon,12,F-Block (New Building),2,0
+F-301,Mon,12,F-Block (New Building),3,0
+F-302,Mon,12,F-Block (New Building),3,0
+F-303,Mon,12,F-Block (New Building),3,0
+F-304,Mon,12,F-Block (New Building),3,0
+F-305,Mon,12,F-Block (New Building),3,0
+F-306,Mon,12,F-Block (New Building),3,0
+F-307,Mon,12,F-Block (New Building),3,0
+F-308,Mon,12,F-Block (New Building),3,0
+F-309,Mon,12,F-Block (New Building),3,0
+F-310,Mon,12,F-Block (New Building),3,0
+F-311,Mon,12,F-Block (New Building),3,0
+F-312,Mon,12,F-Block (New Building),3,0
+Lab-1,Mon,12,L-Block (Labs),1,0
+Lab-13,Mon,12,L-Block (Labs),2,0
+Lab-14,Mon,12,L-Block (Labs),2,0
+Lab-15,Mon,12,L-Block (Labs),2,0
+Lab-16,Mon,12,L-Block (Labs),2,0
+Lab-17,Mon,12,L-Block (Labs),2,0
+Lab-18,Mon,12,L-Block (Labs),2,0
+Lab-2,Mon,12,L-Block (Labs),1,0
+Lab-3,Mon,12,L-Block (Labs),1,0
+Lab-4,Mon,12,L-Block (Labs),1,0
+Lab-6,Mon,12,L-Block (Labs),1,0
+Lab-8,Mon,12,L-Block (Labs),1,0
+Micro Lab,Mon,12,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,12,D-Block (Electrical/Management),1,0
+S. Hall,Mon,12,D-Block (Electrical/Management),1,0
+lab-17,Mon,12,L-Block (Labs),2,0
+C-1,Mon,13,C-Block (Computing),1,1
+C-13,Mon,13,C-Block (Computing),2,1
+C-14,Mon,13,C-Block (Computing),2,1
+C-2,Mon,13,C-Block (Computing),1,1
+C-3,Mon,13,C-Block (Computing),1,1
+C-4,Mon,13,C-Block (Computing),1,0
+C-5,Mon,13,C-Block (Computing),1,0
+C-6,Mon,13,C-Block (Computing),1,0
+C-7,Mon,13,C-Block (Computing),1,0
+D-11,Mon,13,D-Block (Electrical/Management),2,0
+D-2,Mon,13,D-Block (Electrical/Management),1,1
+D-5,Mon,13,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,13,E-Block (Library),1,0
+Eng Lab-1,Mon,13,E-Block (Library),1,0
+Eng Lab-2,Mon,13,E-Block (Library),1,0
+Eng Lab-3,Mon,13,E-Block (Library),1,0
+Eng Lab-4,Mon,13,E-Block (Library),1,0
+Eng Lab-5,Mon,13,E-Block (Library),1,0
+Eng Lab-6,Mon,13,E-Block (Library),1,0
+F-201,Mon,13,F-Block (New Building),2,1
+F-202,Mon,13,F-Block (New Building),2,1
+F-203,Mon,13,F-Block (New Building),2,1
+F-204,Mon,13,F-Block (New Building),2,1
+F-205,Mon,13,F-Block (New Building),2,1
+F-206,Mon,13,F-Block (New Building),2,1
+F-207,Mon,13,F-Block (New Building),2,1
+F-208,Mon,13,F-Block (New Building),2,1
+F-209,Mon,13,F-Block (New Building),2,1
+F-210,Mon,13,F-Block (New Building),2,0
+F-301,Mon,13,F-Block (New Building),3,1
+F-302,Mon,13,F-Block (New Building),3,1
+F-303,Mon,13,F-Block (New Building),3,1
+F-304,Mon,13,F-Block (New Building),3,1
+F-305,Mon,13,F-Block (New Building),3,1
+F-306,Mon,13,F-Block (New Building),3,1
+F-307,Mon,13,F-Block (New Building),3,1
+F-308,Mon,13,F-Block (New Building),3,1
+F-309,Mon,13,F-Block (New Building),3,1
+F-310,Mon,13,F-Block (New Building),3,1
+F-311,Mon,13,F-Block (New Building),3,1
+F-312,Mon,13,F-Block (New Building),3,1
+Lab-1,Mon,13,L-Block (Labs),1,0
+Lab-13,Mon,13,L-Block (Labs),2,0
+Lab-14,Mon,13,L-Block (Labs),2,0
+Lab-15,Mon,13,L-Block (Labs),2,0
+Lab-16,Mon,13,L-Block (Labs),2,0
+Lab-17,Mon,13,L-Block (Labs),2,0
+Lab-18,Mon,13,L-Block (Labs),2,0
+Lab-2,Mon,13,L-Block (Labs),1,0
+Lab-3,Mon,13,L-Block (Labs),1,0
+Lab-4,Mon,13,L-Block (Labs),1,0
+Lab-6,Mon,13,L-Block (Labs),1,0
+Lab-8,Mon,13,L-Block (Labs),1,0
+Micro Lab,Mon,13,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,13,D-Block (Electrical/Management),1,0
+S. Hall,Mon,13,D-Block (Electrical/Management),1,1
+lab-17,Mon,13,L-Block (Labs),2,0
+C-1,Mon,14,C-Block (Computing),1,1
+C-13,Mon,14,C-Block (Computing),2,0
+C-14,Mon,14,C-Block (Computing),2,1
+C-2,Mon,14,C-Block (Computing),1,0
+C-3,Mon,14,C-Block (Computing),1,1
+C-4,Mon,14,C-Block (Computing),1,0
+C-5,Mon,14,C-Block (Computing),1,1
+C-6,Mon,14,C-Block (Computing),1,0
+C-7,Mon,14,C-Block (Computing),1,0
+D-11,Mon,14,D-Block (Electrical/Management),2,0
+D-2,Mon,14,D-Block (Electrical/Management),1,1
+D-5,Mon,14,D-Block (Electrical/Management),1,1
+Embedded Lab,Mon,14,E-Block (Library),1,0
+Eng Lab-1,Mon,14,E-Block (Library),1,0
+Eng Lab-2,Mon,14,E-Block (Library),1,0
+Eng Lab-3,Mon,14,E-Block (Library),1,0
+Eng Lab-4,Mon,14,E-Block (Library),1,0
+Eng Lab-5,Mon,14,E-Block (Library),1,0
+Eng Lab-6,Mon,14,E-Block (Library),1,0
+F-201,Mon,14,F-Block (New Building),2,1
+F-202,Mon,14,F-Block (New Building),2,1
+F-203,Mon,14,F-Block (New Building),2,1
+F-204,Mon,14,F-Block (New Building),2,1
+F-205,Mon,14,F-Block (New Building),2,1
+F-206,Mon,14,F-Block (New Building),2,1
+F-207,Mon,14,F-Block (New Building),2,1
+F-208,Mon,14,F-Block (New Building),2,1
+F-209,Mon,14,F-Block (New Building),2,1
+F-210,Mon,14,F-Block (New Building),2,1
+F-301,Mon,14,F-Block (New Building),3,1
+F-302,Mon,14,F-Block (New Building),3,1
+F-303,Mon,14,F-Block (New Building),3,1
+F-304,Mon,14,F-Block (New Building),3,1
+F-305,Mon,14,F-Block (New Building),3,1
+F-306,Mon,14,F-Block (New Building),3,1
+F-307,Mon,14,F-Block (New Building),3,1
+F-308,Mon,14,F-Block (New Building),3,1
+F-309,Mon,14,F-Block (New Building),3,1
+F-310,Mon,14,F-Block (New Building),3,1
+F-311,Mon,14,F-Block (New Building),3,1
+F-312,Mon,14,F-Block (New Building),3,1
+Lab-1,Mon,14,L-Block (Labs),1,0
+Lab-13,Mon,14,L-Block (Labs),2,1
+Lab-14,Mon,14,L-Block (Labs),2,1
+Lab-15,Mon,14,L-Block (Labs),2,1
+Lab-16,Mon,14,L-Block (Labs),2,1
+Lab-17,Mon,14,L-Block (Labs),2,0
+Lab-18,Mon,14,L-Block (Labs),2,0
+Lab-2,Mon,14,L-Block (Labs),1,0
+Lab-3,Mon,14,L-Block (Labs),1,0
+Lab-4,Mon,14,L-Block (Labs),1,0
+Lab-6,Mon,14,L-Block (Labs),1,0
+Lab-8,Mon,14,L-Block (Labs),1,0
+Micro Lab,Mon,14,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,14,D-Block (Electrical/Management),1,0
+S. Hall,Mon,14,D-Block (Electrical/Management),1,1
+lab-17,Mon,14,L-Block (Labs),2,0
+C-1,Mon,15,C-Block (Computing),1,0
+C-13,Mon,15,C-Block (Computing),2,1
+C-14,Mon,15,C-Block (Computing),2,0
+C-2,Mon,15,C-Block (Computing),1,1
+C-3,Mon,15,C-Block (Computing),1,0
+C-4,Mon,15,C-Block (Computing),1,1
+C-5,Mon,15,C-Block (Computing),1,0
+C-6,Mon,15,C-Block (Computing),1,1
+C-7,Mon,15,C-Block (Computing),1,1
+D-11,Mon,15,D-Block (Electrical/Management),2,0
+D-2,Mon,15,D-Block (Electrical/Management),1,0
+D-5,Mon,15,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,15,E-Block (Library),1,0
+Eng Lab-1,Mon,15,E-Block (Library),1,0
+Eng Lab-2,Mon,15,E-Block (Library),1,0
+Eng Lab-3,Mon,15,E-Block (Library),1,0
+Eng Lab-4,Mon,15,E-Block (Library),1,0
+Eng Lab-5,Mon,15,E-Block (Library),1,0
+Eng Lab-6,Mon,15,E-Block (Library),1,0
+F-201,Mon,15,F-Block (New Building),2,0
+F-202,Mon,15,F-Block (New Building),2,0
+F-203,Mon,15,F-Block (New Building),2,0
+F-204,Mon,15,F-Block (New Building),2,0
+F-205,Mon,15,F-Block (New Building),2,0
+F-206,Mon,15,F-Block (New Building),2,0
+F-207,Mon,15,F-Block (New Building),2,0
+F-208,Mon,15,F-Block (New Building),2,0
+F-209,Mon,15,F-Block (New Building),2,0
+F-210,Mon,15,F-Block (New Building),2,0
+F-301,Mon,15,F-Block (New Building),3,0
+F-302,Mon,15,F-Block (New Building),3,0
+F-303,Mon,15,F-Block (New Building),3,0
+F-304,Mon,15,F-Block (New Building),3,0
+F-305,Mon,15,F-Block (New Building),3,0
+F-306,Mon,15,F-Block (New Building),3,0
+F-307,Mon,15,F-Block (New Building),3,0
+F-308,Mon,15,F-Block (New Building),3,0
+F-309,Mon,15,F-Block (New Building),3,0
+F-310,Mon,15,F-Block (New Building),3,0
+F-311,Mon,15,F-Block (New Building),3,0
+F-312,Mon,15,F-Block (New Building),3,0
+Lab-1,Mon,15,L-Block (Labs),1,0
+Lab-13,Mon,15,L-Block (Labs),2,0
+Lab-14,Mon,15,L-Block (Labs),2,0
+Lab-15,Mon,15,L-Block (Labs),2,0
+Lab-16,Mon,15,L-Block (Labs),2,0
+Lab-17,Mon,15,L-Block (Labs),2,0
+Lab-18,Mon,15,L-Block (Labs),2,0
+Lab-2,Mon,15,L-Block (Labs),1,0
+Lab-3,Mon,15,L-Block (Labs),1,0
+Lab-4,Mon,15,L-Block (Labs),1,0
+Lab-6,Mon,15,L-Block (Labs),1,0
+Lab-8,Mon,15,L-Block (Labs),1,0
+Micro Lab,Mon,15,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,15,D-Block (Electrical/Management),1,0
+S. Hall,Mon,15,D-Block (Electrical/Management),1,0
+lab-17,Mon,15,L-Block (Labs),2,0
+C-1,Mon,16,C-Block (Computing),1,1
+C-13,Mon,16,C-Block (Computing),2,0
+C-14,Mon,16,C-Block (Computing),2,1
+C-2,Mon,16,C-Block (Computing),1,1
+C-3,Mon,16,C-Block (Computing),1,0
+C-4,Mon,16,C-Block (Computing),1,1
+C-5,Mon,16,C-Block (Computing),1,0
+C-6,Mon,16,C-Block (Computing),1,0
+C-7,Mon,16,C-Block (Computing),1,0
+D-11,Mon,16,D-Block (Electrical/Management),2,0
+D-2,Mon,16,D-Block (Electrical/Management),1,0
+D-5,Mon,16,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,16,E-Block (Library),1,0
+Eng Lab-1,Mon,16,E-Block (Library),1,0
+Eng Lab-2,Mon,16,E-Block (Library),1,0
+Eng Lab-3,Mon,16,E-Block (Library),1,0
+Eng Lab-4,Mon,16,E-Block (Library),1,0
+Eng Lab-5,Mon,16,E-Block (Library),1,0
+Eng Lab-6,Mon,16,E-Block (Library),1,0
+F-201,Mon,16,F-Block (New Building),2,0
+F-202,Mon,16,F-Block (New Building),2,1
+F-203,Mon,16,F-Block (New Building),2,1
+F-204,Mon,16,F-Block (New Building),2,0
+F-205,Mon,16,F-Block (New Building),2,0
+F-206,Mon,16,F-Block (New Building),2,0
+F-207,Mon,16,F-Block (New Building),2,0
+F-208,Mon,16,F-Block (New Building),2,0
+F-209,Mon,16,F-Block (New Building),2,0
+F-210,Mon,16,F-Block (New Building),2,0
+F-301,Mon,16,F-Block (New Building),3,1
+F-302,Mon,16,F-Block (New Building),3,0
+F-303,Mon,16,F-Block (New Building),3,0
+F-304,Mon,16,F-Block (New Building),3,1
+F-305,Mon,16,F-Block (New Building),3,1
+F-306,Mon,16,F-Block (New Building),3,0
+F-307,Mon,16,F-Block (New Building),3,0
+F-308,Mon,16,F-Block (New Building),3,0
+F-309,Mon,16,F-Block (New Building),3,1
+F-310,Mon,16,F-Block (New Building),3,1
+F-311,Mon,16,F-Block (New Building),3,0
+F-312,Mon,16,F-Block (New Building),3,0
+Lab-1,Mon,16,L-Block (Labs),1,0
+Lab-13,Mon,16,L-Block (Labs),2,0
+Lab-14,Mon,16,L-Block (Labs),2,0
+Lab-15,Mon,16,L-Block (Labs),2,0
+Lab-16,Mon,16,L-Block (Labs),2,0
+Lab-17,Mon,16,L-Block (Labs),2,0
+Lab-18,Mon,16,L-Block (Labs),2,0
+Lab-2,Mon,16,L-Block (Labs),1,0
+Lab-3,Mon,16,L-Block (Labs),1,0
+Lab-4,Mon,16,L-Block (Labs),1,0
+Lab-6,Mon,16,L-Block (Labs),1,0
+Lab-8,Mon,16,L-Block (Labs),1,0
+Micro Lab,Mon,16,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,16,D-Block (Electrical/Management),1,0
+S. Hall,Mon,16,D-Block (Electrical/Management),1,1
+lab-17,Mon,16,L-Block (Labs),2,0
+C-1,Mon,17,C-Block (Computing),1,0
+C-13,Mon,17,C-Block (Computing),2,0
+C-14,Mon,17,C-Block (Computing),2,0
+C-2,Mon,17,C-Block (Computing),1,0
+C-3,Mon,17,C-Block (Computing),1,0
+C-4,Mon,17,C-Block (Computing),1,0
+C-5,Mon,17,C-Block (Computing),1,0
+C-6,Mon,17,C-Block (Computing),1,0
+C-7,Mon,17,C-Block (Computing),1,0
+D-11,Mon,17,D-Block (Electrical/Management),2,0
+D-2,Mon,17,D-Block (Electrical/Management),1,0
+D-5,Mon,17,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,17,E-Block (Library),1,0
+Eng Lab-1,Mon,17,E-Block (Library),1,0
+Eng Lab-2,Mon,17,E-Block (Library),1,0
+Eng Lab-3,Mon,17,E-Block (Library),1,0
+Eng Lab-4,Mon,17,E-Block (Library),1,0
+Eng Lab-5,Mon,17,E-Block (Library),1,0
+Eng Lab-6,Mon,17,E-Block (Library),1,0
+F-201,Mon,17,F-Block (New Building),2,0
+F-202,Mon,17,F-Block (New Building),2,1
+F-203,Mon,17,F-Block (New Building),2,0
+F-204,Mon,17,F-Block (New Building),2,0
+F-205,Mon,17,F-Block (New Building),2,1
+F-206,Mon,17,F-Block (New Building),2,0
+F-207,Mon,17,F-Block (New Building),2,0
+F-208,Mon,17,F-Block (New Building),2,0
+F-209,Mon,17,F-Block (New Building),2,0
+F-210,Mon,17,F-Block (New Building),2,0
+F-301,Mon,17,F-Block (New Building),3,0
+F-302,Mon,17,F-Block (New Building),3,0
+F-303,Mon,17,F-Block (New Building),3,0
+F-304,Mon,17,F-Block (New Building),3,0
+F-305,Mon,17,F-Block (New Building),3,0
+F-306,Mon,17,F-Block (New Building),3,0
+F-307,Mon,17,F-Block (New Building),3,0
+F-308,Mon,17,F-Block (New Building),3,0
+F-309,Mon,17,F-Block (New Building),3,0
+F-310,Mon,17,F-Block (New Building),3,0
+F-311,Mon,17,F-Block (New Building),3,0
+F-312,Mon,17,F-Block (New Building),3,0
+Lab-1,Mon,17,L-Block (Labs),1,0
+Lab-13,Mon,17,L-Block (Labs),2,0
+Lab-14,Mon,17,L-Block (Labs),2,0
+Lab-15,Mon,17,L-Block (Labs),2,0
+Lab-16,Mon,17,L-Block (Labs),2,0
+Lab-17,Mon,17,L-Block (Labs),2,0
+Lab-18,Mon,17,L-Block (Labs),2,0
+Lab-2,Mon,17,L-Block (Labs),1,0
+Lab-3,Mon,17,L-Block (Labs),1,0
+Lab-4,Mon,17,L-Block (Labs),1,0
+Lab-6,Mon,17,L-Block (Labs),1,0
+Lab-8,Mon,17,L-Block (Labs),1,0
+Micro Lab,Mon,17,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,17,D-Block (Electrical/Management),1,0
+S. Hall,Mon,17,D-Block (Electrical/Management),1,0
+lab-17,Mon,17,L-Block (Labs),2,0
+C-1,Mon,18,C-Block (Computing),1,0
+C-13,Mon,18,C-Block (Computing),2,0
+C-14,Mon,18,C-Block (Computing),2,0
+C-2,Mon,18,C-Block (Computing),1,0
+C-3,Mon,18,C-Block (Computing),1,0
+C-4,Mon,18,C-Block (Computing),1,0
+C-5,Mon,18,C-Block (Computing),1,0
+C-6,Mon,18,C-Block (Computing),1,0
+C-7,Mon,18,C-Block (Computing),1,0
+D-11,Mon,18,D-Block (Electrical/Management),2,0
+D-2,Mon,18,D-Block (Electrical/Management),1,0
+D-5,Mon,18,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,18,E-Block (Library),1,0
+Eng Lab-1,Mon,18,E-Block (Library),1,0
+Eng Lab-2,Mon,18,E-Block (Library),1,0
+Eng Lab-3,Mon,18,E-Block (Library),1,0
+Eng Lab-4,Mon,18,E-Block (Library),1,0
+Eng Lab-5,Mon,18,E-Block (Library),1,0
+Eng Lab-6,Mon,18,E-Block (Library),1,0
+F-201,Mon,18,F-Block (New Building),2,0
+F-202,Mon,18,F-Block (New Building),2,0
+F-203,Mon,18,F-Block (New Building),2,0
+F-204,Mon,18,F-Block (New Building),2,0
+F-205,Mon,18,F-Block (New Building),2,0
+F-206,Mon,18,F-Block (New Building),2,0
+F-207,Mon,18,F-Block (New Building),2,0
+F-208,Mon,18,F-Block (New Building),2,0
+F-209,Mon,18,F-Block (New Building),2,0
+F-210,Mon,18,F-Block (New Building),2,0
+F-301,Mon,18,F-Block (New Building),3,0
+F-302,Mon,18,F-Block (New Building),3,0
+F-303,Mon,18,F-Block (New Building),3,0
+F-304,Mon,18,F-Block (New Building),3,0
+F-305,Mon,18,F-Block (New Building),3,0
+F-306,Mon,18,F-Block (New Building),3,0
+F-307,Mon,18,F-Block (New Building),3,0
+F-308,Mon,18,F-Block (New Building),3,0
+F-309,Mon,18,F-Block (New Building),3,0
+F-310,Mon,18,F-Block (New Building),3,0
+F-311,Mon,18,F-Block (New Building),3,0
+F-312,Mon,18,F-Block (New Building),3,0
+Lab-1,Mon,18,L-Block (Labs),1,0
+Lab-13,Mon,18,L-Block (Labs),2,0
+Lab-14,Mon,18,L-Block (Labs),2,0
+Lab-15,Mon,18,L-Block (Labs),2,0
+Lab-16,Mon,18,L-Block (Labs),2,0
+Lab-17,Mon,18,L-Block (Labs),2,0
+Lab-18,Mon,18,L-Block (Labs),2,0
+Lab-2,Mon,18,L-Block (Labs),1,0
+Lab-3,Mon,18,L-Block (Labs),1,0
+Lab-4,Mon,18,L-Block (Labs),1,0
+Lab-6,Mon,18,L-Block (Labs),1,0
+Lab-8,Mon,18,L-Block (Labs),1,0
+Micro Lab,Mon,18,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,18,D-Block (Electrical/Management),1,0
+S. Hall,Mon,18,D-Block (Electrical/Management),1,0
+lab-17,Mon,18,L-Block (Labs),2,0
+C-1,Mon,19,C-Block (Computing),1,0
+C-13,Mon,19,C-Block (Computing),2,0
+C-14,Mon,19,C-Block (Computing),2,0
+C-2,Mon,19,C-Block (Computing),1,0
+C-3,Mon,19,C-Block (Computing),1,0
+C-4,Mon,19,C-Block (Computing),1,0
+C-5,Mon,19,C-Block (Computing),1,0
+C-6,Mon,19,C-Block (Computing),1,0
+C-7,Mon,19,C-Block (Computing),1,0
+D-11,Mon,19,D-Block (Electrical/Management),2,0
+D-2,Mon,19,D-Block (Electrical/Management),1,0
+D-5,Mon,19,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,19,E-Block (Library),1,0
+Eng Lab-1,Mon,19,E-Block (Library),1,0
+Eng Lab-2,Mon,19,E-Block (Library),1,0
+Eng Lab-3,Mon,19,E-Block (Library),1,0
+Eng Lab-4,Mon,19,E-Block (Library),1,0
+Eng Lab-5,Mon,19,E-Block (Library),1,0
+Eng Lab-6,Mon,19,E-Block (Library),1,0
+F-201,Mon,19,F-Block (New Building),2,0
+F-202,Mon,19,F-Block (New Building),2,0
+F-203,Mon,19,F-Block (New Building),2,0
+F-204,Mon,19,F-Block (New Building),2,0
+F-205,Mon,19,F-Block (New Building),2,0
+F-206,Mon,19,F-Block (New Building),2,0
+F-207,Mon,19,F-Block (New Building),2,0
+F-208,Mon,19,F-Block (New Building),2,0
+F-209,Mon,19,F-Block (New Building),2,0
+F-210,Mon,19,F-Block (New Building),2,0
+F-301,Mon,19,F-Block (New Building),3,0
+F-302,Mon,19,F-Block (New Building),3,0
+F-303,Mon,19,F-Block (New Building),3,0
+F-304,Mon,19,F-Block (New Building),3,0
+F-305,Mon,19,F-Block (New Building),3,0
+F-306,Mon,19,F-Block (New Building),3,0
+F-307,Mon,19,F-Block (New Building),3,0
+F-308,Mon,19,F-Block (New Building),3,0
+F-309,Mon,19,F-Block (New Building),3,0
+F-310,Mon,19,F-Block (New Building),3,0
+F-311,Mon,19,F-Block (New Building),3,0
+F-312,Mon,19,F-Block (New Building),3,0
+Lab-1,Mon,19,L-Block (Labs),1,0
+Lab-13,Mon,19,L-Block (Labs),2,0
+Lab-14,Mon,19,L-Block (Labs),2,0
+Lab-15,Mon,19,L-Block (Labs),2,0
+Lab-16,Mon,19,L-Block (Labs),2,0
+Lab-17,Mon,19,L-Block (Labs),2,0
+Lab-18,Mon,19,L-Block (Labs),2,0
+Lab-2,Mon,19,L-Block (Labs),1,0
+Lab-3,Mon,19,L-Block (Labs),1,0
+Lab-4,Mon,19,L-Block (Labs),1,0
+Lab-6,Mon,19,L-Block (Labs),1,0
+Lab-8,Mon,19,L-Block (Labs),1,0
+Micro Lab,Mon,19,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,19,D-Block (Electrical/Management),1,0
+S. Hall,Mon,19,D-Block (Electrical/Management),1,0
+lab-17,Mon,19,L-Block (Labs),2,0
+C-1,Mon,20,C-Block (Computing),1,0
+C-13,Mon,20,C-Block (Computing),2,0
+C-14,Mon,20,C-Block (Computing),2,0
+C-2,Mon,20,C-Block (Computing),1,0
+C-3,Mon,20,C-Block (Computing),1,0
+C-4,Mon,20,C-Block (Computing),1,0
+C-5,Mon,20,C-Block (Computing),1,0
+C-6,Mon,20,C-Block (Computing),1,0
+C-7,Mon,20,C-Block (Computing),1,0
+D-11,Mon,20,D-Block (Electrical/Management),2,0
+D-2,Mon,20,D-Block (Electrical/Management),1,0
+D-5,Mon,20,D-Block (Electrical/Management),1,0
+Embedded Lab,Mon,20,E-Block (Library),1,0
+Eng Lab-1,Mon,20,E-Block (Library),1,0
+Eng Lab-2,Mon,20,E-Block (Library),1,0
+Eng Lab-3,Mon,20,E-Block (Library),1,0
+Eng Lab-4,Mon,20,E-Block (Library),1,0
+Eng Lab-5,Mon,20,E-Block (Library),1,0
+Eng Lab-6,Mon,20,E-Block (Library),1,0
+F-201,Mon,20,F-Block (New Building),2,0
+F-202,Mon,20,F-Block (New Building),2,0
+F-203,Mon,20,F-Block (New Building),2,0
+F-204,Mon,20,F-Block (New Building),2,0
+F-205,Mon,20,F-Block (New Building),2,0
+F-206,Mon,20,F-Block (New Building),2,0
+F-207,Mon,20,F-Block (New Building),2,0
+F-208,Mon,20,F-Block (New Building),2,0
+F-209,Mon,20,F-Block (New Building),2,0
+F-210,Mon,20,F-Block (New Building),2,0
+F-301,Mon,20,F-Block (New Building),3,0
+F-302,Mon,20,F-Block (New Building),3,0
+F-303,Mon,20,F-Block (New Building),3,0
+F-304,Mon,20,F-Block (New Building),3,0
+F-305,Mon,20,F-Block (New Building),3,0
+F-306,Mon,20,F-Block (New Building),3,0
+F-307,Mon,20,F-Block (New Building),3,0
+F-308,Mon,20,F-Block (New Building),3,0
+F-309,Mon,20,F-Block (New Building),3,0
+F-310,Mon,20,F-Block (New Building),3,0
+F-311,Mon,20,F-Block (New Building),3,0
+F-312,Mon,20,F-Block (New Building),3,0
+Lab-1,Mon,20,L-Block (Labs),1,0
+Lab-13,Mon,20,L-Block (Labs),2,0
+Lab-14,Mon,20,L-Block (Labs),2,0
+Lab-15,Mon,20,L-Block (Labs),2,0
+Lab-16,Mon,20,L-Block (Labs),2,0
+Lab-17,Mon,20,L-Block (Labs),2,0
+Lab-18,Mon,20,L-Block (Labs),2,0
+Lab-2,Mon,20,L-Block (Labs),1,0
+Lab-3,Mon,20,L-Block (Labs),1,0
+Lab-4,Mon,20,L-Block (Labs),1,0
+Lab-6,Mon,20,L-Block (Labs),1,0
+Lab-8,Mon,20,L-Block (Labs),1,0
+Micro Lab,Mon,20,D-Block (Electrical/Management),1,0
+Physics Lab,Mon,20,D-Block (Electrical/Management),1,0
+S. Hall,Mon,20,D-Block (Electrical/Management),1,0
+lab-17,Mon,20,L-Block (Labs),2,0
+C-1,Tue,8,C-Block (Computing),1,1
+C-13,Tue,8,C-Block (Computing),2,0
+C-14,Tue,8,C-Block (Computing),2,0
+C-2,Tue,8,C-Block (Computing),1,1
+C-3,Tue,8,C-Block (Computing),1,1
+C-4,Tue,8,C-Block (Computing),1,1
+C-5,Tue,8,C-Block (Computing),1,1
+C-6,Tue,8,C-Block (Computing),1,1
+C-7,Tue,8,C-Block (Computing),1,0
+D-11,Tue,8,D-Block (Electrical/Management),2,0
+D-2,Tue,8,D-Block (Electrical/Management),1,0
+D-5,Tue,8,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,8,E-Block (Library),1,0
+Eng Lab-1,Tue,8,E-Block (Library),1,1
+Eng Lab-2,Tue,8,E-Block (Library),1,1
+Eng Lab-3,Tue,8,E-Block (Library),1,1
+Eng Lab-4,Tue,8,E-Block (Library),1,1
+Eng Lab-5,Tue,8,E-Block (Library),1,1
+Eng Lab-6,Tue,8,E-Block (Library),1,1
+F-201,Tue,8,F-Block (New Building),2,1
+F-202,Tue,8,F-Block (New Building),2,1
+F-203,Tue,8,F-Block (New Building),2,0
+F-204,Tue,8,F-Block (New Building),2,1
+F-205,Tue,8,F-Block (New Building),2,1
+F-206,Tue,8,F-Block (New Building),2,0
+F-207,Tue,8,F-Block (New Building),2,0
+F-208,Tue,8,F-Block (New Building),2,1
+F-209,Tue,8,F-Block (New Building),2,1
+F-210,Tue,8,F-Block (New Building),2,1
+F-301,Tue,8,F-Block (New Building),3,1
+F-302,Tue,8,F-Block (New Building),3,1
+F-303,Tue,8,F-Block (New Building),3,0
+F-304,Tue,8,F-Block (New Building),3,1
+F-305,Tue,8,F-Block (New Building),3,1
+F-306,Tue,8,F-Block (New Building),3,0
+F-307,Tue,8,F-Block (New Building),3,1
+F-308,Tue,8,F-Block (New Building),3,1
+F-309,Tue,8,F-Block (New Building),3,1
+F-310,Tue,8,F-Block (New Building),3,1
+F-311,Tue,8,F-Block (New Building),3,0
+F-312,Tue,8,F-Block (New Building),3,0
+Lab-1,Tue,8,L-Block (Labs),1,0
+Lab-13,Tue,8,L-Block (Labs),2,1
+Lab-14,Tue,8,L-Block (Labs),2,1
+Lab-15,Tue,8,L-Block (Labs),2,1
+Lab-16,Tue,8,L-Block (Labs),2,1
+Lab-17,Tue,8,L-Block (Labs),2,0
+Lab-18,Tue,8,L-Block (Labs),2,0
+Lab-2,Tue,8,L-Block (Labs),1,0
+Lab-3,Tue,8,L-Block (Labs),1,0
+Lab-4,Tue,8,L-Block (Labs),1,0
+Lab-6,Tue,8,L-Block (Labs),1,0
+Lab-8,Tue,8,L-Block (Labs),1,1
+Micro Lab,Tue,8,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,8,D-Block (Electrical/Management),1,0
+S. Hall,Tue,8,D-Block (Electrical/Management),1,1
+lab-17,Tue,8,L-Block (Labs),2,0
+C-1,Tue,9,C-Block (Computing),1,0
+C-13,Tue,9,C-Block (Computing),2,0
+C-14,Tue,9,C-Block (Computing),2,0
+C-2,Tue,9,C-Block (Computing),1,0
+C-3,Tue,9,C-Block (Computing),1,0
+C-4,Tue,9,C-Block (Computing),1,0
+C-5,Tue,9,C-Block (Computing),1,0
+C-6,Tue,9,C-Block (Computing),1,0
+C-7,Tue,9,C-Block (Computing),1,0
+D-11,Tue,9,D-Block (Electrical/Management),2,0
+D-2,Tue,9,D-Block (Electrical/Management),1,0
+D-5,Tue,9,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,9,E-Block (Library),1,0
+Eng Lab-1,Tue,9,E-Block (Library),1,0
+Eng Lab-2,Tue,9,E-Block (Library),1,0
+Eng Lab-3,Tue,9,E-Block (Library),1,0
+Eng Lab-4,Tue,9,E-Block (Library),1,0
+Eng Lab-5,Tue,9,E-Block (Library),1,0
+Eng Lab-6,Tue,9,E-Block (Library),1,0
+F-201,Tue,9,F-Block (New Building),2,0
+F-202,Tue,9,F-Block (New Building),2,0
+F-203,Tue,9,F-Block (New Building),2,0
+F-204,Tue,9,F-Block (New Building),2,0
+F-205,Tue,9,F-Block (New Building),2,0
+F-206,Tue,9,F-Block (New Building),2,0
+F-207,Tue,9,F-Block (New Building),2,0
+F-208,Tue,9,F-Block (New Building),2,0
+F-209,Tue,9,F-Block (New Building),2,0
+F-210,Tue,9,F-Block (New Building),2,0
+F-301,Tue,9,F-Block (New Building),3,0
+F-302,Tue,9,F-Block (New Building),3,0
+F-303,Tue,9,F-Block (New Building),3,0
+F-304,Tue,9,F-Block (New Building),3,0
+F-305,Tue,9,F-Block (New Building),3,0
+F-306,Tue,9,F-Block (New Building),3,0
+F-307,Tue,9,F-Block (New Building),3,0
+F-308,Tue,9,F-Block (New Building),3,0
+F-309,Tue,9,F-Block (New Building),3,0
+F-310,Tue,9,F-Block (New Building),3,0
+F-311,Tue,9,F-Block (New Building),3,0
+F-312,Tue,9,F-Block (New Building),3,0
+Lab-1,Tue,9,L-Block (Labs),1,0
+Lab-13,Tue,9,L-Block (Labs),2,0
+Lab-14,Tue,9,L-Block (Labs),2,0
+Lab-15,Tue,9,L-Block (Labs),2,0
+Lab-16,Tue,9,L-Block (Labs),2,0
+Lab-17,Tue,9,L-Block (Labs),2,0
+Lab-18,Tue,9,L-Block (Labs),2,0
+Lab-2,Tue,9,L-Block (Labs),1,0
+Lab-3,Tue,9,L-Block (Labs),1,0
+Lab-4,Tue,9,L-Block (Labs),1,0
+Lab-6,Tue,9,L-Block (Labs),1,0
+Lab-8,Tue,9,L-Block (Labs),1,0
+Micro Lab,Tue,9,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,9,D-Block (Electrical/Management),1,0
+S. Hall,Tue,9,D-Block (Electrical/Management),1,0
+lab-17,Tue,9,L-Block (Labs),2,0
+C-1,Tue,10,C-Block (Computing),1,0
+C-13,Tue,10,C-Block (Computing),2,0
+C-14,Tue,10,C-Block (Computing),2,1
+C-2,Tue,10,C-Block (Computing),1,1
+C-3,Tue,10,C-Block (Computing),1,1
+C-4,Tue,10,C-Block (Computing),1,1
+C-5,Tue,10,C-Block (Computing),1,0
+C-6,Tue,10,C-Block (Computing),1,1
+C-7,Tue,10,C-Block (Computing),1,0
+D-11,Tue,10,D-Block (Electrical/Management),2,0
+D-2,Tue,10,D-Block (Electrical/Management),1,0
+D-5,Tue,10,D-Block (Electrical/Management),1,1
+Embedded Lab,Tue,10,E-Block (Library),1,0
+Eng Lab-1,Tue,10,E-Block (Library),1,1
+Eng Lab-2,Tue,10,E-Block (Library),1,1
+Eng Lab-3,Tue,10,E-Block (Library),1,1
+Eng Lab-4,Tue,10,E-Block (Library),1,1
+Eng Lab-5,Tue,10,E-Block (Library),1,1
+Eng Lab-6,Tue,10,E-Block (Library),1,1
+F-201,Tue,10,F-Block (New Building),2,1
+F-202,Tue,10,F-Block (New Building),2,1
+F-203,Tue,10,F-Block (New Building),2,1
+F-204,Tue,10,F-Block (New Building),2,1
+F-205,Tue,10,F-Block (New Building),2,1
+F-206,Tue,10,F-Block (New Building),2,1
+F-207,Tue,10,F-Block (New Building),2,1
+F-208,Tue,10,F-Block (New Building),2,0
+F-209,Tue,10,F-Block (New Building),2,0
+F-210,Tue,10,F-Block (New Building),2,1
+F-301,Tue,10,F-Block (New Building),3,1
+F-302,Tue,10,F-Block (New Building),3,1
+F-303,Tue,10,F-Block (New Building),3,1
+F-304,Tue,10,F-Block (New Building),3,1
+F-305,Tue,10,F-Block (New Building),3,1
+F-306,Tue,10,F-Block (New Building),3,1
+F-307,Tue,10,F-Block (New Building),3,1
+F-308,Tue,10,F-Block (New Building),3,1
+F-309,Tue,10,F-Block (New Building),3,1
+F-310,Tue,10,F-Block (New Building),3,1
+F-311,Tue,10,F-Block (New Building),3,1
+F-312,Tue,10,F-Block (New Building),3,1
+Lab-1,Tue,10,L-Block (Labs),1,0
+Lab-13,Tue,10,L-Block (Labs),2,0
+Lab-14,Tue,10,L-Block (Labs),2,0
+Lab-15,Tue,10,L-Block (Labs),2,0
+Lab-16,Tue,10,L-Block (Labs),2,0
+Lab-17,Tue,10,L-Block (Labs),2,0
+Lab-18,Tue,10,L-Block (Labs),2,0
+Lab-2,Tue,10,L-Block (Labs),1,0
+Lab-3,Tue,10,L-Block (Labs),1,0
+Lab-4,Tue,10,L-Block (Labs),1,0
+Lab-6,Tue,10,L-Block (Labs),1,0
+Lab-8,Tue,10,L-Block (Labs),1,0
+Micro Lab,Tue,10,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,10,D-Block (Electrical/Management),1,0
+S. Hall,Tue,10,D-Block (Electrical/Management),1,1
+lab-17,Tue,10,L-Block (Labs),2,0
+C-1,Tue,11,C-Block (Computing),1,1
+C-13,Tue,11,C-Block (Computing),2,1
+C-14,Tue,11,C-Block (Computing),2,1
+C-2,Tue,11,C-Block (Computing),1,0
+C-3,Tue,11,C-Block (Computing),1,0
+C-4,Tue,11,C-Block (Computing),1,0
+C-5,Tue,11,C-Block (Computing),1,0
+C-6,Tue,11,C-Block (Computing),1,1
+C-7,Tue,11,C-Block (Computing),1,0
+D-11,Tue,11,D-Block (Electrical/Management),2,0
+D-2,Tue,11,D-Block (Electrical/Management),1,0
+D-5,Tue,11,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,11,E-Block (Library),1,0
+Eng Lab-1,Tue,11,E-Block (Library),1,1
+Eng Lab-2,Tue,11,E-Block (Library),1,1
+Eng Lab-3,Tue,11,E-Block (Library),1,1
+Eng Lab-4,Tue,11,E-Block (Library),1,1
+Eng Lab-5,Tue,11,E-Block (Library),1,1
+Eng Lab-6,Tue,11,E-Block (Library),1,1
+F-201,Tue,11,F-Block (New Building),2,1
+F-202,Tue,11,F-Block (New Building),2,1
+F-203,Tue,11,F-Block (New Building),2,1
+F-204,Tue,11,F-Block (New Building),2,1
+F-205,Tue,11,F-Block (New Building),2,1
+F-206,Tue,11,F-Block (New Building),2,1
+F-207,Tue,11,F-Block (New Building),2,1
+F-208,Tue,11,F-Block (New Building),2,1
+F-209,Tue,11,F-Block (New Building),2,0
+F-210,Tue,11,F-Block (New Building),2,1
+F-301,Tue,11,F-Block (New Building),3,1
+F-302,Tue,11,F-Block (New Building),3,1
+F-303,Tue,11,F-Block (New Building),3,1
+F-304,Tue,11,F-Block (New Building),3,1
+F-305,Tue,11,F-Block (New Building),3,1
+F-306,Tue,11,F-Block (New Building),3,1
+F-307,Tue,11,F-Block (New Building),3,1
+F-308,Tue,11,F-Block (New Building),3,1
+F-309,Tue,11,F-Block (New Building),3,1
+F-310,Tue,11,F-Block (New Building),3,0
+F-311,Tue,11,F-Block (New Building),3,1
+F-312,Tue,11,F-Block (New Building),3,1
+Lab-1,Tue,11,L-Block (Labs),1,0
+Lab-13,Tue,11,L-Block (Labs),2,1
+Lab-14,Tue,11,L-Block (Labs),2,0
+Lab-15,Tue,11,L-Block (Labs),2,1
+Lab-16,Tue,11,L-Block (Labs),2,0
+Lab-17,Tue,11,L-Block (Labs),2,0
+Lab-18,Tue,11,L-Block (Labs),2,0
+Lab-2,Tue,11,L-Block (Labs),1,1
+Lab-3,Tue,11,L-Block (Labs),1,1
+Lab-4,Tue,11,L-Block (Labs),1,0
+Lab-6,Tue,11,L-Block (Labs),1,0
+Lab-8,Tue,11,L-Block (Labs),1,0
+Micro Lab,Tue,11,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,11,D-Block (Electrical/Management),1,0
+S. Hall,Tue,11,D-Block (Electrical/Management),1,1
+lab-17,Tue,11,L-Block (Labs),2,0
+C-1,Tue,12,C-Block (Computing),1,0
+C-13,Tue,12,C-Block (Computing),2,0
+C-14,Tue,12,C-Block (Computing),2,0
+C-2,Tue,12,C-Block (Computing),1,0
+C-3,Tue,12,C-Block (Computing),1,0
+C-4,Tue,12,C-Block (Computing),1,0
+C-5,Tue,12,C-Block (Computing),1,0
+C-6,Tue,12,C-Block (Computing),1,0
+C-7,Tue,12,C-Block (Computing),1,1
+D-11,Tue,12,D-Block (Electrical/Management),2,0
+D-2,Tue,12,D-Block (Electrical/Management),1,0
+D-5,Tue,12,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,12,E-Block (Library),1,0
+Eng Lab-1,Tue,12,E-Block (Library),1,0
+Eng Lab-2,Tue,12,E-Block (Library),1,0
+Eng Lab-3,Tue,12,E-Block (Library),1,0
+Eng Lab-4,Tue,12,E-Block (Library),1,0
+Eng Lab-5,Tue,12,E-Block (Library),1,0
+Eng Lab-6,Tue,12,E-Block (Library),1,0
+F-201,Tue,12,F-Block (New Building),2,0
+F-202,Tue,12,F-Block (New Building),2,0
+F-203,Tue,12,F-Block (New Building),2,0
+F-204,Tue,12,F-Block (New Building),2,0
+F-205,Tue,12,F-Block (New Building),2,0
+F-206,Tue,12,F-Block (New Building),2,0
+F-207,Tue,12,F-Block (New Building),2,0
+F-208,Tue,12,F-Block (New Building),2,0
+F-209,Tue,12,F-Block (New Building),2,0
+F-210,Tue,12,F-Block (New Building),2,0
+F-301,Tue,12,F-Block (New Building),3,0
+F-302,Tue,12,F-Block (New Building),3,0
+F-303,Tue,12,F-Block (New Building),3,0
+F-304,Tue,12,F-Block (New Building),3,0
+F-305,Tue,12,F-Block (New Building),3,0
+F-306,Tue,12,F-Block (New Building),3,0
+F-307,Tue,12,F-Block (New Building),3,0
+F-308,Tue,12,F-Block (New Building),3,0
+F-309,Tue,12,F-Block (New Building),3,0
+F-310,Tue,12,F-Block (New Building),3,0
+F-311,Tue,12,F-Block (New Building),3,0
+F-312,Tue,12,F-Block (New Building),3,0
+Lab-1,Tue,12,L-Block (Labs),1,0
+Lab-13,Tue,12,L-Block (Labs),2,0
+Lab-14,Tue,12,L-Block (Labs),2,0
+Lab-15,Tue,12,L-Block (Labs),2,0
+Lab-16,Tue,12,L-Block (Labs),2,0
+Lab-17,Tue,12,L-Block (Labs),2,0
+Lab-18,Tue,12,L-Block (Labs),2,0
+Lab-2,Tue,12,L-Block (Labs),1,0
+Lab-3,Tue,12,L-Block (Labs),1,0
+Lab-4,Tue,12,L-Block (Labs),1,0
+Lab-6,Tue,12,L-Block (Labs),1,0
+Lab-8,Tue,12,L-Block (Labs),1,0
+Micro Lab,Tue,12,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,12,D-Block (Electrical/Management),1,0
+S. Hall,Tue,12,D-Block (Electrical/Management),1,0
+lab-17,Tue,12,L-Block (Labs),2,0
+C-1,Tue,13,C-Block (Computing),1,1
+C-13,Tue,13,C-Block (Computing),2,1
+C-14,Tue,13,C-Block (Computing),2,0
+C-2,Tue,13,C-Block (Computing),1,1
+C-3,Tue,13,C-Block (Computing),1,1
+C-4,Tue,13,C-Block (Computing),1,1
+C-5,Tue,13,C-Block (Computing),1,0
+C-6,Tue,13,C-Block (Computing),1,1
+C-7,Tue,13,C-Block (Computing),1,0
+D-11,Tue,13,D-Block (Electrical/Management),2,0
+D-2,Tue,13,D-Block (Electrical/Management),1,0
+D-5,Tue,13,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,13,E-Block (Library),1,0
+Eng Lab-1,Tue,13,E-Block (Library),1,1
+Eng Lab-2,Tue,13,E-Block (Library),1,1
+Eng Lab-3,Tue,13,E-Block (Library),1,1
+Eng Lab-4,Tue,13,E-Block (Library),1,1
+Eng Lab-5,Tue,13,E-Block (Library),1,0
+Eng Lab-6,Tue,13,E-Block (Library),1,0
+F-201,Tue,13,F-Block (New Building),2,1
+F-202,Tue,13,F-Block (New Building),2,1
+F-203,Tue,13,F-Block (New Building),2,1
+F-204,Tue,13,F-Block (New Building),2,1
+F-205,Tue,13,F-Block (New Building),2,1
+F-206,Tue,13,F-Block (New Building),2,1
+F-207,Tue,13,F-Block (New Building),2,1
+F-208,Tue,13,F-Block (New Building),2,1
+F-209,Tue,13,F-Block (New Building),2,1
+F-210,Tue,13,F-Block (New Building),2,1
+F-301,Tue,13,F-Block (New Building),3,1
+F-302,Tue,13,F-Block (New Building),3,1
+F-303,Tue,13,F-Block (New Building),3,1
+F-304,Tue,13,F-Block (New Building),3,0
+F-305,Tue,13,F-Block (New Building),3,1
+F-306,Tue,13,F-Block (New Building),3,1
+F-307,Tue,13,F-Block (New Building),3,1
+F-308,Tue,13,F-Block (New Building),3,1
+F-309,Tue,13,F-Block (New Building),3,1
+F-310,Tue,13,F-Block (New Building),3,1
+F-311,Tue,13,F-Block (New Building),3,1
+F-312,Tue,13,F-Block (New Building),3,1
+Lab-1,Tue,13,L-Block (Labs),1,0
+Lab-13,Tue,13,L-Block (Labs),2,0
+Lab-14,Tue,13,L-Block (Labs),2,0
+Lab-15,Tue,13,L-Block (Labs),2,0
+Lab-16,Tue,13,L-Block (Labs),2,1
+Lab-17,Tue,13,L-Block (Labs),2,0
+Lab-18,Tue,13,L-Block (Labs),2,0
+Lab-2,Tue,13,L-Block (Labs),1,0
+Lab-3,Tue,13,L-Block (Labs),1,0
+Lab-4,Tue,13,L-Block (Labs),1,1
+Lab-6,Tue,13,L-Block (Labs),1,0
+Lab-8,Tue,13,L-Block (Labs),1,0
+Micro Lab,Tue,13,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,13,D-Block (Electrical/Management),1,0
+S. Hall,Tue,13,D-Block (Electrical/Management),1,0
+lab-17,Tue,13,L-Block (Labs),2,0
+C-1,Tue,14,C-Block (Computing),1,1
+C-13,Tue,14,C-Block (Computing),2,1
+C-14,Tue,14,C-Block (Computing),2,0
+C-2,Tue,14,C-Block (Computing),1,1
+C-3,Tue,14,C-Block (Computing),1,0
+C-4,Tue,14,C-Block (Computing),1,1
+C-5,Tue,14,C-Block (Computing),1,1
+C-6,Tue,14,C-Block (Computing),1,1
+C-7,Tue,14,C-Block (Computing),1,1
+D-11,Tue,14,D-Block (Electrical/Management),2,0
+D-2,Tue,14,D-Block (Electrical/Management),1,0
+D-5,Tue,14,D-Block (Electrical/Management),1,1
+Embedded Lab,Tue,14,E-Block (Library),1,0
+Eng Lab-1,Tue,14,E-Block (Library),1,1
+Eng Lab-2,Tue,14,E-Block (Library),1,1
+Eng Lab-3,Tue,14,E-Block (Library),1,0
+Eng Lab-4,Tue,14,E-Block (Library),1,0
+Eng Lab-5,Tue,14,E-Block (Library),1,1
+Eng Lab-6,Tue,14,E-Block (Library),1,1
+F-201,Tue,14,F-Block (New Building),2,1
+F-202,Tue,14,F-Block (New Building),2,1
+F-203,Tue,14,F-Block (New Building),2,1
+F-204,Tue,14,F-Block (New Building),2,1
+F-205,Tue,14,F-Block (New Building),2,1
+F-206,Tue,14,F-Block (New Building),2,1
+F-207,Tue,14,F-Block (New Building),2,1
+F-208,Tue,14,F-Block (New Building),2,1
+F-209,Tue,14,F-Block (New Building),2,1
+F-210,Tue,14,F-Block (New Building),2,1
+F-301,Tue,14,F-Block (New Building),3,1
+F-302,Tue,14,F-Block (New Building),3,1
+F-303,Tue,14,F-Block (New Building),3,1
+F-304,Tue,14,F-Block (New Building),3,1
+F-305,Tue,14,F-Block (New Building),3,1
+F-306,Tue,14,F-Block (New Building),3,1
+F-307,Tue,14,F-Block (New Building),3,1
+F-308,Tue,14,F-Block (New Building),3,1
+F-309,Tue,14,F-Block (New Building),3,1
+F-310,Tue,14,F-Block (New Building),3,1
+F-311,Tue,14,F-Block (New Building),3,1
+F-312,Tue,14,F-Block (New Building),3,1
+Lab-1,Tue,14,L-Block (Labs),1,1
+Lab-13,Tue,14,L-Block (Labs),2,1
+Lab-14,Tue,14,L-Block (Labs),2,1
+Lab-15,Tue,14,L-Block (Labs),2,1
+Lab-16,Tue,14,L-Block (Labs),2,0
+Lab-17,Tue,14,L-Block (Labs),2,0
+Lab-18,Tue,14,L-Block (Labs),2,0
+Lab-2,Tue,14,L-Block (Labs),1,1
+Lab-3,Tue,14,L-Block (Labs),1,1
+Lab-4,Tue,14,L-Block (Labs),1,0
+Lab-6,Tue,14,L-Block (Labs),1,1
+Lab-8,Tue,14,L-Block (Labs),1,0
+Micro Lab,Tue,14,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,14,D-Block (Electrical/Management),1,0
+S. Hall,Tue,14,D-Block (Electrical/Management),1,1
+lab-17,Tue,14,L-Block (Labs),2,0
+C-1,Tue,15,C-Block (Computing),1,0
+C-13,Tue,15,C-Block (Computing),2,0
+C-14,Tue,15,C-Block (Computing),2,0
+C-2,Tue,15,C-Block (Computing),1,0
+C-3,Tue,15,C-Block (Computing),1,1
+C-4,Tue,15,C-Block (Computing),1,0
+C-5,Tue,15,C-Block (Computing),1,0
+C-6,Tue,15,C-Block (Computing),1,0
+C-7,Tue,15,C-Block (Computing),1,0
+D-11,Tue,15,D-Block (Electrical/Management),2,0
+D-2,Tue,15,D-Block (Electrical/Management),1,0
+D-5,Tue,15,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,15,E-Block (Library),1,0
+Eng Lab-1,Tue,15,E-Block (Library),1,0
+Eng Lab-2,Tue,15,E-Block (Library),1,0
+Eng Lab-3,Tue,15,E-Block (Library),1,0
+Eng Lab-4,Tue,15,E-Block (Library),1,0
+Eng Lab-5,Tue,15,E-Block (Library),1,0
+Eng Lab-6,Tue,15,E-Block (Library),1,0
+F-201,Tue,15,F-Block (New Building),2,0
+F-202,Tue,15,F-Block (New Building),2,0
+F-203,Tue,15,F-Block (New Building),2,0
+F-204,Tue,15,F-Block (New Building),2,0
+F-205,Tue,15,F-Block (New Building),2,0
+F-206,Tue,15,F-Block (New Building),2,0
+F-207,Tue,15,F-Block (New Building),2,0
+F-208,Tue,15,F-Block (New Building),2,0
+F-209,Tue,15,F-Block (New Building),2,0
+F-210,Tue,15,F-Block (New Building),2,0
+F-301,Tue,15,F-Block (New Building),3,0
+F-302,Tue,15,F-Block (New Building),3,0
+F-303,Tue,15,F-Block (New Building),3,0
+F-304,Tue,15,F-Block (New Building),3,0
+F-305,Tue,15,F-Block (New Building),3,0
+F-306,Tue,15,F-Block (New Building),3,0
+F-307,Tue,15,F-Block (New Building),3,0
+F-308,Tue,15,F-Block (New Building),3,0
+F-309,Tue,15,F-Block (New Building),3,0
+F-310,Tue,15,F-Block (New Building),3,0
+F-311,Tue,15,F-Block (New Building),3,0
+F-312,Tue,15,F-Block (New Building),3,0
+Lab-1,Tue,15,L-Block (Labs),1,0
+Lab-13,Tue,15,L-Block (Labs),2,0
+Lab-14,Tue,15,L-Block (Labs),2,0
+Lab-15,Tue,15,L-Block (Labs),2,0
+Lab-16,Tue,15,L-Block (Labs),2,0
+Lab-17,Tue,15,L-Block (Labs),2,0
+Lab-18,Tue,15,L-Block (Labs),2,0
+Lab-2,Tue,15,L-Block (Labs),1,0
+Lab-3,Tue,15,L-Block (Labs),1,0
+Lab-4,Tue,15,L-Block (Labs),1,0
+Lab-6,Tue,15,L-Block (Labs),1,0
+Lab-8,Tue,15,L-Block (Labs),1,0
+Micro Lab,Tue,15,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,15,D-Block (Electrical/Management),1,0
+S. Hall,Tue,15,D-Block (Electrical/Management),1,0
+lab-17,Tue,15,L-Block (Labs),2,0
+C-1,Tue,16,C-Block (Computing),1,1
+C-13,Tue,16,C-Block (Computing),2,0
+C-14,Tue,16,C-Block (Computing),2,1
+C-2,Tue,16,C-Block (Computing),1,1
+C-3,Tue,16,C-Block (Computing),1,0
+C-4,Tue,16,C-Block (Computing),1,1
+C-5,Tue,16,C-Block (Computing),1,1
+C-6,Tue,16,C-Block (Computing),1,1
+C-7,Tue,16,C-Block (Computing),1,0
+D-11,Tue,16,D-Block (Electrical/Management),2,0
+D-2,Tue,16,D-Block (Electrical/Management),1,0
+D-5,Tue,16,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,16,E-Block (Library),1,0
+Eng Lab-1,Tue,16,E-Block (Library),1,0
+Eng Lab-2,Tue,16,E-Block (Library),1,0
+Eng Lab-3,Tue,16,E-Block (Library),1,1
+Eng Lab-4,Tue,16,E-Block (Library),1,1
+Eng Lab-5,Tue,16,E-Block (Library),1,1
+Eng Lab-6,Tue,16,E-Block (Library),1,1
+F-201,Tue,16,F-Block (New Building),2,0
+F-202,Tue,16,F-Block (New Building),2,1
+F-203,Tue,16,F-Block (New Building),2,1
+F-204,Tue,16,F-Block (New Building),2,1
+F-205,Tue,16,F-Block (New Building),2,1
+F-206,Tue,16,F-Block (New Building),2,1
+F-207,Tue,16,F-Block (New Building),2,1
+F-208,Tue,16,F-Block (New Building),2,0
+F-209,Tue,16,F-Block (New Building),2,0
+F-210,Tue,16,F-Block (New Building),2,0
+F-301,Tue,16,F-Block (New Building),3,1
+F-302,Tue,16,F-Block (New Building),3,0
+F-303,Tue,16,F-Block (New Building),3,0
+F-304,Tue,16,F-Block (New Building),3,1
+F-305,Tue,16,F-Block (New Building),3,1
+F-306,Tue,16,F-Block (New Building),3,1
+F-307,Tue,16,F-Block (New Building),3,1
+F-308,Tue,16,F-Block (New Building),3,1
+F-309,Tue,16,F-Block (New Building),3,0
+F-310,Tue,16,F-Block (New Building),3,0
+F-311,Tue,16,F-Block (New Building),3,1
+F-312,Tue,16,F-Block (New Building),3,1
+Lab-1,Tue,16,L-Block (Labs),1,0
+Lab-13,Tue,16,L-Block (Labs),2,0
+Lab-14,Tue,16,L-Block (Labs),2,0
+Lab-15,Tue,16,L-Block (Labs),2,0
+Lab-16,Tue,16,L-Block (Labs),2,0
+Lab-17,Tue,16,L-Block (Labs),2,0
+Lab-18,Tue,16,L-Block (Labs),2,0
+Lab-2,Tue,16,L-Block (Labs),1,0
+Lab-3,Tue,16,L-Block (Labs),1,0
+Lab-4,Tue,16,L-Block (Labs),1,0
+Lab-6,Tue,16,L-Block (Labs),1,0
+Lab-8,Tue,16,L-Block (Labs),1,0
+Micro Lab,Tue,16,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,16,D-Block (Electrical/Management),1,0
+S. Hall,Tue,16,D-Block (Electrical/Management),1,0
+lab-17,Tue,16,L-Block (Labs),2,0
+C-1,Tue,17,C-Block (Computing),1,0
+C-13,Tue,17,C-Block (Computing),2,0
+C-14,Tue,17,C-Block (Computing),2,0
+C-2,Tue,17,C-Block (Computing),1,0
+C-3,Tue,17,C-Block (Computing),1,0
+C-4,Tue,17,C-Block (Computing),1,0
+C-5,Tue,17,C-Block (Computing),1,0
+C-6,Tue,17,C-Block (Computing),1,0
+C-7,Tue,17,C-Block (Computing),1,0
+D-11,Tue,17,D-Block (Electrical/Management),2,0
+D-2,Tue,17,D-Block (Electrical/Management),1,0
+D-5,Tue,17,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,17,E-Block (Library),1,0
+Eng Lab-1,Tue,17,E-Block (Library),1,0
+Eng Lab-2,Tue,17,E-Block (Library),1,0
+Eng Lab-3,Tue,17,E-Block (Library),1,0
+Eng Lab-4,Tue,17,E-Block (Library),1,0
+Eng Lab-5,Tue,17,E-Block (Library),1,0
+Eng Lab-6,Tue,17,E-Block (Library),1,0
+F-201,Tue,17,F-Block (New Building),2,1
+F-202,Tue,17,F-Block (New Building),2,1
+F-203,Tue,17,F-Block (New Building),2,0
+F-204,Tue,17,F-Block (New Building),2,0
+F-205,Tue,17,F-Block (New Building),2,0
+F-206,Tue,17,F-Block (New Building),2,0
+F-207,Tue,17,F-Block (New Building),2,0
+F-208,Tue,17,F-Block (New Building),2,0
+F-209,Tue,17,F-Block (New Building),2,0
+F-210,Tue,17,F-Block (New Building),2,0
+F-301,Tue,17,F-Block (New Building),3,0
+F-302,Tue,17,F-Block (New Building),3,0
+F-303,Tue,17,F-Block (New Building),3,0
+F-304,Tue,17,F-Block (New Building),3,0
+F-305,Tue,17,F-Block (New Building),3,0
+F-306,Tue,17,F-Block (New Building),3,0
+F-307,Tue,17,F-Block (New Building),3,0
+F-308,Tue,17,F-Block (New Building),3,0
+F-309,Tue,17,F-Block (New Building),3,0
+F-310,Tue,17,F-Block (New Building),3,0
+F-311,Tue,17,F-Block (New Building),3,0
+F-312,Tue,17,F-Block (New Building),3,0
+Lab-1,Tue,17,L-Block (Labs),1,0
+Lab-13,Tue,17,L-Block (Labs),2,0
+Lab-14,Tue,17,L-Block (Labs),2,0
+Lab-15,Tue,17,L-Block (Labs),2,0
+Lab-16,Tue,17,L-Block (Labs),2,0
+Lab-17,Tue,17,L-Block (Labs),2,0
+Lab-18,Tue,17,L-Block (Labs),2,0
+Lab-2,Tue,17,L-Block (Labs),1,0
+Lab-3,Tue,17,L-Block (Labs),1,0
+Lab-4,Tue,17,L-Block (Labs),1,0
+Lab-6,Tue,17,L-Block (Labs),1,0
+Lab-8,Tue,17,L-Block (Labs),1,0
+Micro Lab,Tue,17,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,17,D-Block (Electrical/Management),1,0
+S. Hall,Tue,17,D-Block (Electrical/Management),1,0
+lab-17,Tue,17,L-Block (Labs),2,0
+C-1,Tue,18,C-Block (Computing),1,0
+C-13,Tue,18,C-Block (Computing),2,0
+C-14,Tue,18,C-Block (Computing),2,0
+C-2,Tue,18,C-Block (Computing),1,0
+C-3,Tue,18,C-Block (Computing),1,0
+C-4,Tue,18,C-Block (Computing),1,0
+C-5,Tue,18,C-Block (Computing),1,0
+C-6,Tue,18,C-Block (Computing),1,0
+C-7,Tue,18,C-Block (Computing),1,0
+D-11,Tue,18,D-Block (Electrical/Management),2,0
+D-2,Tue,18,D-Block (Electrical/Management),1,0
+D-5,Tue,18,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,18,E-Block (Library),1,0
+Eng Lab-1,Tue,18,E-Block (Library),1,0
+Eng Lab-2,Tue,18,E-Block (Library),1,0
+Eng Lab-3,Tue,18,E-Block (Library),1,0
+Eng Lab-4,Tue,18,E-Block (Library),1,0
+Eng Lab-5,Tue,18,E-Block (Library),1,0
+Eng Lab-6,Tue,18,E-Block (Library),1,0
+F-201,Tue,18,F-Block (New Building),2,0
+F-202,Tue,18,F-Block (New Building),2,0
+F-203,Tue,18,F-Block (New Building),2,0
+F-204,Tue,18,F-Block (New Building),2,0
+F-205,Tue,18,F-Block (New Building),2,0
+F-206,Tue,18,F-Block (New Building),2,0
+F-207,Tue,18,F-Block (New Building),2,0
+F-208,Tue,18,F-Block (New Building),2,0
+F-209,Tue,18,F-Block (New Building),2,0
+F-210,Tue,18,F-Block (New Building),2,0
+F-301,Tue,18,F-Block (New Building),3,0
+F-302,Tue,18,F-Block (New Building),3,0
+F-303,Tue,18,F-Block (New Building),3,0
+F-304,Tue,18,F-Block (New Building),3,0
+F-305,Tue,18,F-Block (New Building),3,0
+F-306,Tue,18,F-Block (New Building),3,0
+F-307,Tue,18,F-Block (New Building),3,0
+F-308,Tue,18,F-Block (New Building),3,0
+F-309,Tue,18,F-Block (New Building),3,0
+F-310,Tue,18,F-Block (New Building),3,0
+F-311,Tue,18,F-Block (New Building),3,0
+F-312,Tue,18,F-Block (New Building),3,0
+Lab-1,Tue,18,L-Block (Labs),1,0
+Lab-13,Tue,18,L-Block (Labs),2,0
+Lab-14,Tue,18,L-Block (Labs),2,0
+Lab-15,Tue,18,L-Block (Labs),2,0
+Lab-16,Tue,18,L-Block (Labs),2,0
+Lab-17,Tue,18,L-Block (Labs),2,0
+Lab-18,Tue,18,L-Block (Labs),2,0
+Lab-2,Tue,18,L-Block (Labs),1,0
+Lab-3,Tue,18,L-Block (Labs),1,0
+Lab-4,Tue,18,L-Block (Labs),1,0
+Lab-6,Tue,18,L-Block (Labs),1,0
+Lab-8,Tue,18,L-Block (Labs),1,0
+Micro Lab,Tue,18,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,18,D-Block (Electrical/Management),1,0
+S. Hall,Tue,18,D-Block (Electrical/Management),1,0
+lab-17,Tue,18,L-Block (Labs),2,0
+C-1,Tue,19,C-Block (Computing),1,0
+C-13,Tue,19,C-Block (Computing),2,0
+C-14,Tue,19,C-Block (Computing),2,0
+C-2,Tue,19,C-Block (Computing),1,0
+C-3,Tue,19,C-Block (Computing),1,0
+C-4,Tue,19,C-Block (Computing),1,0
+C-5,Tue,19,C-Block (Computing),1,0
+C-6,Tue,19,C-Block (Computing),1,0
+C-7,Tue,19,C-Block (Computing),1,0
+D-11,Tue,19,D-Block (Electrical/Management),2,0
+D-2,Tue,19,D-Block (Electrical/Management),1,0
+D-5,Tue,19,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,19,E-Block (Library),1,0
+Eng Lab-1,Tue,19,E-Block (Library),1,0
+Eng Lab-2,Tue,19,E-Block (Library),1,0
+Eng Lab-3,Tue,19,E-Block (Library),1,0
+Eng Lab-4,Tue,19,E-Block (Library),1,0
+Eng Lab-5,Tue,19,E-Block (Library),1,0
+Eng Lab-6,Tue,19,E-Block (Library),1,0
+F-201,Tue,19,F-Block (New Building),2,0
+F-202,Tue,19,F-Block (New Building),2,0
+F-203,Tue,19,F-Block (New Building),2,0
+F-204,Tue,19,F-Block (New Building),2,0
+F-205,Tue,19,F-Block (New Building),2,0
+F-206,Tue,19,F-Block (New Building),2,0
+F-207,Tue,19,F-Block (New Building),2,0
+F-208,Tue,19,F-Block (New Building),2,0
+F-209,Tue,19,F-Block (New Building),2,0
+F-210,Tue,19,F-Block (New Building),2,0
+F-301,Tue,19,F-Block (New Building),3,0
+F-302,Tue,19,F-Block (New Building),3,0
+F-303,Tue,19,F-Block (New Building),3,0
+F-304,Tue,19,F-Block (New Building),3,0
+F-305,Tue,19,F-Block (New Building),3,0
+F-306,Tue,19,F-Block (New Building),3,0
+F-307,Tue,19,F-Block (New Building),3,0
+F-308,Tue,19,F-Block (New Building),3,0
+F-309,Tue,19,F-Block (New Building),3,0
+F-310,Tue,19,F-Block (New Building),3,0
+F-311,Tue,19,F-Block (New Building),3,0
+F-312,Tue,19,F-Block (New Building),3,0
+Lab-1,Tue,19,L-Block (Labs),1,0
+Lab-13,Tue,19,L-Block (Labs),2,0
+Lab-14,Tue,19,L-Block (Labs),2,0
+Lab-15,Tue,19,L-Block (Labs),2,0
+Lab-16,Tue,19,L-Block (Labs),2,0
+Lab-17,Tue,19,L-Block (Labs),2,0
+Lab-18,Tue,19,L-Block (Labs),2,0
+Lab-2,Tue,19,L-Block (Labs),1,0
+Lab-3,Tue,19,L-Block (Labs),1,0
+Lab-4,Tue,19,L-Block (Labs),1,0
+Lab-6,Tue,19,L-Block (Labs),1,0
+Lab-8,Tue,19,L-Block (Labs),1,0
+Micro Lab,Tue,19,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,19,D-Block (Electrical/Management),1,0
+S. Hall,Tue,19,D-Block (Electrical/Management),1,0
+lab-17,Tue,19,L-Block (Labs),2,0
+C-1,Tue,20,C-Block (Computing),1,0
+C-13,Tue,20,C-Block (Computing),2,0
+C-14,Tue,20,C-Block (Computing),2,0
+C-2,Tue,20,C-Block (Computing),1,0
+C-3,Tue,20,C-Block (Computing),1,0
+C-4,Tue,20,C-Block (Computing),1,0
+C-5,Tue,20,C-Block (Computing),1,0
+C-6,Tue,20,C-Block (Computing),1,0
+C-7,Tue,20,C-Block (Computing),1,0
+D-11,Tue,20,D-Block (Electrical/Management),2,0
+D-2,Tue,20,D-Block (Electrical/Management),1,0
+D-5,Tue,20,D-Block (Electrical/Management),1,0
+Embedded Lab,Tue,20,E-Block (Library),1,0
+Eng Lab-1,Tue,20,E-Block (Library),1,0
+Eng Lab-2,Tue,20,E-Block (Library),1,0
+Eng Lab-3,Tue,20,E-Block (Library),1,0
+Eng Lab-4,Tue,20,E-Block (Library),1,0
+Eng Lab-5,Tue,20,E-Block (Library),1,0
+Eng Lab-6,Tue,20,E-Block (Library),1,0
+F-201,Tue,20,F-Block (New Building),2,0
+F-202,Tue,20,F-Block (New Building),2,0
+F-203,Tue,20,F-Block (New Building),2,0
+F-204,Tue,20,F-Block (New Building),2,0
+F-205,Tue,20,F-Block (New Building),2,0
+F-206,Tue,20,F-Block (New Building),2,0
+F-207,Tue,20,F-Block (New Building),2,0
+F-208,Tue,20,F-Block (New Building),2,0
+F-209,Tue,20,F-Block (New Building),2,0
+F-210,Tue,20,F-Block (New Building),2,0
+F-301,Tue,20,F-Block (New Building),3,0
+F-302,Tue,20,F-Block (New Building),3,0
+F-303,Tue,20,F-Block (New Building),3,0
+F-304,Tue,20,F-Block (New Building),3,0
+F-305,Tue,20,F-Block (New Building),3,0
+F-306,Tue,20,F-Block (New Building),3,0
+F-307,Tue,20,F-Block (New Building),3,0
+F-308,Tue,20,F-Block (New Building),3,0
+F-309,Tue,20,F-Block (New Building),3,0
+F-310,Tue,20,F-Block (New Building),3,0
+F-311,Tue,20,F-Block (New Building),3,0
+F-312,Tue,20,F-Block (New Building),3,0
+Lab-1,Tue,20,L-Block (Labs),1,0
+Lab-13,Tue,20,L-Block (Labs),2,0
+Lab-14,Tue,20,L-Block (Labs),2,0
+Lab-15,Tue,20,L-Block (Labs),2,0
+Lab-16,Tue,20,L-Block (Labs),2,0
+Lab-17,Tue,20,L-Block (Labs),2,0
+Lab-18,Tue,20,L-Block (Labs),2,0
+Lab-2,Tue,20,L-Block (Labs),1,0
+Lab-3,Tue,20,L-Block (Labs),1,0
+Lab-4,Tue,20,L-Block (Labs),1,0
+Lab-6,Tue,20,L-Block (Labs),1,0
+Lab-8,Tue,20,L-Block (Labs),1,0
+Micro Lab,Tue,20,D-Block (Electrical/Management),1,0
+Physics Lab,Tue,20,D-Block (Electrical/Management),1,0
+S. Hall,Tue,20,D-Block (Electrical/Management),1,0
+lab-17,Tue,20,L-Block (Labs),2,0
+C-1,Wed,8,C-Block (Computing),1,0
+C-13,Wed,8,C-Block (Computing),2,1
+C-14,Wed,8,C-Block (Computing),2,0
+C-2,Wed,8,C-Block (Computing),1,1
+C-3,Wed,8,C-Block (Computing),1,0
+C-4,Wed,8,C-Block (Computing),1,1
+C-5,Wed,8,C-Block (Computing),1,1
+C-6,Wed,8,C-Block (Computing),1,0
+C-7,Wed,8,C-Block (Computing),1,1
+D-11,Wed,8,D-Block (Electrical/Management),2,0
+D-2,Wed,8,D-Block (Electrical/Management),1,0
+D-5,Wed,8,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,8,E-Block (Library),1,0
+Eng Lab-1,Wed,8,E-Block (Library),1,0
+Eng Lab-2,Wed,8,E-Block (Library),1,0
+Eng Lab-3,Wed,8,E-Block (Library),1,0
+Eng Lab-4,Wed,8,E-Block (Library),1,0
+Eng Lab-5,Wed,8,E-Block (Library),1,0
+Eng Lab-6,Wed,8,E-Block (Library),1,0
+F-201,Wed,8,F-Block (New Building),2,1
+F-202,Wed,8,F-Block (New Building),2,1
+F-203,Wed,8,F-Block (New Building),2,1
+F-204,Wed,8,F-Block (New Building),2,1
+F-205,Wed,8,F-Block (New Building),2,1
+F-206,Wed,8,F-Block (New Building),2,1
+F-207,Wed,8,F-Block (New Building),2,1
+F-208,Wed,8,F-Block (New Building),2,0
+F-209,Wed,8,F-Block (New Building),2,1
+F-210,Wed,8,F-Block (New Building),2,1
+F-301,Wed,8,F-Block (New Building),3,1
+F-302,Wed,8,F-Block (New Building),3,0
+F-303,Wed,8,F-Block (New Building),3,0
+F-304,Wed,8,F-Block (New Building),3,0
+F-305,Wed,8,F-Block (New Building),3,0
+F-306,Wed,8,F-Block (New Building),3,0
+F-307,Wed,8,F-Block (New Building),3,1
+F-308,Wed,8,F-Block (New Building),3,0
+F-309,Wed,8,F-Block (New Building),3,0
+F-310,Wed,8,F-Block (New Building),3,0
+F-311,Wed,8,F-Block (New Building),3,0
+F-312,Wed,8,F-Block (New Building),3,1
+Lab-1,Wed,8,L-Block (Labs),1,1
+Lab-13,Wed,8,L-Block (Labs),2,1
+Lab-14,Wed,8,L-Block (Labs),2,1
+Lab-15,Wed,8,L-Block (Labs),2,1
+Lab-16,Wed,8,L-Block (Labs),2,1
+Lab-17,Wed,8,L-Block (Labs),2,0
+Lab-18,Wed,8,L-Block (Labs),2,0
+Lab-2,Wed,8,L-Block (Labs),1,1
+Lab-3,Wed,8,L-Block (Labs),1,0
+Lab-4,Wed,8,L-Block (Labs),1,1
+Lab-6,Wed,8,L-Block (Labs),1,0
+Lab-8,Wed,8,L-Block (Labs),1,0
+Micro Lab,Wed,8,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,8,D-Block (Electrical/Management),1,0
+S. Hall,Wed,8,D-Block (Electrical/Management),1,0
+lab-17,Wed,8,L-Block (Labs),2,0
+C-1,Wed,9,C-Block (Computing),1,0
+C-13,Wed,9,C-Block (Computing),2,0
+C-14,Wed,9,C-Block (Computing),2,0
+C-2,Wed,9,C-Block (Computing),1,0
+C-3,Wed,9,C-Block (Computing),1,0
+C-4,Wed,9,C-Block (Computing),1,0
+C-5,Wed,9,C-Block (Computing),1,0
+C-6,Wed,9,C-Block (Computing),1,0
+C-7,Wed,9,C-Block (Computing),1,0
+D-11,Wed,9,D-Block (Electrical/Management),2,0
+D-2,Wed,9,D-Block (Electrical/Management),1,0
+D-5,Wed,9,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,9,E-Block (Library),1,0
+Eng Lab-1,Wed,9,E-Block (Library),1,0
+Eng Lab-2,Wed,9,E-Block (Library),1,0
+Eng Lab-3,Wed,9,E-Block (Library),1,0
+Eng Lab-4,Wed,9,E-Block (Library),1,0
+Eng Lab-5,Wed,9,E-Block (Library),1,0
+Eng Lab-6,Wed,9,E-Block (Library),1,0
+F-201,Wed,9,F-Block (New Building),2,0
+F-202,Wed,9,F-Block (New Building),2,0
+F-203,Wed,9,F-Block (New Building),2,0
+F-204,Wed,9,F-Block (New Building),2,0
+F-205,Wed,9,F-Block (New Building),2,0
+F-206,Wed,9,F-Block (New Building),2,0
+F-207,Wed,9,F-Block (New Building),2,0
+F-208,Wed,9,F-Block (New Building),2,0
+F-209,Wed,9,F-Block (New Building),2,0
+F-210,Wed,9,F-Block (New Building),2,0
+F-301,Wed,9,F-Block (New Building),3,0
+F-302,Wed,9,F-Block (New Building),3,0
+F-303,Wed,9,F-Block (New Building),3,0
+F-304,Wed,9,F-Block (New Building),3,0
+F-305,Wed,9,F-Block (New Building),3,0
+F-306,Wed,9,F-Block (New Building),3,0
+F-307,Wed,9,F-Block (New Building),3,0
+F-308,Wed,9,F-Block (New Building),3,0
+F-309,Wed,9,F-Block (New Building),3,0
+F-310,Wed,9,F-Block (New Building),3,0
+F-311,Wed,9,F-Block (New Building),3,0
+F-312,Wed,9,F-Block (New Building),3,0
+Lab-1,Wed,9,L-Block (Labs),1,0
+Lab-13,Wed,9,L-Block (Labs),2,0
+Lab-14,Wed,9,L-Block (Labs),2,0
+Lab-15,Wed,9,L-Block (Labs),2,0
+Lab-16,Wed,9,L-Block (Labs),2,0
+Lab-17,Wed,9,L-Block (Labs),2,0
+Lab-18,Wed,9,L-Block (Labs),2,0
+Lab-2,Wed,9,L-Block (Labs),1,0
+Lab-3,Wed,9,L-Block (Labs),1,0
+Lab-4,Wed,9,L-Block (Labs),1,0
+Lab-6,Wed,9,L-Block (Labs),1,0
+Lab-8,Wed,9,L-Block (Labs),1,0
+Micro Lab,Wed,9,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,9,D-Block (Electrical/Management),1,0
+S. Hall,Wed,9,D-Block (Electrical/Management),1,0
+lab-17,Wed,9,L-Block (Labs),2,0
+C-1,Wed,10,C-Block (Computing),1,1
+C-13,Wed,10,C-Block (Computing),2,0
+C-14,Wed,10,C-Block (Computing),2,1
+C-2,Wed,10,C-Block (Computing),1,0
+C-3,Wed,10,C-Block (Computing),1,1
+C-4,Wed,10,C-Block (Computing),1,1
+C-5,Wed,10,C-Block (Computing),1,1
+C-6,Wed,10,C-Block (Computing),1,1
+C-7,Wed,10,C-Block (Computing),1,1
+D-11,Wed,10,D-Block (Electrical/Management),2,0
+D-2,Wed,10,D-Block (Electrical/Management),1,0
+D-5,Wed,10,D-Block (Electrical/Management),1,1
+Embedded Lab,Wed,10,E-Block (Library),1,0
+Eng Lab-1,Wed,10,E-Block (Library),1,0
+Eng Lab-2,Wed,10,E-Block (Library),1,0
+Eng Lab-3,Wed,10,E-Block (Library),1,0
+Eng Lab-4,Wed,10,E-Block (Library),1,0
+Eng Lab-5,Wed,10,E-Block (Library),1,0
+Eng Lab-6,Wed,10,E-Block (Library),1,0
+F-201,Wed,10,F-Block (New Building),2,0
+F-202,Wed,10,F-Block (New Building),2,1
+F-203,Wed,10,F-Block (New Building),2,0
+F-204,Wed,10,F-Block (New Building),2,1
+F-205,Wed,10,F-Block (New Building),2,0
+F-206,Wed,10,F-Block (New Building),2,1
+F-207,Wed,10,F-Block (New Building),2,1
+F-208,Wed,10,F-Block (New Building),2,1
+F-209,Wed,10,F-Block (New Building),2,0
+F-210,Wed,10,F-Block (New Building),2,1
+F-301,Wed,10,F-Block (New Building),3,1
+F-302,Wed,10,F-Block (New Building),3,1
+F-303,Wed,10,F-Block (New Building),3,1
+F-304,Wed,10,F-Block (New Building),3,1
+F-305,Wed,10,F-Block (New Building),3,1
+F-306,Wed,10,F-Block (New Building),3,1
+F-307,Wed,10,F-Block (New Building),3,1
+F-308,Wed,10,F-Block (New Building),3,1
+F-309,Wed,10,F-Block (New Building),3,1
+F-310,Wed,10,F-Block (New Building),3,1
+F-311,Wed,10,F-Block (New Building),3,1
+F-312,Wed,10,F-Block (New Building),3,1
+Lab-1,Wed,10,L-Block (Labs),1,0
+Lab-13,Wed,10,L-Block (Labs),2,0
+Lab-14,Wed,10,L-Block (Labs),2,0
+Lab-15,Wed,10,L-Block (Labs),2,0
+Lab-16,Wed,10,L-Block (Labs),2,0
+Lab-17,Wed,10,L-Block (Labs),2,0
+Lab-18,Wed,10,L-Block (Labs),2,0
+Lab-2,Wed,10,L-Block (Labs),1,0
+Lab-3,Wed,10,L-Block (Labs),1,0
+Lab-4,Wed,10,L-Block (Labs),1,0
+Lab-6,Wed,10,L-Block (Labs),1,0
+Lab-8,Wed,10,L-Block (Labs),1,0
+Micro Lab,Wed,10,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,10,D-Block (Electrical/Management),1,0
+S. Hall,Wed,10,D-Block (Electrical/Management),1,1
+lab-17,Wed,10,L-Block (Labs),2,0
+C-1,Wed,11,C-Block (Computing),1,0
+C-13,Wed,11,C-Block (Computing),2,0
+C-14,Wed,11,C-Block (Computing),2,0
+C-2,Wed,11,C-Block (Computing),1,1
+C-3,Wed,11,C-Block (Computing),1,0
+C-4,Wed,11,C-Block (Computing),1,0
+C-5,Wed,11,C-Block (Computing),1,0
+C-6,Wed,11,C-Block (Computing),1,0
+C-7,Wed,11,C-Block (Computing),1,1
+D-11,Wed,11,D-Block (Electrical/Management),2,0
+D-2,Wed,11,D-Block (Electrical/Management),1,0
+D-5,Wed,11,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,11,E-Block (Library),1,0
+Eng Lab-1,Wed,11,E-Block (Library),1,0
+Eng Lab-2,Wed,11,E-Block (Library),1,0
+Eng Lab-3,Wed,11,E-Block (Library),1,0
+Eng Lab-4,Wed,11,E-Block (Library),1,0
+Eng Lab-5,Wed,11,E-Block (Library),1,0
+Eng Lab-6,Wed,11,E-Block (Library),1,0
+F-201,Wed,11,F-Block (New Building),2,1
+F-202,Wed,11,F-Block (New Building),2,1
+F-203,Wed,11,F-Block (New Building),2,1
+F-204,Wed,11,F-Block (New Building),2,1
+F-205,Wed,11,F-Block (New Building),2,0
+F-206,Wed,11,F-Block (New Building),2,1
+F-207,Wed,11,F-Block (New Building),2,1
+F-208,Wed,11,F-Block (New Building),2,1
+F-209,Wed,11,F-Block (New Building),2,1
+F-210,Wed,11,F-Block (New Building),2,1
+F-301,Wed,11,F-Block (New Building),3,1
+F-302,Wed,11,F-Block (New Building),3,1
+F-303,Wed,11,F-Block (New Building),3,1
+F-304,Wed,11,F-Block (New Building),3,1
+F-305,Wed,11,F-Block (New Building),3,1
+F-306,Wed,11,F-Block (New Building),3,0
+F-307,Wed,11,F-Block (New Building),3,0
+F-308,Wed,11,F-Block (New Building),3,1
+F-309,Wed,11,F-Block (New Building),3,1
+F-310,Wed,11,F-Block (New Building),3,1
+F-311,Wed,11,F-Block (New Building),3,1
+F-312,Wed,11,F-Block (New Building),3,1
+Lab-1,Wed,11,L-Block (Labs),1,0
+Lab-13,Wed,11,L-Block (Labs),2,1
+Lab-14,Wed,11,L-Block (Labs),2,1
+Lab-15,Wed,11,L-Block (Labs),2,1
+Lab-16,Wed,11,L-Block (Labs),2,1
+Lab-17,Wed,11,L-Block (Labs),2,0
+Lab-18,Wed,11,L-Block (Labs),2,0
+Lab-2,Wed,11,L-Block (Labs),1,0
+Lab-3,Wed,11,L-Block (Labs),1,0
+Lab-4,Wed,11,L-Block (Labs),1,0
+Lab-6,Wed,11,L-Block (Labs),1,1
+Lab-8,Wed,11,L-Block (Labs),1,1
+Micro Lab,Wed,11,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,11,D-Block (Electrical/Management),1,0
+S. Hall,Wed,11,D-Block (Electrical/Management),1,1
+lab-17,Wed,11,L-Block (Labs),2,0
+C-1,Wed,12,C-Block (Computing),1,0
+C-13,Wed,12,C-Block (Computing),2,0
+C-14,Wed,12,C-Block (Computing),2,0
+C-2,Wed,12,C-Block (Computing),1,0
+C-3,Wed,12,C-Block (Computing),1,0
+C-4,Wed,12,C-Block (Computing),1,1
+C-5,Wed,12,C-Block (Computing),1,1
+C-6,Wed,12,C-Block (Computing),1,0
+C-7,Wed,12,C-Block (Computing),1,0
+D-11,Wed,12,D-Block (Electrical/Management),2,0
+D-2,Wed,12,D-Block (Electrical/Management),1,0
+D-5,Wed,12,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,12,E-Block (Library),1,0
+Eng Lab-1,Wed,12,E-Block (Library),1,0
+Eng Lab-2,Wed,12,E-Block (Library),1,0
+Eng Lab-3,Wed,12,E-Block (Library),1,0
+Eng Lab-4,Wed,12,E-Block (Library),1,0
+Eng Lab-5,Wed,12,E-Block (Library),1,0
+Eng Lab-6,Wed,12,E-Block (Library),1,0
+F-201,Wed,12,F-Block (New Building),2,0
+F-202,Wed,12,F-Block (New Building),2,0
+F-203,Wed,12,F-Block (New Building),2,0
+F-204,Wed,12,F-Block (New Building),2,0
+F-205,Wed,12,F-Block (New Building),2,0
+F-206,Wed,12,F-Block (New Building),2,0
+F-207,Wed,12,F-Block (New Building),2,0
+F-208,Wed,12,F-Block (New Building),2,0
+F-209,Wed,12,F-Block (New Building),2,0
+F-210,Wed,12,F-Block (New Building),2,0
+F-301,Wed,12,F-Block (New Building),3,0
+F-302,Wed,12,F-Block (New Building),3,0
+F-303,Wed,12,F-Block (New Building),3,0
+F-304,Wed,12,F-Block (New Building),3,0
+F-305,Wed,12,F-Block (New Building),3,0
+F-306,Wed,12,F-Block (New Building),3,0
+F-307,Wed,12,F-Block (New Building),3,0
+F-308,Wed,12,F-Block (New Building),3,0
+F-309,Wed,12,F-Block (New Building),3,0
+F-310,Wed,12,F-Block (New Building),3,0
+F-311,Wed,12,F-Block (New Building),3,0
+F-312,Wed,12,F-Block (New Building),3,0
+Lab-1,Wed,12,L-Block (Labs),1,0
+Lab-13,Wed,12,L-Block (Labs),2,0
+Lab-14,Wed,12,L-Block (Labs),2,0
+Lab-15,Wed,12,L-Block (Labs),2,0
+Lab-16,Wed,12,L-Block (Labs),2,0
+Lab-17,Wed,12,L-Block (Labs),2,0
+Lab-18,Wed,12,L-Block (Labs),2,0
+Lab-2,Wed,12,L-Block (Labs),1,0
+Lab-3,Wed,12,L-Block (Labs),1,0
+Lab-4,Wed,12,L-Block (Labs),1,0
+Lab-6,Wed,12,L-Block (Labs),1,0
+Lab-8,Wed,12,L-Block (Labs),1,0
+Micro Lab,Wed,12,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,12,D-Block (Electrical/Management),1,0
+S. Hall,Wed,12,D-Block (Electrical/Management),1,0
+lab-17,Wed,12,L-Block (Labs),2,0
+C-1,Wed,13,C-Block (Computing),1,1
+C-13,Wed,13,C-Block (Computing),2,0
+C-14,Wed,13,C-Block (Computing),2,1
+C-2,Wed,13,C-Block (Computing),1,0
+C-3,Wed,13,C-Block (Computing),1,1
+C-4,Wed,13,C-Block (Computing),1,0
+C-5,Wed,13,C-Block (Computing),1,0
+C-6,Wed,13,C-Block (Computing),1,0
+C-7,Wed,13,C-Block (Computing),1,1
+D-11,Wed,13,D-Block (Electrical/Management),2,0
+D-2,Wed,13,D-Block (Electrical/Management),1,0
+D-5,Wed,13,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,13,E-Block (Library),1,0
+Eng Lab-1,Wed,13,E-Block (Library),1,0
+Eng Lab-2,Wed,13,E-Block (Library),1,0
+Eng Lab-3,Wed,13,E-Block (Library),1,0
+Eng Lab-4,Wed,13,E-Block (Library),1,0
+Eng Lab-5,Wed,13,E-Block (Library),1,0
+Eng Lab-6,Wed,13,E-Block (Library),1,0
+F-201,Wed,13,F-Block (New Building),2,1
+F-202,Wed,13,F-Block (New Building),2,1
+F-203,Wed,13,F-Block (New Building),2,1
+F-204,Wed,13,F-Block (New Building),2,1
+F-205,Wed,13,F-Block (New Building),2,1
+F-206,Wed,13,F-Block (New Building),2,1
+F-207,Wed,13,F-Block (New Building),2,1
+F-208,Wed,13,F-Block (New Building),2,1
+F-209,Wed,13,F-Block (New Building),2,1
+F-210,Wed,13,F-Block (New Building),2,1
+F-301,Wed,13,F-Block (New Building),3,1
+F-302,Wed,13,F-Block (New Building),3,1
+F-303,Wed,13,F-Block (New Building),3,1
+F-304,Wed,13,F-Block (New Building),3,1
+F-305,Wed,13,F-Block (New Building),3,1
+F-306,Wed,13,F-Block (New Building),3,1
+F-307,Wed,13,F-Block (New Building),3,1
+F-308,Wed,13,F-Block (New Building),3,1
+F-309,Wed,13,F-Block (New Building),3,1
+F-310,Wed,13,F-Block (New Building),3,1
+F-311,Wed,13,F-Block (New Building),3,1
+F-312,Wed,13,F-Block (New Building),3,1
+Lab-1,Wed,13,L-Block (Labs),1,0
+Lab-13,Wed,13,L-Block (Labs),2,0
+Lab-14,Wed,13,L-Block (Labs),2,0
+Lab-15,Wed,13,L-Block (Labs),2,0
+Lab-16,Wed,13,L-Block (Labs),2,0
+Lab-17,Wed,13,L-Block (Labs),2,0
+Lab-18,Wed,13,L-Block (Labs),2,0
+Lab-2,Wed,13,L-Block (Labs),1,0
+Lab-3,Wed,13,L-Block (Labs),1,0
+Lab-4,Wed,13,L-Block (Labs),1,0
+Lab-6,Wed,13,L-Block (Labs),1,0
+Lab-8,Wed,13,L-Block (Labs),1,0
+Micro Lab,Wed,13,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,13,D-Block (Electrical/Management),1,0
+S. Hall,Wed,13,D-Block (Electrical/Management),1,1
+lab-17,Wed,13,L-Block (Labs),2,0
+C-1,Wed,14,C-Block (Computing),1,1
+C-13,Wed,14,C-Block (Computing),2,1
+C-14,Wed,14,C-Block (Computing),2,1
+C-2,Wed,14,C-Block (Computing),1,0
+C-3,Wed,14,C-Block (Computing),1,0
+C-4,Wed,14,C-Block (Computing),1,0
+C-5,Wed,14,C-Block (Computing),1,1
+C-6,Wed,14,C-Block (Computing),1,1
+C-7,Wed,14,C-Block (Computing),1,0
+D-11,Wed,14,D-Block (Electrical/Management),2,0
+D-2,Wed,14,D-Block (Electrical/Management),1,0
+D-5,Wed,14,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,14,E-Block (Library),1,0
+Eng Lab-1,Wed,14,E-Block (Library),1,0
+Eng Lab-2,Wed,14,E-Block (Library),1,0
+Eng Lab-3,Wed,14,E-Block (Library),1,0
+Eng Lab-4,Wed,14,E-Block (Library),1,0
+Eng Lab-5,Wed,14,E-Block (Library),1,0
+Eng Lab-6,Wed,14,E-Block (Library),1,0
+F-201,Wed,14,F-Block (New Building),2,0
+F-202,Wed,14,F-Block (New Building),2,1
+F-203,Wed,14,F-Block (New Building),2,1
+F-204,Wed,14,F-Block (New Building),2,1
+F-205,Wed,14,F-Block (New Building),2,1
+F-206,Wed,14,F-Block (New Building),2,1
+F-207,Wed,14,F-Block (New Building),2,1
+F-208,Wed,14,F-Block (New Building),2,1
+F-209,Wed,14,F-Block (New Building),2,1
+F-210,Wed,14,F-Block (New Building),2,1
+F-301,Wed,14,F-Block (New Building),3,1
+F-302,Wed,14,F-Block (New Building),3,1
+F-303,Wed,14,F-Block (New Building),3,1
+F-304,Wed,14,F-Block (New Building),3,1
+F-305,Wed,14,F-Block (New Building),3,1
+F-306,Wed,14,F-Block (New Building),3,1
+F-307,Wed,14,F-Block (New Building),3,1
+F-308,Wed,14,F-Block (New Building),3,1
+F-309,Wed,14,F-Block (New Building),3,1
+F-310,Wed,14,F-Block (New Building),3,1
+F-311,Wed,14,F-Block (New Building),3,1
+F-312,Wed,14,F-Block (New Building),3,1
+Lab-1,Wed,14,L-Block (Labs),1,1
+Lab-13,Wed,14,L-Block (Labs),2,1
+Lab-14,Wed,14,L-Block (Labs),2,1
+Lab-15,Wed,14,L-Block (Labs),2,1
+Lab-16,Wed,14,L-Block (Labs),2,1
+Lab-17,Wed,14,L-Block (Labs),2,0
+Lab-18,Wed,14,L-Block (Labs),2,0
+Lab-2,Wed,14,L-Block (Labs),1,0
+Lab-3,Wed,14,L-Block (Labs),1,1
+Lab-4,Wed,14,L-Block (Labs),1,0
+Lab-6,Wed,14,L-Block (Labs),1,0
+Lab-8,Wed,14,L-Block (Labs),1,0
+Micro Lab,Wed,14,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,14,D-Block (Electrical/Management),1,0
+S. Hall,Wed,14,D-Block (Electrical/Management),1,1
+lab-17,Wed,14,L-Block (Labs),2,0
+C-1,Wed,15,C-Block (Computing),1,0
+C-13,Wed,15,C-Block (Computing),2,0
+C-14,Wed,15,C-Block (Computing),2,0
+C-2,Wed,15,C-Block (Computing),1,0
+C-3,Wed,15,C-Block (Computing),1,0
+C-4,Wed,15,C-Block (Computing),1,0
+C-5,Wed,15,C-Block (Computing),1,0
+C-6,Wed,15,C-Block (Computing),1,0
+C-7,Wed,15,C-Block (Computing),1,0
+D-11,Wed,15,D-Block (Electrical/Management),2,0
+D-2,Wed,15,D-Block (Electrical/Management),1,0
+D-5,Wed,15,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,15,E-Block (Library),1,0
+Eng Lab-1,Wed,15,E-Block (Library),1,0
+Eng Lab-2,Wed,15,E-Block (Library),1,0
+Eng Lab-3,Wed,15,E-Block (Library),1,0
+Eng Lab-4,Wed,15,E-Block (Library),1,0
+Eng Lab-5,Wed,15,E-Block (Library),1,0
+Eng Lab-6,Wed,15,E-Block (Library),1,0
+F-201,Wed,15,F-Block (New Building),2,0
+F-202,Wed,15,F-Block (New Building),2,0
+F-203,Wed,15,F-Block (New Building),2,0
+F-204,Wed,15,F-Block (New Building),2,0
+F-205,Wed,15,F-Block (New Building),2,0
+F-206,Wed,15,F-Block (New Building),2,0
+F-207,Wed,15,F-Block (New Building),2,0
+F-208,Wed,15,F-Block (New Building),2,0
+F-209,Wed,15,F-Block (New Building),2,0
+F-210,Wed,15,F-Block (New Building),2,0
+F-301,Wed,15,F-Block (New Building),3,0
+F-302,Wed,15,F-Block (New Building),3,0
+F-303,Wed,15,F-Block (New Building),3,0
+F-304,Wed,15,F-Block (New Building),3,0
+F-305,Wed,15,F-Block (New Building),3,0
+F-306,Wed,15,F-Block (New Building),3,0
+F-307,Wed,15,F-Block (New Building),3,0
+F-308,Wed,15,F-Block (New Building),3,0
+F-309,Wed,15,F-Block (New Building),3,0
+F-310,Wed,15,F-Block (New Building),3,0
+F-311,Wed,15,F-Block (New Building),3,0
+F-312,Wed,15,F-Block (New Building),3,0
+Lab-1,Wed,15,L-Block (Labs),1,0
+Lab-13,Wed,15,L-Block (Labs),2,0
+Lab-14,Wed,15,L-Block (Labs),2,0
+Lab-15,Wed,15,L-Block (Labs),2,0
+Lab-16,Wed,15,L-Block (Labs),2,0
+Lab-17,Wed,15,L-Block (Labs),2,0
+Lab-18,Wed,15,L-Block (Labs),2,0
+Lab-2,Wed,15,L-Block (Labs),1,0
+Lab-3,Wed,15,L-Block (Labs),1,0
+Lab-4,Wed,15,L-Block (Labs),1,0
+Lab-6,Wed,15,L-Block (Labs),1,0
+Lab-8,Wed,15,L-Block (Labs),1,0
+Micro Lab,Wed,15,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,15,D-Block (Electrical/Management),1,0
+S. Hall,Wed,15,D-Block (Electrical/Management),1,0
+lab-17,Wed,15,L-Block (Labs),2,0
+C-1,Wed,16,C-Block (Computing),1,1
+C-13,Wed,16,C-Block (Computing),2,0
+C-14,Wed,16,C-Block (Computing),2,0
+C-2,Wed,16,C-Block (Computing),1,1
+C-3,Wed,16,C-Block (Computing),1,0
+C-4,Wed,16,C-Block (Computing),1,0
+C-5,Wed,16,C-Block (Computing),1,0
+C-6,Wed,16,C-Block (Computing),1,0
+C-7,Wed,16,C-Block (Computing),1,0
+D-11,Wed,16,D-Block (Electrical/Management),2,0
+D-2,Wed,16,D-Block (Electrical/Management),1,0
+D-5,Wed,16,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,16,E-Block (Library),1,0
+Eng Lab-1,Wed,16,E-Block (Library),1,0
+Eng Lab-2,Wed,16,E-Block (Library),1,0
+Eng Lab-3,Wed,16,E-Block (Library),1,0
+Eng Lab-4,Wed,16,E-Block (Library),1,0
+Eng Lab-5,Wed,16,E-Block (Library),1,0
+Eng Lab-6,Wed,16,E-Block (Library),1,0
+F-201,Wed,16,F-Block (New Building),2,0
+F-202,Wed,16,F-Block (New Building),2,1
+F-203,Wed,16,F-Block (New Building),2,1
+F-204,Wed,16,F-Block (New Building),2,0
+F-205,Wed,16,F-Block (New Building),2,0
+F-206,Wed,16,F-Block (New Building),2,0
+F-207,Wed,16,F-Block (New Building),2,0
+F-208,Wed,16,F-Block (New Building),2,0
+F-209,Wed,16,F-Block (New Building),2,0
+F-210,Wed,16,F-Block (New Building),2,0
+F-301,Wed,16,F-Block (New Building),3,1
+F-302,Wed,16,F-Block (New Building),3,0
+F-303,Wed,16,F-Block (New Building),3,0
+F-304,Wed,16,F-Block (New Building),3,1
+F-305,Wed,16,F-Block (New Building),3,1
+F-306,Wed,16,F-Block (New Building),3,0
+F-307,Wed,16,F-Block (New Building),3,0
+F-308,Wed,16,F-Block (New Building),3,0
+F-309,Wed,16,F-Block (New Building),3,1
+F-310,Wed,16,F-Block (New Building),3,1
+F-311,Wed,16,F-Block (New Building),3,0
+F-312,Wed,16,F-Block (New Building),3,0
+Lab-1,Wed,16,L-Block (Labs),1,0
+Lab-13,Wed,16,L-Block (Labs),2,0
+Lab-14,Wed,16,L-Block (Labs),2,0
+Lab-15,Wed,16,L-Block (Labs),2,0
+Lab-16,Wed,16,L-Block (Labs),2,0
+Lab-17,Wed,16,L-Block (Labs),2,0
+Lab-18,Wed,16,L-Block (Labs),2,0
+Lab-2,Wed,16,L-Block (Labs),1,0
+Lab-3,Wed,16,L-Block (Labs),1,0
+Lab-4,Wed,16,L-Block (Labs),1,0
+Lab-6,Wed,16,L-Block (Labs),1,0
+Lab-8,Wed,16,L-Block (Labs),1,0
+Micro Lab,Wed,16,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,16,D-Block (Electrical/Management),1,0
+S. Hall,Wed,16,D-Block (Electrical/Management),1,1
+lab-17,Wed,16,L-Block (Labs),2,0
+C-1,Wed,17,C-Block (Computing),1,0
+C-13,Wed,17,C-Block (Computing),2,0
+C-14,Wed,17,C-Block (Computing),2,0
+C-2,Wed,17,C-Block (Computing),1,0
+C-3,Wed,17,C-Block (Computing),1,0
+C-4,Wed,17,C-Block (Computing),1,0
+C-5,Wed,17,C-Block (Computing),1,0
+C-6,Wed,17,C-Block (Computing),1,0
+C-7,Wed,17,C-Block (Computing),1,0
+D-11,Wed,17,D-Block (Electrical/Management),2,0
+D-2,Wed,17,D-Block (Electrical/Management),1,0
+D-5,Wed,17,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,17,E-Block (Library),1,0
+Eng Lab-1,Wed,17,E-Block (Library),1,0
+Eng Lab-2,Wed,17,E-Block (Library),1,0
+Eng Lab-3,Wed,17,E-Block (Library),1,0
+Eng Lab-4,Wed,17,E-Block (Library),1,0
+Eng Lab-5,Wed,17,E-Block (Library),1,0
+Eng Lab-6,Wed,17,E-Block (Library),1,0
+F-201,Wed,17,F-Block (New Building),2,1
+F-202,Wed,17,F-Block (New Building),2,1
+F-203,Wed,17,F-Block (New Building),2,0
+F-204,Wed,17,F-Block (New Building),2,0
+F-205,Wed,17,F-Block (New Building),2,0
+F-206,Wed,17,F-Block (New Building),2,0
+F-207,Wed,17,F-Block (New Building),2,0
+F-208,Wed,17,F-Block (New Building),2,0
+F-209,Wed,17,F-Block (New Building),2,0
+F-210,Wed,17,F-Block (New Building),2,0
+F-301,Wed,17,F-Block (New Building),3,0
+F-302,Wed,17,F-Block (New Building),3,0
+F-303,Wed,17,F-Block (New Building),3,0
+F-304,Wed,17,F-Block (New Building),3,0
+F-305,Wed,17,F-Block (New Building),3,0
+F-306,Wed,17,F-Block (New Building),3,0
+F-307,Wed,17,F-Block (New Building),3,0
+F-308,Wed,17,F-Block (New Building),3,0
+F-309,Wed,17,F-Block (New Building),3,0
+F-310,Wed,17,F-Block (New Building),3,0
+F-311,Wed,17,F-Block (New Building),3,0
+F-312,Wed,17,F-Block (New Building),3,0
+Lab-1,Wed,17,L-Block (Labs),1,0
+Lab-13,Wed,17,L-Block (Labs),2,0
+Lab-14,Wed,17,L-Block (Labs),2,0
+Lab-15,Wed,17,L-Block (Labs),2,0
+Lab-16,Wed,17,L-Block (Labs),2,0
+Lab-17,Wed,17,L-Block (Labs),2,0
+Lab-18,Wed,17,L-Block (Labs),2,0
+Lab-2,Wed,17,L-Block (Labs),1,0
+Lab-3,Wed,17,L-Block (Labs),1,0
+Lab-4,Wed,17,L-Block (Labs),1,0
+Lab-6,Wed,17,L-Block (Labs),1,0
+Lab-8,Wed,17,L-Block (Labs),1,0
+Micro Lab,Wed,17,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,17,D-Block (Electrical/Management),1,0
+S. Hall,Wed,17,D-Block (Electrical/Management),1,0
+lab-17,Wed,17,L-Block (Labs),2,0
+C-1,Wed,18,C-Block (Computing),1,0
+C-13,Wed,18,C-Block (Computing),2,0
+C-14,Wed,18,C-Block (Computing),2,0
+C-2,Wed,18,C-Block (Computing),1,0
+C-3,Wed,18,C-Block (Computing),1,0
+C-4,Wed,18,C-Block (Computing),1,0
+C-5,Wed,18,C-Block (Computing),1,0
+C-6,Wed,18,C-Block (Computing),1,0
+C-7,Wed,18,C-Block (Computing),1,0
+D-11,Wed,18,D-Block (Electrical/Management),2,0
+D-2,Wed,18,D-Block (Electrical/Management),1,0
+D-5,Wed,18,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,18,E-Block (Library),1,0
+Eng Lab-1,Wed,18,E-Block (Library),1,0
+Eng Lab-2,Wed,18,E-Block (Library),1,0
+Eng Lab-3,Wed,18,E-Block (Library),1,0
+Eng Lab-4,Wed,18,E-Block (Library),1,0
+Eng Lab-5,Wed,18,E-Block (Library),1,0
+Eng Lab-6,Wed,18,E-Block (Library),1,0
+F-201,Wed,18,F-Block (New Building),2,0
+F-202,Wed,18,F-Block (New Building),2,0
+F-203,Wed,18,F-Block (New Building),2,0
+F-204,Wed,18,F-Block (New Building),2,0
+F-205,Wed,18,F-Block (New Building),2,0
+F-206,Wed,18,F-Block (New Building),2,0
+F-207,Wed,18,F-Block (New Building),2,0
+F-208,Wed,18,F-Block (New Building),2,0
+F-209,Wed,18,F-Block (New Building),2,0
+F-210,Wed,18,F-Block (New Building),2,0
+F-301,Wed,18,F-Block (New Building),3,0
+F-302,Wed,18,F-Block (New Building),3,0
+F-303,Wed,18,F-Block (New Building),3,0
+F-304,Wed,18,F-Block (New Building),3,0
+F-305,Wed,18,F-Block (New Building),3,0
+F-306,Wed,18,F-Block (New Building),3,0
+F-307,Wed,18,F-Block (New Building),3,0
+F-308,Wed,18,F-Block (New Building),3,0
+F-309,Wed,18,F-Block (New Building),3,0
+F-310,Wed,18,F-Block (New Building),3,0
+F-311,Wed,18,F-Block (New Building),3,0
+F-312,Wed,18,F-Block (New Building),3,0
+Lab-1,Wed,18,L-Block (Labs),1,0
+Lab-13,Wed,18,L-Block (Labs),2,0
+Lab-14,Wed,18,L-Block (Labs),2,0
+Lab-15,Wed,18,L-Block (Labs),2,0
+Lab-16,Wed,18,L-Block (Labs),2,0
+Lab-17,Wed,18,L-Block (Labs),2,0
+Lab-18,Wed,18,L-Block (Labs),2,0
+Lab-2,Wed,18,L-Block (Labs),1,0
+Lab-3,Wed,18,L-Block (Labs),1,0
+Lab-4,Wed,18,L-Block (Labs),1,0
+Lab-6,Wed,18,L-Block (Labs),1,0
+Lab-8,Wed,18,L-Block (Labs),1,0
+Micro Lab,Wed,18,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,18,D-Block (Electrical/Management),1,0
+S. Hall,Wed,18,D-Block (Electrical/Management),1,0
+lab-17,Wed,18,L-Block (Labs),2,0
+C-1,Wed,19,C-Block (Computing),1,0
+C-13,Wed,19,C-Block (Computing),2,0
+C-14,Wed,19,C-Block (Computing),2,0
+C-2,Wed,19,C-Block (Computing),1,0
+C-3,Wed,19,C-Block (Computing),1,0
+C-4,Wed,19,C-Block (Computing),1,0
+C-5,Wed,19,C-Block (Computing),1,0
+C-6,Wed,19,C-Block (Computing),1,0
+C-7,Wed,19,C-Block (Computing),1,0
+D-11,Wed,19,D-Block (Electrical/Management),2,0
+D-2,Wed,19,D-Block (Electrical/Management),1,0
+D-5,Wed,19,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,19,E-Block (Library),1,0
+Eng Lab-1,Wed,19,E-Block (Library),1,0
+Eng Lab-2,Wed,19,E-Block (Library),1,0
+Eng Lab-3,Wed,19,E-Block (Library),1,0
+Eng Lab-4,Wed,19,E-Block (Library),1,0
+Eng Lab-5,Wed,19,E-Block (Library),1,0
+Eng Lab-6,Wed,19,E-Block (Library),1,0
+F-201,Wed,19,F-Block (New Building),2,0
+F-202,Wed,19,F-Block (New Building),2,0
+F-203,Wed,19,F-Block (New Building),2,0
+F-204,Wed,19,F-Block (New Building),2,0
+F-205,Wed,19,F-Block (New Building),2,0
+F-206,Wed,19,F-Block (New Building),2,0
+F-207,Wed,19,F-Block (New Building),2,0
+F-208,Wed,19,F-Block (New Building),2,0
+F-209,Wed,19,F-Block (New Building),2,0
+F-210,Wed,19,F-Block (New Building),2,0
+F-301,Wed,19,F-Block (New Building),3,0
+F-302,Wed,19,F-Block (New Building),3,0
+F-303,Wed,19,F-Block (New Building),3,0
+F-304,Wed,19,F-Block (New Building),3,0
+F-305,Wed,19,F-Block (New Building),3,0
+F-306,Wed,19,F-Block (New Building),3,0
+F-307,Wed,19,F-Block (New Building),3,0
+F-308,Wed,19,F-Block (New Building),3,0
+F-309,Wed,19,F-Block (New Building),3,0
+F-310,Wed,19,F-Block (New Building),3,0
+F-311,Wed,19,F-Block (New Building),3,0
+F-312,Wed,19,F-Block (New Building),3,0
+Lab-1,Wed,19,L-Block (Labs),1,0
+Lab-13,Wed,19,L-Block (Labs),2,0
+Lab-14,Wed,19,L-Block (Labs),2,0
+Lab-15,Wed,19,L-Block (Labs),2,0
+Lab-16,Wed,19,L-Block (Labs),2,0
+Lab-17,Wed,19,L-Block (Labs),2,0
+Lab-18,Wed,19,L-Block (Labs),2,0
+Lab-2,Wed,19,L-Block (Labs),1,0
+Lab-3,Wed,19,L-Block (Labs),1,0
+Lab-4,Wed,19,L-Block (Labs),1,0
+Lab-6,Wed,19,L-Block (Labs),1,0
+Lab-8,Wed,19,L-Block (Labs),1,0
+Micro Lab,Wed,19,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,19,D-Block (Electrical/Management),1,0
+S. Hall,Wed,19,D-Block (Electrical/Management),1,0
+lab-17,Wed,19,L-Block (Labs),2,0
+C-1,Wed,20,C-Block (Computing),1,0
+C-13,Wed,20,C-Block (Computing),2,0
+C-14,Wed,20,C-Block (Computing),2,0
+C-2,Wed,20,C-Block (Computing),1,0
+C-3,Wed,20,C-Block (Computing),1,0
+C-4,Wed,20,C-Block (Computing),1,0
+C-5,Wed,20,C-Block (Computing),1,0
+C-6,Wed,20,C-Block (Computing),1,0
+C-7,Wed,20,C-Block (Computing),1,0
+D-11,Wed,20,D-Block (Electrical/Management),2,0
+D-2,Wed,20,D-Block (Electrical/Management),1,0
+D-5,Wed,20,D-Block (Electrical/Management),1,0
+Embedded Lab,Wed,20,E-Block (Library),1,0
+Eng Lab-1,Wed,20,E-Block (Library),1,0
+Eng Lab-2,Wed,20,E-Block (Library),1,0
+Eng Lab-3,Wed,20,E-Block (Library),1,0
+Eng Lab-4,Wed,20,E-Block (Library),1,0
+Eng Lab-5,Wed,20,E-Block (Library),1,0
+Eng Lab-6,Wed,20,E-Block (Library),1,0
+F-201,Wed,20,F-Block (New Building),2,0
+F-202,Wed,20,F-Block (New Building),2,0
+F-203,Wed,20,F-Block (New Building),2,0
+F-204,Wed,20,F-Block (New Building),2,0
+F-205,Wed,20,F-Block (New Building),2,0
+F-206,Wed,20,F-Block (New Building),2,0
+F-207,Wed,20,F-Block (New Building),2,0
+F-208,Wed,20,F-Block (New Building),2,0
+F-209,Wed,20,F-Block (New Building),2,0
+F-210,Wed,20,F-Block (New Building),2,0
+F-301,Wed,20,F-Block (New Building),3,0
+F-302,Wed,20,F-Block (New Building),3,0
+F-303,Wed,20,F-Block (New Building),3,0
+F-304,Wed,20,F-Block (New Building),3,0
+F-305,Wed,20,F-Block (New Building),3,0
+F-306,Wed,20,F-Block (New Building),3,0
+F-307,Wed,20,F-Block (New Building),3,0
+F-308,Wed,20,F-Block (New Building),3,0
+F-309,Wed,20,F-Block (New Building),3,0
+F-310,Wed,20,F-Block (New Building),3,0
+F-311,Wed,20,F-Block (New Building),3,0
+F-312,Wed,20,F-Block (New Building),3,0
+Lab-1,Wed,20,L-Block (Labs),1,0
+Lab-13,Wed,20,L-Block (Labs),2,0
+Lab-14,Wed,20,L-Block (Labs),2,0
+Lab-15,Wed,20,L-Block (Labs),2,0
+Lab-16,Wed,20,L-Block (Labs),2,0
+Lab-17,Wed,20,L-Block (Labs),2,0
+Lab-18,Wed,20,L-Block (Labs),2,0
+Lab-2,Wed,20,L-Block (Labs),1,0
+Lab-3,Wed,20,L-Block (Labs),1,0
+Lab-4,Wed,20,L-Block (Labs),1,0
+Lab-6,Wed,20,L-Block (Labs),1,0
+Lab-8,Wed,20,L-Block (Labs),1,0
+Micro Lab,Wed,20,D-Block (Electrical/Management),1,0
+Physics Lab,Wed,20,D-Block (Electrical/Management),1,0
+S. Hall,Wed,20,D-Block (Electrical/Management),1,0
+lab-17,Wed,20,L-Block (Labs),2,0
+C-1,Thu,8,C-Block (Computing),1,1
+C-13,Thu,8,C-Block (Computing),2,0
+C-14,Thu,8,C-Block (Computing),2,0
+C-2,Thu,8,C-Block (Computing),1,1
+C-3,Thu,8,C-Block (Computing),1,1
+C-4,Thu,8,C-Block (Computing),1,1
+C-5,Thu,8,C-Block (Computing),1,0
+C-6,Thu,8,C-Block (Computing),1,1
+C-7,Thu,8,C-Block (Computing),1,0
+D-11,Thu,8,D-Block (Electrical/Management),2,0
+D-2,Thu,8,D-Block (Electrical/Management),1,0
+D-5,Thu,8,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,8,E-Block (Library),1,0
+Eng Lab-1,Thu,8,E-Block (Library),1,1
+Eng Lab-2,Thu,8,E-Block (Library),1,1
+Eng Lab-3,Thu,8,E-Block (Library),1,1
+Eng Lab-4,Thu,8,E-Block (Library),1,1
+Eng Lab-5,Thu,8,E-Block (Library),1,1
+Eng Lab-6,Thu,8,E-Block (Library),1,1
+F-201,Thu,8,F-Block (New Building),2,1
+F-202,Thu,8,F-Block (New Building),2,1
+F-203,Thu,8,F-Block (New Building),2,1
+F-204,Thu,8,F-Block (New Building),2,1
+F-205,Thu,8,F-Block (New Building),2,1
+F-206,Thu,8,F-Block (New Building),2,0
+F-207,Thu,8,F-Block (New Building),2,0
+F-208,Thu,8,F-Block (New Building),2,1
+F-209,Thu,8,F-Block (New Building),2,0
+F-210,Thu,8,F-Block (New Building),2,1
+F-301,Thu,8,F-Block (New Building),3,1
+F-302,Thu,8,F-Block (New Building),3,1
+F-303,Thu,8,F-Block (New Building),3,0
+F-304,Thu,8,F-Block (New Building),3,1
+F-305,Thu,8,F-Block (New Building),3,1
+F-306,Thu,8,F-Block (New Building),3,0
+F-307,Thu,8,F-Block (New Building),3,1
+F-308,Thu,8,F-Block (New Building),3,1
+F-309,Thu,8,F-Block (New Building),3,1
+F-310,Thu,8,F-Block (New Building),3,1
+F-311,Thu,8,F-Block (New Building),3,0
+F-312,Thu,8,F-Block (New Building),3,0
+Lab-1,Thu,8,L-Block (Labs),1,0
+Lab-13,Thu,8,L-Block (Labs),2,0
+Lab-14,Thu,8,L-Block (Labs),2,1
+Lab-15,Thu,8,L-Block (Labs),2,1
+Lab-16,Thu,8,L-Block (Labs),2,1
+Lab-17,Thu,8,L-Block (Labs),2,0
+Lab-18,Thu,8,L-Block (Labs),2,0
+Lab-2,Thu,8,L-Block (Labs),1,0
+Lab-3,Thu,8,L-Block (Labs),1,0
+Lab-4,Thu,8,L-Block (Labs),1,0
+Lab-6,Thu,8,L-Block (Labs),1,1
+Lab-8,Thu,8,L-Block (Labs),1,0
+Micro Lab,Thu,8,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,8,D-Block (Electrical/Management),1,0
+S. Hall,Thu,8,D-Block (Electrical/Management),1,1
+lab-17,Thu,8,L-Block (Labs),2,0
+C-1,Thu,9,C-Block (Computing),1,0
+C-13,Thu,9,C-Block (Computing),2,0
+C-14,Thu,9,C-Block (Computing),2,0
+C-2,Thu,9,C-Block (Computing),1,0
+C-3,Thu,9,C-Block (Computing),1,0
+C-4,Thu,9,C-Block (Computing),1,0
+C-5,Thu,9,C-Block (Computing),1,0
+C-6,Thu,9,C-Block (Computing),1,0
+C-7,Thu,9,C-Block (Computing),1,0
+D-11,Thu,9,D-Block (Electrical/Management),2,0
+D-2,Thu,9,D-Block (Electrical/Management),1,0
+D-5,Thu,9,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,9,E-Block (Library),1,0
+Eng Lab-1,Thu,9,E-Block (Library),1,0
+Eng Lab-2,Thu,9,E-Block (Library),1,0
+Eng Lab-3,Thu,9,E-Block (Library),1,0
+Eng Lab-4,Thu,9,E-Block (Library),1,0
+Eng Lab-5,Thu,9,E-Block (Library),1,0
+Eng Lab-6,Thu,9,E-Block (Library),1,0
+F-201,Thu,9,F-Block (New Building),2,0
+F-202,Thu,9,F-Block (New Building),2,0
+F-203,Thu,9,F-Block (New Building),2,0
+F-204,Thu,9,F-Block (New Building),2,0
+F-205,Thu,9,F-Block (New Building),2,0
+F-206,Thu,9,F-Block (New Building),2,0
+F-207,Thu,9,F-Block (New Building),2,0
+F-208,Thu,9,F-Block (New Building),2,0
+F-209,Thu,9,F-Block (New Building),2,0
+F-210,Thu,9,F-Block (New Building),2,0
+F-301,Thu,9,F-Block (New Building),3,0
+F-302,Thu,9,F-Block (New Building),3,0
+F-303,Thu,9,F-Block (New Building),3,0
+F-304,Thu,9,F-Block (New Building),3,0
+F-305,Thu,9,F-Block (New Building),3,0
+F-306,Thu,9,F-Block (New Building),3,0
+F-307,Thu,9,F-Block (New Building),3,0
+F-308,Thu,9,F-Block (New Building),3,0
+F-309,Thu,9,F-Block (New Building),3,0
+F-310,Thu,9,F-Block (New Building),3,0
+F-311,Thu,9,F-Block (New Building),3,0
+F-312,Thu,9,F-Block (New Building),3,0
+Lab-1,Thu,9,L-Block (Labs),1,0
+Lab-13,Thu,9,L-Block (Labs),2,0
+Lab-14,Thu,9,L-Block (Labs),2,0
+Lab-15,Thu,9,L-Block (Labs),2,0
+Lab-16,Thu,9,L-Block (Labs),2,0
+Lab-17,Thu,9,L-Block (Labs),2,0
+Lab-18,Thu,9,L-Block (Labs),2,0
+Lab-2,Thu,9,L-Block (Labs),1,0
+Lab-3,Thu,9,L-Block (Labs),1,0
+Lab-4,Thu,9,L-Block (Labs),1,0
+Lab-6,Thu,9,L-Block (Labs),1,0
+Lab-8,Thu,9,L-Block (Labs),1,0
+Micro Lab,Thu,9,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,9,D-Block (Electrical/Management),1,0
+S. Hall,Thu,9,D-Block (Electrical/Management),1,0
+lab-17,Thu,9,L-Block (Labs),2,0
+C-1,Thu,10,C-Block (Computing),1,1
+C-13,Thu,10,C-Block (Computing),2,0
+C-14,Thu,10,C-Block (Computing),2,1
+C-2,Thu,10,C-Block (Computing),1,0
+C-3,Thu,10,C-Block (Computing),1,1
+C-4,Thu,10,C-Block (Computing),1,0
+C-5,Thu,10,C-Block (Computing),1,0
+C-6,Thu,10,C-Block (Computing),1,1
+C-7,Thu,10,C-Block (Computing),1,1
+D-11,Thu,10,D-Block (Electrical/Management),2,0
+D-2,Thu,10,D-Block (Electrical/Management),1,0
+D-5,Thu,10,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,10,E-Block (Library),1,0
+Eng Lab-1,Thu,10,E-Block (Library),1,1
+Eng Lab-2,Thu,10,E-Block (Library),1,1
+Eng Lab-3,Thu,10,E-Block (Library),1,1
+Eng Lab-4,Thu,10,E-Block (Library),1,1
+Eng Lab-5,Thu,10,E-Block (Library),1,1
+Eng Lab-6,Thu,10,E-Block (Library),1,1
+F-201,Thu,10,F-Block (New Building),2,1
+F-202,Thu,10,F-Block (New Building),2,1
+F-203,Thu,10,F-Block (New Building),2,0
+F-204,Thu,10,F-Block (New Building),2,1
+F-205,Thu,10,F-Block (New Building),2,1
+F-206,Thu,10,F-Block (New Building),2,1
+F-207,Thu,10,F-Block (New Building),2,1
+F-208,Thu,10,F-Block (New Building),2,0
+F-209,Thu,10,F-Block (New Building),2,1
+F-210,Thu,10,F-Block (New Building),2,1
+F-301,Thu,10,F-Block (New Building),3,1
+F-302,Thu,10,F-Block (New Building),3,1
+F-303,Thu,10,F-Block (New Building),3,1
+F-304,Thu,10,F-Block (New Building),3,1
+F-305,Thu,10,F-Block (New Building),3,1
+F-306,Thu,10,F-Block (New Building),3,1
+F-307,Thu,10,F-Block (New Building),3,1
+F-308,Thu,10,F-Block (New Building),3,1
+F-309,Thu,10,F-Block (New Building),3,1
+F-310,Thu,10,F-Block (New Building),3,1
+F-311,Thu,10,F-Block (New Building),3,1
+F-312,Thu,10,F-Block (New Building),3,1
+Lab-1,Thu,10,L-Block (Labs),1,0
+Lab-13,Thu,10,L-Block (Labs),2,0
+Lab-14,Thu,10,L-Block (Labs),2,0
+Lab-15,Thu,10,L-Block (Labs),2,0
+Lab-16,Thu,10,L-Block (Labs),2,0
+Lab-17,Thu,10,L-Block (Labs),2,0
+Lab-18,Thu,10,L-Block (Labs),2,0
+Lab-2,Thu,10,L-Block (Labs),1,0
+Lab-3,Thu,10,L-Block (Labs),1,0
+Lab-4,Thu,10,L-Block (Labs),1,0
+Lab-6,Thu,10,L-Block (Labs),1,0
+Lab-8,Thu,10,L-Block (Labs),1,0
+Micro Lab,Thu,10,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,10,D-Block (Electrical/Management),1,0
+S. Hall,Thu,10,D-Block (Electrical/Management),1,1
+lab-17,Thu,10,L-Block (Labs),2,0
+C-1,Thu,11,C-Block (Computing),1,0
+C-13,Thu,11,C-Block (Computing),2,1
+C-14,Thu,11,C-Block (Computing),2,1
+C-2,Thu,11,C-Block (Computing),1,0
+C-3,Thu,11,C-Block (Computing),1,0
+C-4,Thu,11,C-Block (Computing),1,0
+C-5,Thu,11,C-Block (Computing),1,1
+C-6,Thu,11,C-Block (Computing),1,1
+C-7,Thu,11,C-Block (Computing),1,1
+D-11,Thu,11,D-Block (Electrical/Management),2,0
+D-2,Thu,11,D-Block (Electrical/Management),1,0
+D-5,Thu,11,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,11,E-Block (Library),1,0
+Eng Lab-1,Thu,11,E-Block (Library),1,1
+Eng Lab-2,Thu,11,E-Block (Library),1,1
+Eng Lab-3,Thu,11,E-Block (Library),1,1
+Eng Lab-4,Thu,11,E-Block (Library),1,1
+Eng Lab-5,Thu,11,E-Block (Library),1,1
+Eng Lab-6,Thu,11,E-Block (Library),1,1
+F-201,Thu,11,F-Block (New Building),2,1
+F-202,Thu,11,F-Block (New Building),2,1
+F-203,Thu,11,F-Block (New Building),2,1
+F-204,Thu,11,F-Block (New Building),2,1
+F-205,Thu,11,F-Block (New Building),2,1
+F-206,Thu,11,F-Block (New Building),2,1
+F-207,Thu,11,F-Block (New Building),2,1
+F-208,Thu,11,F-Block (New Building),2,1
+F-209,Thu,11,F-Block (New Building),2,1
+F-210,Thu,11,F-Block (New Building),2,1
+F-301,Thu,11,F-Block (New Building),3,1
+F-302,Thu,11,F-Block (New Building),3,1
+F-303,Thu,11,F-Block (New Building),3,1
+F-304,Thu,11,F-Block (New Building),3,1
+F-305,Thu,11,F-Block (New Building),3,1
+F-306,Thu,11,F-Block (New Building),3,1
+F-307,Thu,11,F-Block (New Building),3,0
+F-308,Thu,11,F-Block (New Building),3,1
+F-309,Thu,11,F-Block (New Building),3,1
+F-310,Thu,11,F-Block (New Building),3,0
+F-311,Thu,11,F-Block (New Building),3,1
+F-312,Thu,11,F-Block (New Building),3,1
+Lab-1,Thu,11,L-Block (Labs),1,1
+Lab-13,Thu,11,L-Block (Labs),2,0
+Lab-14,Thu,11,L-Block (Labs),2,1
+Lab-15,Thu,11,L-Block (Labs),2,1
+Lab-16,Thu,11,L-Block (Labs),2,1
+Lab-17,Thu,11,L-Block (Labs),2,0
+Lab-18,Thu,11,L-Block (Labs),2,0
+Lab-2,Thu,11,L-Block (Labs),1,0
+Lab-3,Thu,11,L-Block (Labs),1,0
+Lab-4,Thu,11,L-Block (Labs),1,0
+Lab-6,Thu,11,L-Block (Labs),1,1
+Lab-8,Thu,11,L-Block (Labs),1,0
+Micro Lab,Thu,11,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,11,D-Block (Electrical/Management),1,0
+S. Hall,Thu,11,D-Block (Electrical/Management),1,1
+lab-17,Thu,11,L-Block (Labs),2,0
+C-1,Thu,12,C-Block (Computing),1,0
+C-13,Thu,12,C-Block (Computing),2,0
+C-14,Thu,12,C-Block (Computing),2,0
+C-2,Thu,12,C-Block (Computing),1,0
+C-3,Thu,12,C-Block (Computing),1,0
+C-4,Thu,12,C-Block (Computing),1,0
+C-5,Thu,12,C-Block (Computing),1,0
+C-6,Thu,12,C-Block (Computing),1,0
+C-7,Thu,12,C-Block (Computing),1,0
+D-11,Thu,12,D-Block (Electrical/Management),2,0
+D-2,Thu,12,D-Block (Electrical/Management),1,0
+D-5,Thu,12,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,12,E-Block (Library),1,0
+Eng Lab-1,Thu,12,E-Block (Library),1,0
+Eng Lab-2,Thu,12,E-Block (Library),1,0
+Eng Lab-3,Thu,12,E-Block (Library),1,0
+Eng Lab-4,Thu,12,E-Block (Library),1,0
+Eng Lab-5,Thu,12,E-Block (Library),1,0
+Eng Lab-6,Thu,12,E-Block (Library),1,0
+F-201,Thu,12,F-Block (New Building),2,0
+F-202,Thu,12,F-Block (New Building),2,0
+F-203,Thu,12,F-Block (New Building),2,0
+F-204,Thu,12,F-Block (New Building),2,0
+F-205,Thu,12,F-Block (New Building),2,0
+F-206,Thu,12,F-Block (New Building),2,0
+F-207,Thu,12,F-Block (New Building),2,0
+F-208,Thu,12,F-Block (New Building),2,0
+F-209,Thu,12,F-Block (New Building),2,0
+F-210,Thu,12,F-Block (New Building),2,0
+F-301,Thu,12,F-Block (New Building),3,0
+F-302,Thu,12,F-Block (New Building),3,0
+F-303,Thu,12,F-Block (New Building),3,0
+F-304,Thu,12,F-Block (New Building),3,0
+F-305,Thu,12,F-Block (New Building),3,0
+F-306,Thu,12,F-Block (New Building),3,0
+F-307,Thu,12,F-Block (New Building),3,0
+F-308,Thu,12,F-Block (New Building),3,0
+F-309,Thu,12,F-Block (New Building),3,0
+F-310,Thu,12,F-Block (New Building),3,0
+F-311,Thu,12,F-Block (New Building),3,0
+F-312,Thu,12,F-Block (New Building),3,0
+Lab-1,Thu,12,L-Block (Labs),1,0
+Lab-13,Thu,12,L-Block (Labs),2,0
+Lab-14,Thu,12,L-Block (Labs),2,0
+Lab-15,Thu,12,L-Block (Labs),2,0
+Lab-16,Thu,12,L-Block (Labs),2,0
+Lab-17,Thu,12,L-Block (Labs),2,0
+Lab-18,Thu,12,L-Block (Labs),2,0
+Lab-2,Thu,12,L-Block (Labs),1,0
+Lab-3,Thu,12,L-Block (Labs),1,0
+Lab-4,Thu,12,L-Block (Labs),1,0
+Lab-6,Thu,12,L-Block (Labs),1,0
+Lab-8,Thu,12,L-Block (Labs),1,0
+Micro Lab,Thu,12,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,12,D-Block (Electrical/Management),1,0
+S. Hall,Thu,12,D-Block (Electrical/Management),1,0
+lab-17,Thu,12,L-Block (Labs),2,0
+C-1,Thu,13,C-Block (Computing),1,1
+C-13,Thu,13,C-Block (Computing),2,0
+C-14,Thu,13,C-Block (Computing),2,0
+C-2,Thu,13,C-Block (Computing),1,1
+C-3,Thu,13,C-Block (Computing),1,1
+C-4,Thu,13,C-Block (Computing),1,1
+C-5,Thu,13,C-Block (Computing),1,0
+C-6,Thu,13,C-Block (Computing),1,1
+C-7,Thu,13,C-Block (Computing),1,0
+D-11,Thu,13,D-Block (Electrical/Management),2,0
+D-2,Thu,13,D-Block (Electrical/Management),1,0
+D-5,Thu,13,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,13,E-Block (Library),1,0
+Eng Lab-1,Thu,13,E-Block (Library),1,1
+Eng Lab-2,Thu,13,E-Block (Library),1,1
+Eng Lab-3,Thu,13,E-Block (Library),1,1
+Eng Lab-4,Thu,13,E-Block (Library),1,1
+Eng Lab-5,Thu,13,E-Block (Library),1,0
+Eng Lab-6,Thu,13,E-Block (Library),1,0
+F-201,Thu,13,F-Block (New Building),2,1
+F-202,Thu,13,F-Block (New Building),2,1
+F-203,Thu,13,F-Block (New Building),2,1
+F-204,Thu,13,F-Block (New Building),2,1
+F-205,Thu,13,F-Block (New Building),2,1
+F-206,Thu,13,F-Block (New Building),2,1
+F-207,Thu,13,F-Block (New Building),2,1
+F-208,Thu,13,F-Block (New Building),2,1
+F-209,Thu,13,F-Block (New Building),2,1
+F-210,Thu,13,F-Block (New Building),2,1
+F-301,Thu,13,F-Block (New Building),3,1
+F-302,Thu,13,F-Block (New Building),3,1
+F-303,Thu,13,F-Block (New Building),3,1
+F-304,Thu,13,F-Block (New Building),3,0
+F-305,Thu,13,F-Block (New Building),3,0
+F-306,Thu,13,F-Block (New Building),3,1
+F-307,Thu,13,F-Block (New Building),3,0
+F-308,Thu,13,F-Block (New Building),3,1
+F-309,Thu,13,F-Block (New Building),3,1
+F-310,Thu,13,F-Block (New Building),3,1
+F-311,Thu,13,F-Block (New Building),3,1
+F-312,Thu,13,F-Block (New Building),3,1
+Lab-1,Thu,13,L-Block (Labs),1,0
+Lab-13,Thu,13,L-Block (Labs),2,0
+Lab-14,Thu,13,L-Block (Labs),2,0
+Lab-15,Thu,13,L-Block (Labs),2,0
+Lab-16,Thu,13,L-Block (Labs),2,0
+Lab-17,Thu,13,L-Block (Labs),2,0
+Lab-18,Thu,13,L-Block (Labs),2,0
+Lab-2,Thu,13,L-Block (Labs),1,0
+Lab-3,Thu,13,L-Block (Labs),1,0
+Lab-4,Thu,13,L-Block (Labs),1,1
+Lab-6,Thu,13,L-Block (Labs),1,0
+Lab-8,Thu,13,L-Block (Labs),1,0
+Micro Lab,Thu,13,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,13,D-Block (Electrical/Management),1,0
+S. Hall,Thu,13,D-Block (Electrical/Management),1,0
+lab-17,Thu,13,L-Block (Labs),2,0
+C-1,Thu,14,C-Block (Computing),1,1
+C-13,Thu,14,C-Block (Computing),2,1
+C-14,Thu,14,C-Block (Computing),2,1
+C-2,Thu,14,C-Block (Computing),1,1
+C-3,Thu,14,C-Block (Computing),1,1
+C-4,Thu,14,C-Block (Computing),1,1
+C-5,Thu,14,C-Block (Computing),1,1
+C-6,Thu,14,C-Block (Computing),1,1
+C-7,Thu,14,C-Block (Computing),1,0
+D-11,Thu,14,D-Block (Electrical/Management),2,0
+D-2,Thu,14,D-Block (Electrical/Management),1,0
+D-5,Thu,14,D-Block (Electrical/Management),1,1
+Embedded Lab,Thu,14,E-Block (Library),1,0
+Eng Lab-1,Thu,14,E-Block (Library),1,1
+Eng Lab-2,Thu,14,E-Block (Library),1,1
+Eng Lab-3,Thu,14,E-Block (Library),1,0
+Eng Lab-4,Thu,14,E-Block (Library),1,0
+Eng Lab-5,Thu,14,E-Block (Library),1,1
+Eng Lab-6,Thu,14,E-Block (Library),1,1
+F-201,Thu,14,F-Block (New Building),2,1
+F-202,Thu,14,F-Block (New Building),2,1
+F-203,Thu,14,F-Block (New Building),2,1
+F-204,Thu,14,F-Block (New Building),2,1
+F-205,Thu,14,F-Block (New Building),2,1
+F-206,Thu,14,F-Block (New Building),2,1
+F-207,Thu,14,F-Block (New Building),2,1
+F-208,Thu,14,F-Block (New Building),2,1
+F-209,Thu,14,F-Block (New Building),2,1
+F-210,Thu,14,F-Block (New Building),2,0
+F-301,Thu,14,F-Block (New Building),3,1
+F-302,Thu,14,F-Block (New Building),3,1
+F-303,Thu,14,F-Block (New Building),3,1
+F-304,Thu,14,F-Block (New Building),3,1
+F-305,Thu,14,F-Block (New Building),3,1
+F-306,Thu,14,F-Block (New Building),3,1
+F-307,Thu,14,F-Block (New Building),3,1
+F-308,Thu,14,F-Block (New Building),3,1
+F-309,Thu,14,F-Block (New Building),3,1
+F-310,Thu,14,F-Block (New Building),3,1
+F-311,Thu,14,F-Block (New Building),3,1
+F-312,Thu,14,F-Block (New Building),3,1
+Lab-1,Thu,14,L-Block (Labs),1,1
+Lab-13,Thu,14,L-Block (Labs),2,1
+Lab-14,Thu,14,L-Block (Labs),2,1
+Lab-15,Thu,14,L-Block (Labs),2,1
+Lab-16,Thu,14,L-Block (Labs),2,1
+Lab-17,Thu,14,L-Block (Labs),2,0
+Lab-18,Thu,14,L-Block (Labs),2,0
+Lab-2,Thu,14,L-Block (Labs),1,1
+Lab-3,Thu,14,L-Block (Labs),1,1
+Lab-4,Thu,14,L-Block (Labs),1,1
+Lab-6,Thu,14,L-Block (Labs),1,0
+Lab-8,Thu,14,L-Block (Labs),1,0
+Micro Lab,Thu,14,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,14,D-Block (Electrical/Management),1,0
+S. Hall,Thu,14,D-Block (Electrical/Management),1,1
+lab-17,Thu,14,L-Block (Labs),2,0
+C-1,Thu,15,C-Block (Computing),1,0
+C-13,Thu,15,C-Block (Computing),2,0
+C-14,Thu,15,C-Block (Computing),2,0
+C-2,Thu,15,C-Block (Computing),1,0
+C-3,Thu,15,C-Block (Computing),1,0
+C-4,Thu,15,C-Block (Computing),1,0
+C-5,Thu,15,C-Block (Computing),1,0
+C-6,Thu,15,C-Block (Computing),1,0
+C-7,Thu,15,C-Block (Computing),1,0
+D-11,Thu,15,D-Block (Electrical/Management),2,0
+D-2,Thu,15,D-Block (Electrical/Management),1,0
+D-5,Thu,15,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,15,E-Block (Library),1,0
+Eng Lab-1,Thu,15,E-Block (Library),1,0
+Eng Lab-2,Thu,15,E-Block (Library),1,0
+Eng Lab-3,Thu,15,E-Block (Library),1,0
+Eng Lab-4,Thu,15,E-Block (Library),1,0
+Eng Lab-5,Thu,15,E-Block (Library),1,0
+Eng Lab-6,Thu,15,E-Block (Library),1,0
+F-201,Thu,15,F-Block (New Building),2,0
+F-202,Thu,15,F-Block (New Building),2,0
+F-203,Thu,15,F-Block (New Building),2,0
+F-204,Thu,15,F-Block (New Building),2,0
+F-205,Thu,15,F-Block (New Building),2,0
+F-206,Thu,15,F-Block (New Building),2,0
+F-207,Thu,15,F-Block (New Building),2,0
+F-208,Thu,15,F-Block (New Building),2,0
+F-209,Thu,15,F-Block (New Building),2,0
+F-210,Thu,15,F-Block (New Building),2,0
+F-301,Thu,15,F-Block (New Building),3,0
+F-302,Thu,15,F-Block (New Building),3,0
+F-303,Thu,15,F-Block (New Building),3,0
+F-304,Thu,15,F-Block (New Building),3,0
+F-305,Thu,15,F-Block (New Building),3,0
+F-306,Thu,15,F-Block (New Building),3,0
+F-307,Thu,15,F-Block (New Building),3,0
+F-308,Thu,15,F-Block (New Building),3,0
+F-309,Thu,15,F-Block (New Building),3,0
+F-310,Thu,15,F-Block (New Building),3,0
+F-311,Thu,15,F-Block (New Building),3,0
+F-312,Thu,15,F-Block (New Building),3,0
+Lab-1,Thu,15,L-Block (Labs),1,0
+Lab-13,Thu,15,L-Block (Labs),2,0
+Lab-14,Thu,15,L-Block (Labs),2,0
+Lab-15,Thu,15,L-Block (Labs),2,0
+Lab-16,Thu,15,L-Block (Labs),2,0
+Lab-17,Thu,15,L-Block (Labs),2,0
+Lab-18,Thu,15,L-Block (Labs),2,0
+Lab-2,Thu,15,L-Block (Labs),1,0
+Lab-3,Thu,15,L-Block (Labs),1,0
+Lab-4,Thu,15,L-Block (Labs),1,0
+Lab-6,Thu,15,L-Block (Labs),1,0
+Lab-8,Thu,15,L-Block (Labs),1,0
+Micro Lab,Thu,15,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,15,D-Block (Electrical/Management),1,0
+S. Hall,Thu,15,D-Block (Electrical/Management),1,0
+lab-17,Thu,15,L-Block (Labs),2,0
+C-1,Thu,16,C-Block (Computing),1,0
+C-13,Thu,16,C-Block (Computing),2,0
+C-14,Thu,16,C-Block (Computing),2,1
+C-2,Thu,16,C-Block (Computing),1,1
+C-3,Thu,16,C-Block (Computing),1,0
+C-4,Thu,16,C-Block (Computing),1,0
+C-5,Thu,16,C-Block (Computing),1,1
+C-6,Thu,16,C-Block (Computing),1,1
+C-7,Thu,16,C-Block (Computing),1,1
+D-11,Thu,16,D-Block (Electrical/Management),2,0
+D-2,Thu,16,D-Block (Electrical/Management),1,0
+D-5,Thu,16,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,16,E-Block (Library),1,0
+Eng Lab-1,Thu,16,E-Block (Library),1,0
+Eng Lab-2,Thu,16,E-Block (Library),1,0
+Eng Lab-3,Thu,16,E-Block (Library),1,1
+Eng Lab-4,Thu,16,E-Block (Library),1,1
+Eng Lab-5,Thu,16,E-Block (Library),1,1
+Eng Lab-6,Thu,16,E-Block (Library),1,1
+F-201,Thu,16,F-Block (New Building),2,1
+F-202,Thu,16,F-Block (New Building),2,1
+F-203,Thu,16,F-Block (New Building),2,1
+F-204,Thu,16,F-Block (New Building),2,1
+F-205,Thu,16,F-Block (New Building),2,1
+F-206,Thu,16,F-Block (New Building),2,1
+F-207,Thu,16,F-Block (New Building),2,1
+F-208,Thu,16,F-Block (New Building),2,0
+F-209,Thu,16,F-Block (New Building),2,0
+F-210,Thu,16,F-Block (New Building),2,0
+F-301,Thu,16,F-Block (New Building),3,1
+F-302,Thu,16,F-Block (New Building),3,0
+F-303,Thu,16,F-Block (New Building),3,0
+F-304,Thu,16,F-Block (New Building),3,1
+F-305,Thu,16,F-Block (New Building),3,1
+F-306,Thu,16,F-Block (New Building),3,1
+F-307,Thu,16,F-Block (New Building),3,1
+F-308,Thu,16,F-Block (New Building),3,1
+F-309,Thu,16,F-Block (New Building),3,0
+F-310,Thu,16,F-Block (New Building),3,0
+F-311,Thu,16,F-Block (New Building),3,1
+F-312,Thu,16,F-Block (New Building),3,1
+Lab-1,Thu,16,L-Block (Labs),1,0
+Lab-13,Thu,16,L-Block (Labs),2,0
+Lab-14,Thu,16,L-Block (Labs),2,0
+Lab-15,Thu,16,L-Block (Labs),2,0
+Lab-16,Thu,16,L-Block (Labs),2,0
+Lab-17,Thu,16,L-Block (Labs),2,0
+Lab-18,Thu,16,L-Block (Labs),2,0
+Lab-2,Thu,16,L-Block (Labs),1,0
+Lab-3,Thu,16,L-Block (Labs),1,0
+Lab-4,Thu,16,L-Block (Labs),1,0
+Lab-6,Thu,16,L-Block (Labs),1,0
+Lab-8,Thu,16,L-Block (Labs),1,0
+Micro Lab,Thu,16,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,16,D-Block (Electrical/Management),1,0
+S. Hall,Thu,16,D-Block (Electrical/Management),1,0
+lab-17,Thu,16,L-Block (Labs),2,0
+C-1,Thu,17,C-Block (Computing),1,0
+C-13,Thu,17,C-Block (Computing),2,0
+C-14,Thu,17,C-Block (Computing),2,0
+C-2,Thu,17,C-Block (Computing),1,0
+C-3,Thu,17,C-Block (Computing),1,0
+C-4,Thu,17,C-Block (Computing),1,0
+C-5,Thu,17,C-Block (Computing),1,0
+C-6,Thu,17,C-Block (Computing),1,0
+C-7,Thu,17,C-Block (Computing),1,0
+D-11,Thu,17,D-Block (Electrical/Management),2,0
+D-2,Thu,17,D-Block (Electrical/Management),1,0
+D-5,Thu,17,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,17,E-Block (Library),1,0
+Eng Lab-1,Thu,17,E-Block (Library),1,0
+Eng Lab-2,Thu,17,E-Block (Library),1,0
+Eng Lab-3,Thu,17,E-Block (Library),1,0
+Eng Lab-4,Thu,17,E-Block (Library),1,0
+Eng Lab-5,Thu,17,E-Block (Library),1,0
+Eng Lab-6,Thu,17,E-Block (Library),1,0
+F-201,Thu,17,F-Block (New Building),2,1
+F-202,Thu,17,F-Block (New Building),2,0
+F-203,Thu,17,F-Block (New Building),2,1
+F-204,Thu,17,F-Block (New Building),2,0
+F-205,Thu,17,F-Block (New Building),2,0
+F-206,Thu,17,F-Block (New Building),2,0
+F-207,Thu,17,F-Block (New Building),2,0
+F-208,Thu,17,F-Block (New Building),2,0
+F-209,Thu,17,F-Block (New Building),2,0
+F-210,Thu,17,F-Block (New Building),2,0
+F-301,Thu,17,F-Block (New Building),3,0
+F-302,Thu,17,F-Block (New Building),3,0
+F-303,Thu,17,F-Block (New Building),3,0
+F-304,Thu,17,F-Block (New Building),3,0
+F-305,Thu,17,F-Block (New Building),3,0
+F-306,Thu,17,F-Block (New Building),3,0
+F-307,Thu,17,F-Block (New Building),3,0
+F-308,Thu,17,F-Block (New Building),3,0
+F-309,Thu,17,F-Block (New Building),3,0
+F-310,Thu,17,F-Block (New Building),3,0
+F-311,Thu,17,F-Block (New Building),3,0
+F-312,Thu,17,F-Block (New Building),3,0
+Lab-1,Thu,17,L-Block (Labs),1,0
+Lab-13,Thu,17,L-Block (Labs),2,0
+Lab-14,Thu,17,L-Block (Labs),2,0
+Lab-15,Thu,17,L-Block (Labs),2,0
+Lab-16,Thu,17,L-Block (Labs),2,0
+Lab-17,Thu,17,L-Block (Labs),2,0
+Lab-18,Thu,17,L-Block (Labs),2,0
+Lab-2,Thu,17,L-Block (Labs),1,0
+Lab-3,Thu,17,L-Block (Labs),1,0
+Lab-4,Thu,17,L-Block (Labs),1,0
+Lab-6,Thu,17,L-Block (Labs),1,0
+Lab-8,Thu,17,L-Block (Labs),1,0
+Micro Lab,Thu,17,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,17,D-Block (Electrical/Management),1,0
+S. Hall,Thu,17,D-Block (Electrical/Management),1,0
+lab-17,Thu,17,L-Block (Labs),2,0
+C-1,Thu,18,C-Block (Computing),1,0
+C-13,Thu,18,C-Block (Computing),2,0
+C-14,Thu,18,C-Block (Computing),2,0
+C-2,Thu,18,C-Block (Computing),1,0
+C-3,Thu,18,C-Block (Computing),1,0
+C-4,Thu,18,C-Block (Computing),1,0
+C-5,Thu,18,C-Block (Computing),1,0
+C-6,Thu,18,C-Block (Computing),1,0
+C-7,Thu,18,C-Block (Computing),1,0
+D-11,Thu,18,D-Block (Electrical/Management),2,0
+D-2,Thu,18,D-Block (Electrical/Management),1,0
+D-5,Thu,18,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,18,E-Block (Library),1,0
+Eng Lab-1,Thu,18,E-Block (Library),1,0
+Eng Lab-2,Thu,18,E-Block (Library),1,0
+Eng Lab-3,Thu,18,E-Block (Library),1,0
+Eng Lab-4,Thu,18,E-Block (Library),1,0
+Eng Lab-5,Thu,18,E-Block (Library),1,0
+Eng Lab-6,Thu,18,E-Block (Library),1,0
+F-201,Thu,18,F-Block (New Building),2,0
+F-202,Thu,18,F-Block (New Building),2,0
+F-203,Thu,18,F-Block (New Building),2,0
+F-204,Thu,18,F-Block (New Building),2,0
+F-205,Thu,18,F-Block (New Building),2,0
+F-206,Thu,18,F-Block (New Building),2,0
+F-207,Thu,18,F-Block (New Building),2,0
+F-208,Thu,18,F-Block (New Building),2,0
+F-209,Thu,18,F-Block (New Building),2,0
+F-210,Thu,18,F-Block (New Building),2,0
+F-301,Thu,18,F-Block (New Building),3,0
+F-302,Thu,18,F-Block (New Building),3,0
+F-303,Thu,18,F-Block (New Building),3,0
+F-304,Thu,18,F-Block (New Building),3,0
+F-305,Thu,18,F-Block (New Building),3,0
+F-306,Thu,18,F-Block (New Building),3,0
+F-307,Thu,18,F-Block (New Building),3,0
+F-308,Thu,18,F-Block (New Building),3,0
+F-309,Thu,18,F-Block (New Building),3,0
+F-310,Thu,18,F-Block (New Building),3,0
+F-311,Thu,18,F-Block (New Building),3,0
+F-312,Thu,18,F-Block (New Building),3,0
+Lab-1,Thu,18,L-Block (Labs),1,0
+Lab-13,Thu,18,L-Block (Labs),2,0
+Lab-14,Thu,18,L-Block (Labs),2,0
+Lab-15,Thu,18,L-Block (Labs),2,0
+Lab-16,Thu,18,L-Block (Labs),2,0
+Lab-17,Thu,18,L-Block (Labs),2,0
+Lab-18,Thu,18,L-Block (Labs),2,0
+Lab-2,Thu,18,L-Block (Labs),1,0
+Lab-3,Thu,18,L-Block (Labs),1,0
+Lab-4,Thu,18,L-Block (Labs),1,0
+Lab-6,Thu,18,L-Block (Labs),1,0
+Lab-8,Thu,18,L-Block (Labs),1,0
+Micro Lab,Thu,18,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,18,D-Block (Electrical/Management),1,0
+S. Hall,Thu,18,D-Block (Electrical/Management),1,0
+lab-17,Thu,18,L-Block (Labs),2,0
+C-1,Thu,19,C-Block (Computing),1,0
+C-13,Thu,19,C-Block (Computing),2,0
+C-14,Thu,19,C-Block (Computing),2,0
+C-2,Thu,19,C-Block (Computing),1,0
+C-3,Thu,19,C-Block (Computing),1,0
+C-4,Thu,19,C-Block (Computing),1,0
+C-5,Thu,19,C-Block (Computing),1,0
+C-6,Thu,19,C-Block (Computing),1,0
+C-7,Thu,19,C-Block (Computing),1,0
+D-11,Thu,19,D-Block (Electrical/Management),2,0
+D-2,Thu,19,D-Block (Electrical/Management),1,0
+D-5,Thu,19,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,19,E-Block (Library),1,0
+Eng Lab-1,Thu,19,E-Block (Library),1,0
+Eng Lab-2,Thu,19,E-Block (Library),1,0
+Eng Lab-3,Thu,19,E-Block (Library),1,0
+Eng Lab-4,Thu,19,E-Block (Library),1,0
+Eng Lab-5,Thu,19,E-Block (Library),1,0
+Eng Lab-6,Thu,19,E-Block (Library),1,0
+F-201,Thu,19,F-Block (New Building),2,0
+F-202,Thu,19,F-Block (New Building),2,0
+F-203,Thu,19,F-Block (New Building),2,0
+F-204,Thu,19,F-Block (New Building),2,0
+F-205,Thu,19,F-Block (New Building),2,0
+F-206,Thu,19,F-Block (New Building),2,0
+F-207,Thu,19,F-Block (New Building),2,0
+F-208,Thu,19,F-Block (New Building),2,0
+F-209,Thu,19,F-Block (New Building),2,0
+F-210,Thu,19,F-Block (New Building),2,0
+F-301,Thu,19,F-Block (New Building),3,0
+F-302,Thu,19,F-Block (New Building),3,0
+F-303,Thu,19,F-Block (New Building),3,0
+F-304,Thu,19,F-Block (New Building),3,0
+F-305,Thu,19,F-Block (New Building),3,0
+F-306,Thu,19,F-Block (New Building),3,0
+F-307,Thu,19,F-Block (New Building),3,0
+F-308,Thu,19,F-Block (New Building),3,0
+F-309,Thu,19,F-Block (New Building),3,0
+F-310,Thu,19,F-Block (New Building),3,0
+F-311,Thu,19,F-Block (New Building),3,0
+F-312,Thu,19,F-Block (New Building),3,0
+Lab-1,Thu,19,L-Block (Labs),1,0
+Lab-13,Thu,19,L-Block (Labs),2,0
+Lab-14,Thu,19,L-Block (Labs),2,0
+Lab-15,Thu,19,L-Block (Labs),2,0
+Lab-16,Thu,19,L-Block (Labs),2,0
+Lab-17,Thu,19,L-Block (Labs),2,0
+Lab-18,Thu,19,L-Block (Labs),2,0
+Lab-2,Thu,19,L-Block (Labs),1,0
+Lab-3,Thu,19,L-Block (Labs),1,0
+Lab-4,Thu,19,L-Block (Labs),1,0
+Lab-6,Thu,19,L-Block (Labs),1,0
+Lab-8,Thu,19,L-Block (Labs),1,0
+Micro Lab,Thu,19,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,19,D-Block (Electrical/Management),1,0
+S. Hall,Thu,19,D-Block (Electrical/Management),1,0
+lab-17,Thu,19,L-Block (Labs),2,0
+C-1,Thu,20,C-Block (Computing),1,0
+C-13,Thu,20,C-Block (Computing),2,0
+C-14,Thu,20,C-Block (Computing),2,0
+C-2,Thu,20,C-Block (Computing),1,0
+C-3,Thu,20,C-Block (Computing),1,0
+C-4,Thu,20,C-Block (Computing),1,0
+C-5,Thu,20,C-Block (Computing),1,0
+C-6,Thu,20,C-Block (Computing),1,0
+C-7,Thu,20,C-Block (Computing),1,0
+D-11,Thu,20,D-Block (Electrical/Management),2,0
+D-2,Thu,20,D-Block (Electrical/Management),1,0
+D-5,Thu,20,D-Block (Electrical/Management),1,0
+Embedded Lab,Thu,20,E-Block (Library),1,0
+Eng Lab-1,Thu,20,E-Block (Library),1,0
+Eng Lab-2,Thu,20,E-Block (Library),1,0
+Eng Lab-3,Thu,20,E-Block (Library),1,0
+Eng Lab-4,Thu,20,E-Block (Library),1,0
+Eng Lab-5,Thu,20,E-Block (Library),1,0
+Eng Lab-6,Thu,20,E-Block (Library),1,0
+F-201,Thu,20,F-Block (New Building),2,0
+F-202,Thu,20,F-Block (New Building),2,0
+F-203,Thu,20,F-Block (New Building),2,0
+F-204,Thu,20,F-Block (New Building),2,0
+F-205,Thu,20,F-Block (New Building),2,0
+F-206,Thu,20,F-Block (New Building),2,0
+F-207,Thu,20,F-Block (New Building),2,0
+F-208,Thu,20,F-Block (New Building),2,0
+F-209,Thu,20,F-Block (New Building),2,0
+F-210,Thu,20,F-Block (New Building),2,0
+F-301,Thu,20,F-Block (New Building),3,0
+F-302,Thu,20,F-Block (New Building),3,0
+F-303,Thu,20,F-Block (New Building),3,0
+F-304,Thu,20,F-Block (New Building),3,0
+F-305,Thu,20,F-Block (New Building),3,0
+F-306,Thu,20,F-Block (New Building),3,0
+F-307,Thu,20,F-Block (New Building),3,0
+F-308,Thu,20,F-Block (New Building),3,0
+F-309,Thu,20,F-Block (New Building),3,0
+F-310,Thu,20,F-Block (New Building),3,0
+F-311,Thu,20,F-Block (New Building),3,0
+F-312,Thu,20,F-Block (New Building),3,0
+Lab-1,Thu,20,L-Block (Labs),1,0
+Lab-13,Thu,20,L-Block (Labs),2,0
+Lab-14,Thu,20,L-Block (Labs),2,0
+Lab-15,Thu,20,L-Block (Labs),2,0
+Lab-16,Thu,20,L-Block (Labs),2,0
+Lab-17,Thu,20,L-Block (Labs),2,0
+Lab-18,Thu,20,L-Block (Labs),2,0
+Lab-2,Thu,20,L-Block (Labs),1,0
+Lab-3,Thu,20,L-Block (Labs),1,0
+Lab-4,Thu,20,L-Block (Labs),1,0
+Lab-6,Thu,20,L-Block (Labs),1,0
+Lab-8,Thu,20,L-Block (Labs),1,0
+Micro Lab,Thu,20,D-Block (Electrical/Management),1,0
+Physics Lab,Thu,20,D-Block (Electrical/Management),1,0
+S. Hall,Thu,20,D-Block (Electrical/Management),1,0
+lab-17,Thu,20,L-Block (Labs),2,0
+C-1,Fri,8,C-Block (Computing),1,0
+C-13,Fri,8,C-Block (Computing),2,0
+C-14,Fri,8,C-Block (Computing),2,0
+C-2,Fri,8,C-Block (Computing),1,0
+C-3,Fri,8,C-Block (Computing),1,0
+C-4,Fri,8,C-Block (Computing),1,0
+C-5,Fri,8,C-Block (Computing),1,0
+C-6,Fri,8,C-Block (Computing),1,0
+C-7,Fri,8,C-Block (Computing),1,0
+D-11,Fri,8,D-Block (Electrical/Management),2,0
+D-2,Fri,8,D-Block (Electrical/Management),1,0
+D-5,Fri,8,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,8,E-Block (Library),1,0
+Eng Lab-1,Fri,8,E-Block (Library),1,0
+Eng Lab-2,Fri,8,E-Block (Library),1,0
+Eng Lab-3,Fri,8,E-Block (Library),1,0
+Eng Lab-4,Fri,8,E-Block (Library),1,0
+Eng Lab-5,Fri,8,E-Block (Library),1,0
+Eng Lab-6,Fri,8,E-Block (Library),1,0
+F-201,Fri,8,F-Block (New Building),2,1
+F-202,Fri,8,F-Block (New Building),2,0
+F-203,Fri,8,F-Block (New Building),2,0
+F-204,Fri,8,F-Block (New Building),2,1
+F-205,Fri,8,F-Block (New Building),2,0
+F-206,Fri,8,F-Block (New Building),2,1
+F-207,Fri,8,F-Block (New Building),2,1
+F-208,Fri,8,F-Block (New Building),2,1
+F-209,Fri,8,F-Block (New Building),2,1
+F-210,Fri,8,F-Block (New Building),2,0
+F-301,Fri,8,F-Block (New Building),3,0
+F-302,Fri,8,F-Block (New Building),3,0
+F-303,Fri,8,F-Block (New Building),3,0
+F-304,Fri,8,F-Block (New Building),3,0
+F-305,Fri,8,F-Block (New Building),3,0
+F-306,Fri,8,F-Block (New Building),3,0
+F-307,Fri,8,F-Block (New Building),3,0
+F-308,Fri,8,F-Block (New Building),3,0
+F-309,Fri,8,F-Block (New Building),3,0
+F-310,Fri,8,F-Block (New Building),3,0
+F-311,Fri,8,F-Block (New Building),3,0
+F-312,Fri,8,F-Block (New Building),3,0
+Lab-1,Fri,8,L-Block (Labs),1,0
+Lab-13,Fri,8,L-Block (Labs),2,0
+Lab-14,Fri,8,L-Block (Labs),2,1
+Lab-15,Fri,8,L-Block (Labs),2,1
+Lab-16,Fri,8,L-Block (Labs),2,1
+Lab-17,Fri,8,L-Block (Labs),2,0
+Lab-18,Fri,8,L-Block (Labs),2,0
+Lab-2,Fri,8,L-Block (Labs),1,0
+Lab-3,Fri,8,L-Block (Labs),1,0
+Lab-4,Fri,8,L-Block (Labs),1,0
+Lab-6,Fri,8,L-Block (Labs),1,0
+Lab-8,Fri,8,L-Block (Labs),1,0
+Micro Lab,Fri,8,D-Block (Electrical/Management),1,1
+Physics Lab,Fri,8,D-Block (Electrical/Management),1,1
+S. Hall,Fri,8,D-Block (Electrical/Management),1,0
+lab-17,Fri,8,L-Block (Labs),2,0
+C-1,Fri,9,C-Block (Computing),1,0
+C-13,Fri,9,C-Block (Computing),2,0
+C-14,Fri,9,C-Block (Computing),2,0
+C-2,Fri,9,C-Block (Computing),1,0
+C-3,Fri,9,C-Block (Computing),1,0
+C-4,Fri,9,C-Block (Computing),1,0
+C-5,Fri,9,C-Block (Computing),1,0
+C-6,Fri,9,C-Block (Computing),1,0
+C-7,Fri,9,C-Block (Computing),1,0
+D-11,Fri,9,D-Block (Electrical/Management),2,0
+D-2,Fri,9,D-Block (Electrical/Management),1,0
+D-5,Fri,9,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,9,E-Block (Library),1,0
+Eng Lab-1,Fri,9,E-Block (Library),1,0
+Eng Lab-2,Fri,9,E-Block (Library),1,0
+Eng Lab-3,Fri,9,E-Block (Library),1,0
+Eng Lab-4,Fri,9,E-Block (Library),1,0
+Eng Lab-5,Fri,9,E-Block (Library),1,0
+Eng Lab-6,Fri,9,E-Block (Library),1,0
+F-201,Fri,9,F-Block (New Building),2,0
+F-202,Fri,9,F-Block (New Building),2,0
+F-203,Fri,9,F-Block (New Building),2,0
+F-204,Fri,9,F-Block (New Building),2,0
+F-205,Fri,9,F-Block (New Building),2,0
+F-206,Fri,9,F-Block (New Building),2,0
+F-207,Fri,9,F-Block (New Building),2,0
+F-208,Fri,9,F-Block (New Building),2,0
+F-209,Fri,9,F-Block (New Building),2,0
+F-210,Fri,9,F-Block (New Building),2,0
+F-301,Fri,9,F-Block (New Building),3,0
+F-302,Fri,9,F-Block (New Building),3,0
+F-303,Fri,9,F-Block (New Building),3,0
+F-304,Fri,9,F-Block (New Building),3,0
+F-305,Fri,9,F-Block (New Building),3,0
+F-306,Fri,9,F-Block (New Building),3,0
+F-307,Fri,9,F-Block (New Building),3,0
+F-308,Fri,9,F-Block (New Building),3,0
+F-309,Fri,9,F-Block (New Building),3,0
+F-310,Fri,9,F-Block (New Building),3,0
+F-311,Fri,9,F-Block (New Building),3,0
+F-312,Fri,9,F-Block (New Building),3,0
+Lab-1,Fri,9,L-Block (Labs),1,0
+Lab-13,Fri,9,L-Block (Labs),2,0
+Lab-14,Fri,9,L-Block (Labs),2,0
+Lab-15,Fri,9,L-Block (Labs),2,0
+Lab-16,Fri,9,L-Block (Labs),2,0
+Lab-17,Fri,9,L-Block (Labs),2,0
+Lab-18,Fri,9,L-Block (Labs),2,0
+Lab-2,Fri,9,L-Block (Labs),1,0
+Lab-3,Fri,9,L-Block (Labs),1,0
+Lab-4,Fri,9,L-Block (Labs),1,0
+Lab-6,Fri,9,L-Block (Labs),1,0
+Lab-8,Fri,9,L-Block (Labs),1,0
+Micro Lab,Fri,9,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,9,D-Block (Electrical/Management),1,0
+S. Hall,Fri,9,D-Block (Electrical/Management),1,0
+lab-17,Fri,9,L-Block (Labs),2,0
+C-1,Fri,10,C-Block (Computing),1,0
+C-13,Fri,10,C-Block (Computing),2,0
+C-14,Fri,10,C-Block (Computing),2,0
+C-2,Fri,10,C-Block (Computing),1,0
+C-3,Fri,10,C-Block (Computing),1,0
+C-4,Fri,10,C-Block (Computing),1,0
+C-5,Fri,10,C-Block (Computing),1,0
+C-6,Fri,10,C-Block (Computing),1,1
+C-7,Fri,10,C-Block (Computing),1,0
+D-11,Fri,10,D-Block (Electrical/Management),2,0
+D-2,Fri,10,D-Block (Electrical/Management),1,0
+D-5,Fri,10,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,10,E-Block (Library),1,0
+Eng Lab-1,Fri,10,E-Block (Library),1,0
+Eng Lab-2,Fri,10,E-Block (Library),1,0
+Eng Lab-3,Fri,10,E-Block (Library),1,0
+Eng Lab-4,Fri,10,E-Block (Library),1,0
+Eng Lab-5,Fri,10,E-Block (Library),1,0
+Eng Lab-6,Fri,10,E-Block (Library),1,0
+F-201,Fri,10,F-Block (New Building),2,0
+F-202,Fri,10,F-Block (New Building),2,0
+F-203,Fri,10,F-Block (New Building),2,0
+F-204,Fri,10,F-Block (New Building),2,0
+F-205,Fri,10,F-Block (New Building),2,1
+F-206,Fri,10,F-Block (New Building),2,0
+F-207,Fri,10,F-Block (New Building),2,1
+F-208,Fri,10,F-Block (New Building),2,1
+F-209,Fri,10,F-Block (New Building),2,0
+F-210,Fri,10,F-Block (New Building),2,0
+F-301,Fri,10,F-Block (New Building),3,0
+F-302,Fri,10,F-Block (New Building),3,0
+F-303,Fri,10,F-Block (New Building),3,0
+F-304,Fri,10,F-Block (New Building),3,0
+F-305,Fri,10,F-Block (New Building),3,0
+F-306,Fri,10,F-Block (New Building),3,0
+F-307,Fri,10,F-Block (New Building),3,0
+F-308,Fri,10,F-Block (New Building),3,0
+F-309,Fri,10,F-Block (New Building),3,0
+F-310,Fri,10,F-Block (New Building),3,0
+F-311,Fri,10,F-Block (New Building),3,0
+F-312,Fri,10,F-Block (New Building),3,0
+Lab-1,Fri,10,L-Block (Labs),1,0
+Lab-13,Fri,10,L-Block (Labs),2,1
+Lab-14,Fri,10,L-Block (Labs),2,0
+Lab-15,Fri,10,L-Block (Labs),2,0
+Lab-16,Fri,10,L-Block (Labs),2,0
+Lab-17,Fri,10,L-Block (Labs),2,0
+Lab-18,Fri,10,L-Block (Labs),2,0
+Lab-2,Fri,10,L-Block (Labs),1,1
+Lab-3,Fri,10,L-Block (Labs),1,1
+Lab-4,Fri,10,L-Block (Labs),1,1
+Lab-6,Fri,10,L-Block (Labs),1,1
+Lab-8,Fri,10,L-Block (Labs),1,1
+Micro Lab,Fri,10,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,10,D-Block (Electrical/Management),1,0
+S. Hall,Fri,10,D-Block (Electrical/Management),1,0
+lab-17,Fri,10,L-Block (Labs),2,0
+C-1,Fri,11,C-Block (Computing),1,0
+C-13,Fri,11,C-Block (Computing),2,0
+C-14,Fri,11,C-Block (Computing),2,0
+C-2,Fri,11,C-Block (Computing),1,0
+C-3,Fri,11,C-Block (Computing),1,0
+C-4,Fri,11,C-Block (Computing),1,0
+C-5,Fri,11,C-Block (Computing),1,0
+C-6,Fri,11,C-Block (Computing),1,0
+C-7,Fri,11,C-Block (Computing),1,0
+D-11,Fri,11,D-Block (Electrical/Management),2,0
+D-2,Fri,11,D-Block (Electrical/Management),1,0
+D-5,Fri,11,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,11,E-Block (Library),1,0
+Eng Lab-1,Fri,11,E-Block (Library),1,0
+Eng Lab-2,Fri,11,E-Block (Library),1,0
+Eng Lab-3,Fri,11,E-Block (Library),1,0
+Eng Lab-4,Fri,11,E-Block (Library),1,0
+Eng Lab-5,Fri,11,E-Block (Library),1,0
+Eng Lab-6,Fri,11,E-Block (Library),1,0
+F-201,Fri,11,F-Block (New Building),2,1
+F-202,Fri,11,F-Block (New Building),2,1
+F-203,Fri,11,F-Block (New Building),2,0
+F-204,Fri,11,F-Block (New Building),2,0
+F-205,Fri,11,F-Block (New Building),2,1
+F-206,Fri,11,F-Block (New Building),2,0
+F-207,Fri,11,F-Block (New Building),2,1
+F-208,Fri,11,F-Block (New Building),2,0
+F-209,Fri,11,F-Block (New Building),2,0
+F-210,Fri,11,F-Block (New Building),2,1
+F-301,Fri,11,F-Block (New Building),3,0
+F-302,Fri,11,F-Block (New Building),3,0
+F-303,Fri,11,F-Block (New Building),3,0
+F-304,Fri,11,F-Block (New Building),3,0
+F-305,Fri,11,F-Block (New Building),3,0
+F-306,Fri,11,F-Block (New Building),3,0
+F-307,Fri,11,F-Block (New Building),3,0
+F-308,Fri,11,F-Block (New Building),3,0
+F-309,Fri,11,F-Block (New Building),3,0
+F-310,Fri,11,F-Block (New Building),3,0
+F-311,Fri,11,F-Block (New Building),3,0
+F-312,Fri,11,F-Block (New Building),3,0
+Lab-1,Fri,11,L-Block (Labs),1,0
+Lab-13,Fri,11,L-Block (Labs),2,0
+Lab-14,Fri,11,L-Block (Labs),2,0
+Lab-15,Fri,11,L-Block (Labs),2,0
+Lab-16,Fri,11,L-Block (Labs),2,0
+Lab-17,Fri,11,L-Block (Labs),2,0
+Lab-18,Fri,11,L-Block (Labs),2,0
+Lab-2,Fri,11,L-Block (Labs),1,0
+Lab-3,Fri,11,L-Block (Labs),1,0
+Lab-4,Fri,11,L-Block (Labs),1,0
+Lab-6,Fri,11,L-Block (Labs),1,0
+Lab-8,Fri,11,L-Block (Labs),1,0
+Micro Lab,Fri,11,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,11,D-Block (Electrical/Management),1,0
+S. Hall,Fri,11,D-Block (Electrical/Management),1,0
+lab-17,Fri,11,L-Block (Labs),2,0
+C-1,Fri,12,C-Block (Computing),1,0
+C-13,Fri,12,C-Block (Computing),2,0
+C-14,Fri,12,C-Block (Computing),2,0
+C-2,Fri,12,C-Block (Computing),1,0
+C-3,Fri,12,C-Block (Computing),1,0
+C-4,Fri,12,C-Block (Computing),1,0
+C-5,Fri,12,C-Block (Computing),1,0
+C-6,Fri,12,C-Block (Computing),1,0
+C-7,Fri,12,C-Block (Computing),1,0
+D-11,Fri,12,D-Block (Electrical/Management),2,0
+D-2,Fri,12,D-Block (Electrical/Management),1,0
+D-5,Fri,12,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,12,E-Block (Library),1,0
+Eng Lab-1,Fri,12,E-Block (Library),1,0
+Eng Lab-2,Fri,12,E-Block (Library),1,0
+Eng Lab-3,Fri,12,E-Block (Library),1,0
+Eng Lab-4,Fri,12,E-Block (Library),1,0
+Eng Lab-5,Fri,12,E-Block (Library),1,0
+Eng Lab-6,Fri,12,E-Block (Library),1,0
+F-201,Fri,12,F-Block (New Building),2,0
+F-202,Fri,12,F-Block (New Building),2,0
+F-203,Fri,12,F-Block (New Building),2,0
+F-204,Fri,12,F-Block (New Building),2,0
+F-205,Fri,12,F-Block (New Building),2,0
+F-206,Fri,12,F-Block (New Building),2,0
+F-207,Fri,12,F-Block (New Building),2,0
+F-208,Fri,12,F-Block (New Building),2,0
+F-209,Fri,12,F-Block (New Building),2,0
+F-210,Fri,12,F-Block (New Building),2,0
+F-301,Fri,12,F-Block (New Building),3,0
+F-302,Fri,12,F-Block (New Building),3,0
+F-303,Fri,12,F-Block (New Building),3,0
+F-304,Fri,12,F-Block (New Building),3,0
+F-305,Fri,12,F-Block (New Building),3,0
+F-306,Fri,12,F-Block (New Building),3,0
+F-307,Fri,12,F-Block (New Building),3,0
+F-308,Fri,12,F-Block (New Building),3,0
+F-309,Fri,12,F-Block (New Building),3,0
+F-310,Fri,12,F-Block (New Building),3,0
+F-311,Fri,12,F-Block (New Building),3,0
+F-312,Fri,12,F-Block (New Building),3,0
+Lab-1,Fri,12,L-Block (Labs),1,0
+Lab-13,Fri,12,L-Block (Labs),2,0
+Lab-14,Fri,12,L-Block (Labs),2,0
+Lab-15,Fri,12,L-Block (Labs),2,0
+Lab-16,Fri,12,L-Block (Labs),2,0
+Lab-17,Fri,12,L-Block (Labs),2,0
+Lab-18,Fri,12,L-Block (Labs),2,0
+Lab-2,Fri,12,L-Block (Labs),1,0
+Lab-3,Fri,12,L-Block (Labs),1,0
+Lab-4,Fri,12,L-Block (Labs),1,0
+Lab-6,Fri,12,L-Block (Labs),1,0
+Lab-8,Fri,12,L-Block (Labs),1,0
+Micro Lab,Fri,12,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,12,D-Block (Electrical/Management),1,0
+S. Hall,Fri,12,D-Block (Electrical/Management),1,0
+lab-17,Fri,12,L-Block (Labs),2,0
+C-1,Fri,13,C-Block (Computing),1,0
+C-13,Fri,13,C-Block (Computing),2,0
+C-14,Fri,13,C-Block (Computing),2,0
+C-2,Fri,13,C-Block (Computing),1,0
+C-3,Fri,13,C-Block (Computing),1,0
+C-4,Fri,13,C-Block (Computing),1,0
+C-5,Fri,13,C-Block (Computing),1,0
+C-6,Fri,13,C-Block (Computing),1,0
+C-7,Fri,13,C-Block (Computing),1,0
+D-11,Fri,13,D-Block (Electrical/Management),2,0
+D-2,Fri,13,D-Block (Electrical/Management),1,0
+D-5,Fri,13,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,13,E-Block (Library),1,0
+Eng Lab-1,Fri,13,E-Block (Library),1,0
+Eng Lab-2,Fri,13,E-Block (Library),1,0
+Eng Lab-3,Fri,13,E-Block (Library),1,0
+Eng Lab-4,Fri,13,E-Block (Library),1,0
+Eng Lab-5,Fri,13,E-Block (Library),1,0
+Eng Lab-6,Fri,13,E-Block (Library),1,0
+F-201,Fri,13,F-Block (New Building),2,0
+F-202,Fri,13,F-Block (New Building),2,0
+F-203,Fri,13,F-Block (New Building),2,0
+F-204,Fri,13,F-Block (New Building),2,0
+F-205,Fri,13,F-Block (New Building),2,0
+F-206,Fri,13,F-Block (New Building),2,0
+F-207,Fri,13,F-Block (New Building),2,0
+F-208,Fri,13,F-Block (New Building),2,0
+F-209,Fri,13,F-Block (New Building),2,0
+F-210,Fri,13,F-Block (New Building),2,0
+F-301,Fri,13,F-Block (New Building),3,0
+F-302,Fri,13,F-Block (New Building),3,0
+F-303,Fri,13,F-Block (New Building),3,0
+F-304,Fri,13,F-Block (New Building),3,0
+F-305,Fri,13,F-Block (New Building),3,0
+F-306,Fri,13,F-Block (New Building),3,0
+F-307,Fri,13,F-Block (New Building),3,0
+F-308,Fri,13,F-Block (New Building),3,0
+F-309,Fri,13,F-Block (New Building),3,0
+F-310,Fri,13,F-Block (New Building),3,0
+F-311,Fri,13,F-Block (New Building),3,0
+F-312,Fri,13,F-Block (New Building),3,0
+Lab-1,Fri,13,L-Block (Labs),1,0
+Lab-13,Fri,13,L-Block (Labs),2,0
+Lab-14,Fri,13,L-Block (Labs),2,0
+Lab-15,Fri,13,L-Block (Labs),2,0
+Lab-16,Fri,13,L-Block (Labs),2,0
+Lab-17,Fri,13,L-Block (Labs),2,0
+Lab-18,Fri,13,L-Block (Labs),2,0
+Lab-2,Fri,13,L-Block (Labs),1,0
+Lab-3,Fri,13,L-Block (Labs),1,0
+Lab-4,Fri,13,L-Block (Labs),1,0
+Lab-6,Fri,13,L-Block (Labs),1,0
+Lab-8,Fri,13,L-Block (Labs),1,0
+Micro Lab,Fri,13,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,13,D-Block (Electrical/Management),1,0
+S. Hall,Fri,13,D-Block (Electrical/Management),1,0
+lab-17,Fri,13,L-Block (Labs),2,0
+C-1,Fri,14,C-Block (Computing),1,0
+C-13,Fri,14,C-Block (Computing),2,0
+C-14,Fri,14,C-Block (Computing),2,0
+C-2,Fri,14,C-Block (Computing),1,0
+C-3,Fri,14,C-Block (Computing),1,0
+C-4,Fri,14,C-Block (Computing),1,0
+C-5,Fri,14,C-Block (Computing),1,0
+C-6,Fri,14,C-Block (Computing),1,0
+C-7,Fri,14,C-Block (Computing),1,0
+D-11,Fri,14,D-Block (Electrical/Management),2,0
+D-2,Fri,14,D-Block (Electrical/Management),1,0
+D-5,Fri,14,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,14,E-Block (Library),1,0
+Eng Lab-1,Fri,14,E-Block (Library),1,0
+Eng Lab-2,Fri,14,E-Block (Library),1,0
+Eng Lab-3,Fri,14,E-Block (Library),1,0
+Eng Lab-4,Fri,14,E-Block (Library),1,0
+Eng Lab-5,Fri,14,E-Block (Library),1,0
+Eng Lab-6,Fri,14,E-Block (Library),1,0
+F-201,Fri,14,F-Block (New Building),2,0
+F-202,Fri,14,F-Block (New Building),2,0
+F-203,Fri,14,F-Block (New Building),2,0
+F-204,Fri,14,F-Block (New Building),2,0
+F-205,Fri,14,F-Block (New Building),2,0
+F-206,Fri,14,F-Block (New Building),2,0
+F-207,Fri,14,F-Block (New Building),2,0
+F-208,Fri,14,F-Block (New Building),2,0
+F-209,Fri,14,F-Block (New Building),2,0
+F-210,Fri,14,F-Block (New Building),2,0
+F-301,Fri,14,F-Block (New Building),3,0
+F-302,Fri,14,F-Block (New Building),3,0
+F-303,Fri,14,F-Block (New Building),3,0
+F-304,Fri,14,F-Block (New Building),3,0
+F-305,Fri,14,F-Block (New Building),3,0
+F-306,Fri,14,F-Block (New Building),3,0
+F-307,Fri,14,F-Block (New Building),3,0
+F-308,Fri,14,F-Block (New Building),3,0
+F-309,Fri,14,F-Block (New Building),3,0
+F-310,Fri,14,F-Block (New Building),3,0
+F-311,Fri,14,F-Block (New Building),3,0
+F-312,Fri,14,F-Block (New Building),3,0
+Lab-1,Fri,14,L-Block (Labs),1,1
+Lab-13,Fri,14,L-Block (Labs),2,0
+Lab-14,Fri,14,L-Block (Labs),2,1
+Lab-15,Fri,14,L-Block (Labs),2,1
+Lab-16,Fri,14,L-Block (Labs),2,1
+Lab-17,Fri,14,L-Block (Labs),2,0
+Lab-18,Fri,14,L-Block (Labs),2,0
+Lab-2,Fri,14,L-Block (Labs),1,1
+Lab-3,Fri,14,L-Block (Labs),1,1
+Lab-4,Fri,14,L-Block (Labs),1,1
+Lab-6,Fri,14,L-Block (Labs),1,1
+Lab-8,Fri,14,L-Block (Labs),1,0
+Micro Lab,Fri,14,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,14,D-Block (Electrical/Management),1,0
+S. Hall,Fri,14,D-Block (Electrical/Management),1,0
+lab-17,Fri,14,L-Block (Labs),2,0
+C-1,Fri,15,C-Block (Computing),1,0
+C-13,Fri,15,C-Block (Computing),2,0
+C-14,Fri,15,C-Block (Computing),2,0
+C-2,Fri,15,C-Block (Computing),1,0
+C-3,Fri,15,C-Block (Computing),1,0
+C-4,Fri,15,C-Block (Computing),1,0
+C-5,Fri,15,C-Block (Computing),1,0
+C-6,Fri,15,C-Block (Computing),1,0
+C-7,Fri,15,C-Block (Computing),1,0
+D-11,Fri,15,D-Block (Electrical/Management),2,0
+D-2,Fri,15,D-Block (Electrical/Management),1,0
+D-5,Fri,15,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,15,E-Block (Library),1,0
+Eng Lab-1,Fri,15,E-Block (Library),1,0
+Eng Lab-2,Fri,15,E-Block (Library),1,0
+Eng Lab-3,Fri,15,E-Block (Library),1,0
+Eng Lab-4,Fri,15,E-Block (Library),1,0
+Eng Lab-5,Fri,15,E-Block (Library),1,0
+Eng Lab-6,Fri,15,E-Block (Library),1,0
+F-201,Fri,15,F-Block (New Building),2,0
+F-202,Fri,15,F-Block (New Building),2,0
+F-203,Fri,15,F-Block (New Building),2,1
+F-204,Fri,15,F-Block (New Building),2,1
+F-205,Fri,15,F-Block (New Building),2,0
+F-206,Fri,15,F-Block (New Building),2,0
+F-207,Fri,15,F-Block (New Building),2,0
+F-208,Fri,15,F-Block (New Building),2,0
+F-209,Fri,15,F-Block (New Building),2,0
+F-210,Fri,15,F-Block (New Building),2,0
+F-301,Fri,15,F-Block (New Building),3,0
+F-302,Fri,15,F-Block (New Building),3,0
+F-303,Fri,15,F-Block (New Building),3,0
+F-304,Fri,15,F-Block (New Building),3,0
+F-305,Fri,15,F-Block (New Building),3,0
+F-306,Fri,15,F-Block (New Building),3,0
+F-307,Fri,15,F-Block (New Building),3,0
+F-308,Fri,15,F-Block (New Building),3,0
+F-309,Fri,15,F-Block (New Building),3,0
+F-310,Fri,15,F-Block (New Building),3,0
+F-311,Fri,15,F-Block (New Building),3,0
+F-312,Fri,15,F-Block (New Building),3,0
+Lab-1,Fri,15,L-Block (Labs),1,0
+Lab-13,Fri,15,L-Block (Labs),2,0
+Lab-14,Fri,15,L-Block (Labs),2,0
+Lab-15,Fri,15,L-Block (Labs),2,0
+Lab-16,Fri,15,L-Block (Labs),2,0
+Lab-17,Fri,15,L-Block (Labs),2,0
+Lab-18,Fri,15,L-Block (Labs),2,0
+Lab-2,Fri,15,L-Block (Labs),1,0
+Lab-3,Fri,15,L-Block (Labs),1,0
+Lab-4,Fri,15,L-Block (Labs),1,0
+Lab-6,Fri,15,L-Block (Labs),1,0
+Lab-8,Fri,15,L-Block (Labs),1,0
+Micro Lab,Fri,15,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,15,D-Block (Electrical/Management),1,0
+S. Hall,Fri,15,D-Block (Electrical/Management),1,0
+lab-17,Fri,15,L-Block (Labs),2,0
+C-1,Fri,16,C-Block (Computing),1,0
+C-13,Fri,16,C-Block (Computing),2,0
+C-14,Fri,16,C-Block (Computing),2,0
+C-2,Fri,16,C-Block (Computing),1,0
+C-3,Fri,16,C-Block (Computing),1,0
+C-4,Fri,16,C-Block (Computing),1,0
+C-5,Fri,16,C-Block (Computing),1,0
+C-6,Fri,16,C-Block (Computing),1,0
+C-7,Fri,16,C-Block (Computing),1,0
+D-11,Fri,16,D-Block (Electrical/Management),2,0
+D-2,Fri,16,D-Block (Electrical/Management),1,0
+D-5,Fri,16,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,16,E-Block (Library),1,0
+Eng Lab-1,Fri,16,E-Block (Library),1,0
+Eng Lab-2,Fri,16,E-Block (Library),1,0
+Eng Lab-3,Fri,16,E-Block (Library),1,0
+Eng Lab-4,Fri,16,E-Block (Library),1,0
+Eng Lab-5,Fri,16,E-Block (Library),1,0
+Eng Lab-6,Fri,16,E-Block (Library),1,0
+F-201,Fri,16,F-Block (New Building),2,0
+F-202,Fri,16,F-Block (New Building),2,0
+F-203,Fri,16,F-Block (New Building),2,1
+F-204,Fri,16,F-Block (New Building),2,1
+F-205,Fri,16,F-Block (New Building),2,0
+F-206,Fri,16,F-Block (New Building),2,0
+F-207,Fri,16,F-Block (New Building),2,0
+F-208,Fri,16,F-Block (New Building),2,0
+F-209,Fri,16,F-Block (New Building),2,0
+F-210,Fri,16,F-Block (New Building),2,0
+F-301,Fri,16,F-Block (New Building),3,0
+F-302,Fri,16,F-Block (New Building),3,0
+F-303,Fri,16,F-Block (New Building),3,0
+F-304,Fri,16,F-Block (New Building),3,0
+F-305,Fri,16,F-Block (New Building),3,0
+F-306,Fri,16,F-Block (New Building),3,0
+F-307,Fri,16,F-Block (New Building),3,0
+F-308,Fri,16,F-Block (New Building),3,0
+F-309,Fri,16,F-Block (New Building),3,0
+F-310,Fri,16,F-Block (New Building),3,0
+F-311,Fri,16,F-Block (New Building),3,0
+F-312,Fri,16,F-Block (New Building),3,0
+Lab-1,Fri,16,L-Block (Labs),1,0
+Lab-13,Fri,16,L-Block (Labs),2,0
+Lab-14,Fri,16,L-Block (Labs),2,0
+Lab-15,Fri,16,L-Block (Labs),2,0
+Lab-16,Fri,16,L-Block (Labs),2,0
+Lab-17,Fri,16,L-Block (Labs),2,0
+Lab-18,Fri,16,L-Block (Labs),2,0
+Lab-2,Fri,16,L-Block (Labs),1,0
+Lab-3,Fri,16,L-Block (Labs),1,0
+Lab-4,Fri,16,L-Block (Labs),1,0
+Lab-6,Fri,16,L-Block (Labs),1,0
+Lab-8,Fri,16,L-Block (Labs),1,0
+Micro Lab,Fri,16,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,16,D-Block (Electrical/Management),1,0
+S. Hall,Fri,16,D-Block (Electrical/Management),1,0
+lab-17,Fri,16,L-Block (Labs),2,0
+C-1,Fri,17,C-Block (Computing),1,0
+C-13,Fri,17,C-Block (Computing),2,0
+C-14,Fri,17,C-Block (Computing),2,0
+C-2,Fri,17,C-Block (Computing),1,0
+C-3,Fri,17,C-Block (Computing),1,0
+C-4,Fri,17,C-Block (Computing),1,0
+C-5,Fri,17,C-Block (Computing),1,0
+C-6,Fri,17,C-Block (Computing),1,0
+C-7,Fri,17,C-Block (Computing),1,0
+D-11,Fri,17,D-Block (Electrical/Management),2,0
+D-2,Fri,17,D-Block (Electrical/Management),1,0
+D-5,Fri,17,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,17,E-Block (Library),1,0
+Eng Lab-1,Fri,17,E-Block (Library),1,0
+Eng Lab-2,Fri,17,E-Block (Library),1,0
+Eng Lab-3,Fri,17,E-Block (Library),1,0
+Eng Lab-4,Fri,17,E-Block (Library),1,0
+Eng Lab-5,Fri,17,E-Block (Library),1,0
+Eng Lab-6,Fri,17,E-Block (Library),1,0
+F-201,Fri,17,F-Block (New Building),2,1
+F-202,Fri,17,F-Block (New Building),2,0
+F-203,Fri,17,F-Block (New Building),2,0
+F-204,Fri,17,F-Block (New Building),2,0
+F-205,Fri,17,F-Block (New Building),2,0
+F-206,Fri,17,F-Block (New Building),2,0
+F-207,Fri,17,F-Block (New Building),2,0
+F-208,Fri,17,F-Block (New Building),2,0
+F-209,Fri,17,F-Block (New Building),2,0
+F-210,Fri,17,F-Block (New Building),2,0
+F-301,Fri,17,F-Block (New Building),3,0
+F-302,Fri,17,F-Block (New Building),3,0
+F-303,Fri,17,F-Block (New Building),3,0
+F-304,Fri,17,F-Block (New Building),3,0
+F-305,Fri,17,F-Block (New Building),3,0
+F-306,Fri,17,F-Block (New Building),3,0
+F-307,Fri,17,F-Block (New Building),3,0
+F-308,Fri,17,F-Block (New Building),3,0
+F-309,Fri,17,F-Block (New Building),3,0
+F-310,Fri,17,F-Block (New Building),3,0
+F-311,Fri,17,F-Block (New Building),3,0
+F-312,Fri,17,F-Block (New Building),3,0
+Lab-1,Fri,17,L-Block (Labs),1,0
+Lab-13,Fri,17,L-Block (Labs),2,0
+Lab-14,Fri,17,L-Block (Labs),2,0
+Lab-15,Fri,17,L-Block (Labs),2,0
+Lab-16,Fri,17,L-Block (Labs),2,0
+Lab-17,Fri,17,L-Block (Labs),2,0
+Lab-18,Fri,17,L-Block (Labs),2,0
+Lab-2,Fri,17,L-Block (Labs),1,0
+Lab-3,Fri,17,L-Block (Labs),1,0
+Lab-4,Fri,17,L-Block (Labs),1,0
+Lab-6,Fri,17,L-Block (Labs),1,0
+Lab-8,Fri,17,L-Block (Labs),1,0
+Micro Lab,Fri,17,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,17,D-Block (Electrical/Management),1,0
+S. Hall,Fri,17,D-Block (Electrical/Management),1,0
+lab-17,Fri,17,L-Block (Labs),2,0
+C-1,Fri,18,C-Block (Computing),1,0
+C-13,Fri,18,C-Block (Computing),2,0
+C-14,Fri,18,C-Block (Computing),2,0
+C-2,Fri,18,C-Block (Computing),1,0
+C-3,Fri,18,C-Block (Computing),1,0
+C-4,Fri,18,C-Block (Computing),1,0
+C-5,Fri,18,C-Block (Computing),1,0
+C-6,Fri,18,C-Block (Computing),1,0
+C-7,Fri,18,C-Block (Computing),1,0
+D-11,Fri,18,D-Block (Electrical/Management),2,0
+D-2,Fri,18,D-Block (Electrical/Management),1,0
+D-5,Fri,18,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,18,E-Block (Library),1,0
+Eng Lab-1,Fri,18,E-Block (Library),1,0
+Eng Lab-2,Fri,18,E-Block (Library),1,0
+Eng Lab-3,Fri,18,E-Block (Library),1,0
+Eng Lab-4,Fri,18,E-Block (Library),1,0
+Eng Lab-5,Fri,18,E-Block (Library),1,0
+Eng Lab-6,Fri,18,E-Block (Library),1,0
+F-201,Fri,18,F-Block (New Building),2,0
+F-202,Fri,18,F-Block (New Building),2,0
+F-203,Fri,18,F-Block (New Building),2,0
+F-204,Fri,18,F-Block (New Building),2,0
+F-205,Fri,18,F-Block (New Building),2,0
+F-206,Fri,18,F-Block (New Building),2,0
+F-207,Fri,18,F-Block (New Building),2,0
+F-208,Fri,18,F-Block (New Building),2,0
+F-209,Fri,18,F-Block (New Building),2,0
+F-210,Fri,18,F-Block (New Building),2,0
+F-301,Fri,18,F-Block (New Building),3,0
+F-302,Fri,18,F-Block (New Building),3,0
+F-303,Fri,18,F-Block (New Building),3,0
+F-304,Fri,18,F-Block (New Building),3,0
+F-305,Fri,18,F-Block (New Building),3,0
+F-306,Fri,18,F-Block (New Building),3,0
+F-307,Fri,18,F-Block (New Building),3,0
+F-308,Fri,18,F-Block (New Building),3,0
+F-309,Fri,18,F-Block (New Building),3,0
+F-310,Fri,18,F-Block (New Building),3,0
+F-311,Fri,18,F-Block (New Building),3,0
+F-312,Fri,18,F-Block (New Building),3,0
+Lab-1,Fri,18,L-Block (Labs),1,0
+Lab-13,Fri,18,L-Block (Labs),2,0
+Lab-14,Fri,18,L-Block (Labs),2,0
+Lab-15,Fri,18,L-Block (Labs),2,0
+Lab-16,Fri,18,L-Block (Labs),2,0
+Lab-17,Fri,18,L-Block (Labs),2,0
+Lab-18,Fri,18,L-Block (Labs),2,0
+Lab-2,Fri,18,L-Block (Labs),1,0
+Lab-3,Fri,18,L-Block (Labs),1,0
+Lab-4,Fri,18,L-Block (Labs),1,0
+Lab-6,Fri,18,L-Block (Labs),1,0
+Lab-8,Fri,18,L-Block (Labs),1,0
+Micro Lab,Fri,18,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,18,D-Block (Electrical/Management),1,0
+S. Hall,Fri,18,D-Block (Electrical/Management),1,0
+lab-17,Fri,18,L-Block (Labs),2,0
+C-1,Fri,19,C-Block (Computing),1,0
+C-13,Fri,19,C-Block (Computing),2,0
+C-14,Fri,19,C-Block (Computing),2,0
+C-2,Fri,19,C-Block (Computing),1,0
+C-3,Fri,19,C-Block (Computing),1,0
+C-4,Fri,19,C-Block (Computing),1,0
+C-5,Fri,19,C-Block (Computing),1,0
+C-6,Fri,19,C-Block (Computing),1,0
+C-7,Fri,19,C-Block (Computing),1,0
+D-11,Fri,19,D-Block (Electrical/Management),2,0
+D-2,Fri,19,D-Block (Electrical/Management),1,0
+D-5,Fri,19,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,19,E-Block (Library),1,0
+Eng Lab-1,Fri,19,E-Block (Library),1,0
+Eng Lab-2,Fri,19,E-Block (Library),1,0
+Eng Lab-3,Fri,19,E-Block (Library),1,0
+Eng Lab-4,Fri,19,E-Block (Library),1,0
+Eng Lab-5,Fri,19,E-Block (Library),1,0
+Eng Lab-6,Fri,19,E-Block (Library),1,0
+F-201,Fri,19,F-Block (New Building),2,0
+F-202,Fri,19,F-Block (New Building),2,0
+F-203,Fri,19,F-Block (New Building),2,0
+F-204,Fri,19,F-Block (New Building),2,0
+F-205,Fri,19,F-Block (New Building),2,0
+F-206,Fri,19,F-Block (New Building),2,0
+F-207,Fri,19,F-Block (New Building),2,0
+F-208,Fri,19,F-Block (New Building),2,0
+F-209,Fri,19,F-Block (New Building),2,0
+F-210,Fri,19,F-Block (New Building),2,0
+F-301,Fri,19,F-Block (New Building),3,0
+F-302,Fri,19,F-Block (New Building),3,0
+F-303,Fri,19,F-Block (New Building),3,0
+F-304,Fri,19,F-Block (New Building),3,0
+F-305,Fri,19,F-Block (New Building),3,0
+F-306,Fri,19,F-Block (New Building),3,0
+F-307,Fri,19,F-Block (New Building),3,0
+F-308,Fri,19,F-Block (New Building),3,0
+F-309,Fri,19,F-Block (New Building),3,0
+F-310,Fri,19,F-Block (New Building),3,0
+F-311,Fri,19,F-Block (New Building),3,0
+F-312,Fri,19,F-Block (New Building),3,0
+Lab-1,Fri,19,L-Block (Labs),1,0
+Lab-13,Fri,19,L-Block (Labs),2,0
+Lab-14,Fri,19,L-Block (Labs),2,0
+Lab-15,Fri,19,L-Block (Labs),2,0
+Lab-16,Fri,19,L-Block (Labs),2,0
+Lab-17,Fri,19,L-Block (Labs),2,0
+Lab-18,Fri,19,L-Block (Labs),2,0
+Lab-2,Fri,19,L-Block (Labs),1,0
+Lab-3,Fri,19,L-Block (Labs),1,0
+Lab-4,Fri,19,L-Block (Labs),1,0
+Lab-6,Fri,19,L-Block (Labs),1,0
+Lab-8,Fri,19,L-Block (Labs),1,0
+Micro Lab,Fri,19,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,19,D-Block (Electrical/Management),1,0
+S. Hall,Fri,19,D-Block (Electrical/Management),1,0
+lab-17,Fri,19,L-Block (Labs),2,0
+C-1,Fri,20,C-Block (Computing),1,0
+C-13,Fri,20,C-Block (Computing),2,0
+C-14,Fri,20,C-Block (Computing),2,0
+C-2,Fri,20,C-Block (Computing),1,0
+C-3,Fri,20,C-Block (Computing),1,0
+C-4,Fri,20,C-Block (Computing),1,0
+C-5,Fri,20,C-Block (Computing),1,0
+C-6,Fri,20,C-Block (Computing),1,0
+C-7,Fri,20,C-Block (Computing),1,0
+D-11,Fri,20,D-Block (Electrical/Management),2,0
+D-2,Fri,20,D-Block (Electrical/Management),1,0
+D-5,Fri,20,D-Block (Electrical/Management),1,0
+Embedded Lab,Fri,20,E-Block (Library),1,0
+Eng Lab-1,Fri,20,E-Block (Library),1,0
+Eng Lab-2,Fri,20,E-Block (Library),1,0
+Eng Lab-3,Fri,20,E-Block (Library),1,0
+Eng Lab-4,Fri,20,E-Block (Library),1,0
+Eng Lab-5,Fri,20,E-Block (Library),1,0
+Eng Lab-6,Fri,20,E-Block (Library),1,0
+F-201,Fri,20,F-Block (New Building),2,0
+F-202,Fri,20,F-Block (New Building),2,0
+F-203,Fri,20,F-Block (New Building),2,0
+F-204,Fri,20,F-Block (New Building),2,0
+F-205,Fri,20,F-Block (New Building),2,0
+F-206,Fri,20,F-Block (New Building),2,0
+F-207,Fri,20,F-Block (New Building),2,0
+F-208,Fri,20,F-Block (New Building),2,0
+F-209,Fri,20,F-Block (New Building),2,0
+F-210,Fri,20,F-Block (New Building),2,0
+F-301,Fri,20,F-Block (New Building),3,0
+F-302,Fri,20,F-Block (New Building),3,0
+F-303,Fri,20,F-Block (New Building),3,0
+F-304,Fri,20,F-Block (New Building),3,0
+F-305,Fri,20,F-Block (New Building),3,0
+F-306,Fri,20,F-Block (New Building),3,0
+F-307,Fri,20,F-Block (New Building),3,0
+F-308,Fri,20,F-Block (New Building),3,0
+F-309,Fri,20,F-Block (New Building),3,0
+F-310,Fri,20,F-Block (New Building),3,0
+F-311,Fri,20,F-Block (New Building),3,0
+F-312,Fri,20,F-Block (New Building),3,0
+Lab-1,Fri,20,L-Block (Labs),1,0
+Lab-13,Fri,20,L-Block (Labs),2,0
+Lab-14,Fri,20,L-Block (Labs),2,0
+Lab-15,Fri,20,L-Block (Labs),2,0
+Lab-16,Fri,20,L-Block (Labs),2,0
+Lab-17,Fri,20,L-Block (Labs),2,0
+Lab-18,Fri,20,L-Block (Labs),2,0
+Lab-2,Fri,20,L-Block (Labs),1,0
+Lab-3,Fri,20,L-Block (Labs),1,0
+Lab-4,Fri,20,L-Block (Labs),1,0
+Lab-6,Fri,20,L-Block (Labs),1,0
+Lab-8,Fri,20,L-Block (Labs),1,0
+Micro Lab,Fri,20,D-Block (Electrical/Management),1,0
+Physics Lab,Fri,20,D-Block (Electrical/Management),1,0
+S. Hall,Fri,20,D-Block (Electrical/Management),1,0
+lab-17,Fri,20,L-Block (Labs),2,0
+C-1,Sat,8,C-Block (Computing),1,0
+C-13,Sat,8,C-Block (Computing),2,0
+C-14,Sat,8,C-Block (Computing),2,0
+C-2,Sat,8,C-Block (Computing),1,0
+C-3,Sat,8,C-Block (Computing),1,0
+C-4,Sat,8,C-Block (Computing),1,0
+C-5,Sat,8,C-Block (Computing),1,0
+C-6,Sat,8,C-Block (Computing),1,0
+C-7,Sat,8,C-Block (Computing),1,0
+D-11,Sat,8,D-Block (Electrical/Management),2,0
+D-2,Sat,8,D-Block (Electrical/Management),1,0
+D-5,Sat,8,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,8,E-Block (Library),1,0
+Eng Lab-1,Sat,8,E-Block (Library),1,0
+Eng Lab-2,Sat,8,E-Block (Library),1,0
+Eng Lab-3,Sat,8,E-Block (Library),1,0
+Eng Lab-4,Sat,8,E-Block (Library),1,0
+Eng Lab-5,Sat,8,E-Block (Library),1,0
+Eng Lab-6,Sat,8,E-Block (Library),1,0
+F-201,Sat,8,F-Block (New Building),2,1
+F-202,Sat,8,F-Block (New Building),2,1
+F-203,Sat,8,F-Block (New Building),2,0
+F-204,Sat,8,F-Block (New Building),2,0
+F-205,Sat,8,F-Block (New Building),2,0
+F-206,Sat,8,F-Block (New Building),2,0
+F-207,Sat,8,F-Block (New Building),2,0
+F-208,Sat,8,F-Block (New Building),2,0
+F-209,Sat,8,F-Block (New Building),2,0
+F-210,Sat,8,F-Block (New Building),2,0
+F-301,Sat,8,F-Block (New Building),3,0
+F-302,Sat,8,F-Block (New Building),3,0
+F-303,Sat,8,F-Block (New Building),3,0
+F-304,Sat,8,F-Block (New Building),3,0
+F-305,Sat,8,F-Block (New Building),3,0
+F-306,Sat,8,F-Block (New Building),3,0
+F-307,Sat,8,F-Block (New Building),3,0
+F-308,Sat,8,F-Block (New Building),3,0
+F-309,Sat,8,F-Block (New Building),3,0
+F-310,Sat,8,F-Block (New Building),3,0
+F-311,Sat,8,F-Block (New Building),3,0
+F-312,Sat,8,F-Block (New Building),3,0
+Lab-1,Sat,8,L-Block (Labs),1,0
+Lab-13,Sat,8,L-Block (Labs),2,0
+Lab-14,Sat,8,L-Block (Labs),2,0
+Lab-15,Sat,8,L-Block (Labs),2,0
+Lab-16,Sat,8,L-Block (Labs),2,0
+Lab-17,Sat,8,L-Block (Labs),2,0
+Lab-18,Sat,8,L-Block (Labs),2,0
+Lab-2,Sat,8,L-Block (Labs),1,0
+Lab-3,Sat,8,L-Block (Labs),1,0
+Lab-4,Sat,8,L-Block (Labs),1,0
+Lab-6,Sat,8,L-Block (Labs),1,0
+Lab-8,Sat,8,L-Block (Labs),1,0
+Micro Lab,Sat,8,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,8,D-Block (Electrical/Management),1,0
+S. Hall,Sat,8,D-Block (Electrical/Management),1,0
+lab-17,Sat,8,L-Block (Labs),2,0
+C-1,Sat,9,C-Block (Computing),1,0
+C-13,Sat,9,C-Block (Computing),2,0
+C-14,Sat,9,C-Block (Computing),2,0
+C-2,Sat,9,C-Block (Computing),1,0
+C-3,Sat,9,C-Block (Computing),1,0
+C-4,Sat,9,C-Block (Computing),1,0
+C-5,Sat,9,C-Block (Computing),1,0
+C-6,Sat,9,C-Block (Computing),1,0
+C-7,Sat,9,C-Block (Computing),1,0
+D-11,Sat,9,D-Block (Electrical/Management),2,0
+D-2,Sat,9,D-Block (Electrical/Management),1,0
+D-5,Sat,9,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,9,E-Block (Library),1,0
+Eng Lab-1,Sat,9,E-Block (Library),1,0
+Eng Lab-2,Sat,9,E-Block (Library),1,0
+Eng Lab-3,Sat,9,E-Block (Library),1,0
+Eng Lab-4,Sat,9,E-Block (Library),1,0
+Eng Lab-5,Sat,9,E-Block (Library),1,0
+Eng Lab-6,Sat,9,E-Block (Library),1,0
+F-201,Sat,9,F-Block (New Building),2,0
+F-202,Sat,9,F-Block (New Building),2,0
+F-203,Sat,9,F-Block (New Building),2,0
+F-204,Sat,9,F-Block (New Building),2,0
+F-205,Sat,9,F-Block (New Building),2,0
+F-206,Sat,9,F-Block (New Building),2,0
+F-207,Sat,9,F-Block (New Building),2,0
+F-208,Sat,9,F-Block (New Building),2,0
+F-209,Sat,9,F-Block (New Building),2,0
+F-210,Sat,9,F-Block (New Building),2,0
+F-301,Sat,9,F-Block (New Building),3,0
+F-302,Sat,9,F-Block (New Building),3,0
+F-303,Sat,9,F-Block (New Building),3,0
+F-304,Sat,9,F-Block (New Building),3,0
+F-305,Sat,9,F-Block (New Building),3,0
+F-306,Sat,9,F-Block (New Building),3,0
+F-307,Sat,9,F-Block (New Building),3,0
+F-308,Sat,9,F-Block (New Building),3,0
+F-309,Sat,9,F-Block (New Building),3,0
+F-310,Sat,9,F-Block (New Building),3,0
+F-311,Sat,9,F-Block (New Building),3,0
+F-312,Sat,9,F-Block (New Building),3,0
+Lab-1,Sat,9,L-Block (Labs),1,0
+Lab-13,Sat,9,L-Block (Labs),2,0
+Lab-14,Sat,9,L-Block (Labs),2,0
+Lab-15,Sat,9,L-Block (Labs),2,0
+Lab-16,Sat,9,L-Block (Labs),2,0
+Lab-17,Sat,9,L-Block (Labs),2,0
+Lab-18,Sat,9,L-Block (Labs),2,0
+Lab-2,Sat,9,L-Block (Labs),1,0
+Lab-3,Sat,9,L-Block (Labs),1,0
+Lab-4,Sat,9,L-Block (Labs),1,0
+Lab-6,Sat,9,L-Block (Labs),1,0
+Lab-8,Sat,9,L-Block (Labs),1,0
+Micro Lab,Sat,9,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,9,D-Block (Electrical/Management),1,0
+S. Hall,Sat,9,D-Block (Electrical/Management),1,0
+lab-17,Sat,9,L-Block (Labs),2,0
+C-1,Sat,10,C-Block (Computing),1,0
+C-13,Sat,10,C-Block (Computing),2,0
+C-14,Sat,10,C-Block (Computing),2,0
+C-2,Sat,10,C-Block (Computing),1,0
+C-3,Sat,10,C-Block (Computing),1,0
+C-4,Sat,10,C-Block (Computing),1,0
+C-5,Sat,10,C-Block (Computing),1,0
+C-6,Sat,10,C-Block (Computing),1,0
+C-7,Sat,10,C-Block (Computing),1,0
+D-11,Sat,10,D-Block (Electrical/Management),2,0
+D-2,Sat,10,D-Block (Electrical/Management),1,0
+D-5,Sat,10,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,10,E-Block (Library),1,0
+Eng Lab-1,Sat,10,E-Block (Library),1,0
+Eng Lab-2,Sat,10,E-Block (Library),1,0
+Eng Lab-3,Sat,10,E-Block (Library),1,0
+Eng Lab-4,Sat,10,E-Block (Library),1,0
+Eng Lab-5,Sat,10,E-Block (Library),1,0
+Eng Lab-6,Sat,10,E-Block (Library),1,0
+F-201,Sat,10,F-Block (New Building),2,1
+F-202,Sat,10,F-Block (New Building),2,1
+F-203,Sat,10,F-Block (New Building),2,0
+F-204,Sat,10,F-Block (New Building),2,0
+F-205,Sat,10,F-Block (New Building),2,0
+F-206,Sat,10,F-Block (New Building),2,0
+F-207,Sat,10,F-Block (New Building),2,0
+F-208,Sat,10,F-Block (New Building),2,0
+F-209,Sat,10,F-Block (New Building),2,0
+F-210,Sat,10,F-Block (New Building),2,0
+F-301,Sat,10,F-Block (New Building),3,0
+F-302,Sat,10,F-Block (New Building),3,0
+F-303,Sat,10,F-Block (New Building),3,0
+F-304,Sat,10,F-Block (New Building),3,0
+F-305,Sat,10,F-Block (New Building),3,0
+F-306,Sat,10,F-Block (New Building),3,0
+F-307,Sat,10,F-Block (New Building),3,0
+F-308,Sat,10,F-Block (New Building),3,0
+F-309,Sat,10,F-Block (New Building),3,0
+F-310,Sat,10,F-Block (New Building),3,0
+F-311,Sat,10,F-Block (New Building),3,0
+F-312,Sat,10,F-Block (New Building),3,0
+Lab-1,Sat,10,L-Block (Labs),1,0
+Lab-13,Sat,10,L-Block (Labs),2,0
+Lab-14,Sat,10,L-Block (Labs),2,0
+Lab-15,Sat,10,L-Block (Labs),2,0
+Lab-16,Sat,10,L-Block (Labs),2,0
+Lab-17,Sat,10,L-Block (Labs),2,0
+Lab-18,Sat,10,L-Block (Labs),2,0
+Lab-2,Sat,10,L-Block (Labs),1,0
+Lab-3,Sat,10,L-Block (Labs),1,0
+Lab-4,Sat,10,L-Block (Labs),1,0
+Lab-6,Sat,10,L-Block (Labs),1,0
+Lab-8,Sat,10,L-Block (Labs),1,0
+Micro Lab,Sat,10,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,10,D-Block (Electrical/Management),1,0
+S. Hall,Sat,10,D-Block (Electrical/Management),1,0
+lab-17,Sat,10,L-Block (Labs),2,0
+C-1,Sat,11,C-Block (Computing),1,0
+C-13,Sat,11,C-Block (Computing),2,0
+C-14,Sat,11,C-Block (Computing),2,0
+C-2,Sat,11,C-Block (Computing),1,0
+C-3,Sat,11,C-Block (Computing),1,0
+C-4,Sat,11,C-Block (Computing),1,0
+C-5,Sat,11,C-Block (Computing),1,0
+C-6,Sat,11,C-Block (Computing),1,0
+C-7,Sat,11,C-Block (Computing),1,0
+D-11,Sat,11,D-Block (Electrical/Management),2,0
+D-2,Sat,11,D-Block (Electrical/Management),1,0
+D-5,Sat,11,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,11,E-Block (Library),1,0
+Eng Lab-1,Sat,11,E-Block (Library),1,0
+Eng Lab-2,Sat,11,E-Block (Library),1,0
+Eng Lab-3,Sat,11,E-Block (Library),1,0
+Eng Lab-4,Sat,11,E-Block (Library),1,0
+Eng Lab-5,Sat,11,E-Block (Library),1,0
+Eng Lab-6,Sat,11,E-Block (Library),1,0
+F-201,Sat,11,F-Block (New Building),2,0
+F-202,Sat,11,F-Block (New Building),2,0
+F-203,Sat,11,F-Block (New Building),2,0
+F-204,Sat,11,F-Block (New Building),2,0
+F-205,Sat,11,F-Block (New Building),2,0
+F-206,Sat,11,F-Block (New Building),2,0
+F-207,Sat,11,F-Block (New Building),2,0
+F-208,Sat,11,F-Block (New Building),2,0
+F-209,Sat,11,F-Block (New Building),2,0
+F-210,Sat,11,F-Block (New Building),2,0
+F-301,Sat,11,F-Block (New Building),3,0
+F-302,Sat,11,F-Block (New Building),3,0
+F-303,Sat,11,F-Block (New Building),3,0
+F-304,Sat,11,F-Block (New Building),3,0
+F-305,Sat,11,F-Block (New Building),3,0
+F-306,Sat,11,F-Block (New Building),3,0
+F-307,Sat,11,F-Block (New Building),3,0
+F-308,Sat,11,F-Block (New Building),3,0
+F-309,Sat,11,F-Block (New Building),3,0
+F-310,Sat,11,F-Block (New Building),3,0
+F-311,Sat,11,F-Block (New Building),3,0
+F-312,Sat,11,F-Block (New Building),3,0
+Lab-1,Sat,11,L-Block (Labs),1,0
+Lab-13,Sat,11,L-Block (Labs),2,0
+Lab-14,Sat,11,L-Block (Labs),2,0
+Lab-15,Sat,11,L-Block (Labs),2,0
+Lab-16,Sat,11,L-Block (Labs),2,0
+Lab-17,Sat,11,L-Block (Labs),2,0
+Lab-18,Sat,11,L-Block (Labs),2,0
+Lab-2,Sat,11,L-Block (Labs),1,0
+Lab-3,Sat,11,L-Block (Labs),1,0
+Lab-4,Sat,11,L-Block (Labs),1,0
+Lab-6,Sat,11,L-Block (Labs),1,0
+Lab-8,Sat,11,L-Block (Labs),1,0
+Micro Lab,Sat,11,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,11,D-Block (Electrical/Management),1,0
+S. Hall,Sat,11,D-Block (Electrical/Management),1,0
+lab-17,Sat,11,L-Block (Labs),2,0
+C-1,Sat,12,C-Block (Computing),1,0
+C-13,Sat,12,C-Block (Computing),2,0
+C-14,Sat,12,C-Block (Computing),2,0
+C-2,Sat,12,C-Block (Computing),1,0
+C-3,Sat,12,C-Block (Computing),1,0
+C-4,Sat,12,C-Block (Computing),1,0
+C-5,Sat,12,C-Block (Computing),1,0
+C-6,Sat,12,C-Block (Computing),1,0
+C-7,Sat,12,C-Block (Computing),1,0
+D-11,Sat,12,D-Block (Electrical/Management),2,0
+D-2,Sat,12,D-Block (Electrical/Management),1,0
+D-5,Sat,12,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,12,E-Block (Library),1,0
+Eng Lab-1,Sat,12,E-Block (Library),1,0
+Eng Lab-2,Sat,12,E-Block (Library),1,0
+Eng Lab-3,Sat,12,E-Block (Library),1,0
+Eng Lab-4,Sat,12,E-Block (Library),1,0
+Eng Lab-5,Sat,12,E-Block (Library),1,0
+Eng Lab-6,Sat,12,E-Block (Library),1,0
+F-201,Sat,12,F-Block (New Building),2,0
+F-202,Sat,12,F-Block (New Building),2,0
+F-203,Sat,12,F-Block (New Building),2,0
+F-204,Sat,12,F-Block (New Building),2,0
+F-205,Sat,12,F-Block (New Building),2,0
+F-206,Sat,12,F-Block (New Building),2,0
+F-207,Sat,12,F-Block (New Building),2,0
+F-208,Sat,12,F-Block (New Building),2,0
+F-209,Sat,12,F-Block (New Building),2,0
+F-210,Sat,12,F-Block (New Building),2,0
+F-301,Sat,12,F-Block (New Building),3,0
+F-302,Sat,12,F-Block (New Building),3,0
+F-303,Sat,12,F-Block (New Building),3,0
+F-304,Sat,12,F-Block (New Building),3,0
+F-305,Sat,12,F-Block (New Building),3,0
+F-306,Sat,12,F-Block (New Building),3,0
+F-307,Sat,12,F-Block (New Building),3,0
+F-308,Sat,12,F-Block (New Building),3,0
+F-309,Sat,12,F-Block (New Building),3,0
+F-310,Sat,12,F-Block (New Building),3,0
+F-311,Sat,12,F-Block (New Building),3,0
+F-312,Sat,12,F-Block (New Building),3,0
+Lab-1,Sat,12,L-Block (Labs),1,0
+Lab-13,Sat,12,L-Block (Labs),2,0
+Lab-14,Sat,12,L-Block (Labs),2,0
+Lab-15,Sat,12,L-Block (Labs),2,0
+Lab-16,Sat,12,L-Block (Labs),2,0
+Lab-17,Sat,12,L-Block (Labs),2,0
+Lab-18,Sat,12,L-Block (Labs),2,0
+Lab-2,Sat,12,L-Block (Labs),1,0
+Lab-3,Sat,12,L-Block (Labs),1,0
+Lab-4,Sat,12,L-Block (Labs),1,0
+Lab-6,Sat,12,L-Block (Labs),1,0
+Lab-8,Sat,12,L-Block (Labs),1,0
+Micro Lab,Sat,12,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,12,D-Block (Electrical/Management),1,0
+S. Hall,Sat,12,D-Block (Electrical/Management),1,0
+lab-17,Sat,12,L-Block (Labs),2,0
+C-1,Sat,13,C-Block (Computing),1,0
+C-13,Sat,13,C-Block (Computing),2,0
+C-14,Sat,13,C-Block (Computing),2,0
+C-2,Sat,13,C-Block (Computing),1,0
+C-3,Sat,13,C-Block (Computing),1,0
+C-4,Sat,13,C-Block (Computing),1,0
+C-5,Sat,13,C-Block (Computing),1,0
+C-6,Sat,13,C-Block (Computing),1,0
+C-7,Sat,13,C-Block (Computing),1,0
+D-11,Sat,13,D-Block (Electrical/Management),2,0
+D-2,Sat,13,D-Block (Electrical/Management),1,0
+D-5,Sat,13,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,13,E-Block (Library),1,0
+Eng Lab-1,Sat,13,E-Block (Library),1,0
+Eng Lab-2,Sat,13,E-Block (Library),1,0
+Eng Lab-3,Sat,13,E-Block (Library),1,0
+Eng Lab-4,Sat,13,E-Block (Library),1,0
+Eng Lab-5,Sat,13,E-Block (Library),1,0
+Eng Lab-6,Sat,13,E-Block (Library),1,0
+F-201,Sat,13,F-Block (New Building),2,0
+F-202,Sat,13,F-Block (New Building),2,0
+F-203,Sat,13,F-Block (New Building),2,0
+F-204,Sat,13,F-Block (New Building),2,0
+F-205,Sat,13,F-Block (New Building),2,0
+F-206,Sat,13,F-Block (New Building),2,0
+F-207,Sat,13,F-Block (New Building),2,0
+F-208,Sat,13,F-Block (New Building),2,0
+F-209,Sat,13,F-Block (New Building),2,0
+F-210,Sat,13,F-Block (New Building),2,0
+F-301,Sat,13,F-Block (New Building),3,0
+F-302,Sat,13,F-Block (New Building),3,0
+F-303,Sat,13,F-Block (New Building),3,0
+F-304,Sat,13,F-Block (New Building),3,0
+F-305,Sat,13,F-Block (New Building),3,0
+F-306,Sat,13,F-Block (New Building),3,0
+F-307,Sat,13,F-Block (New Building),3,0
+F-308,Sat,13,F-Block (New Building),3,0
+F-309,Sat,13,F-Block (New Building),3,0
+F-310,Sat,13,F-Block (New Building),3,0
+F-311,Sat,13,F-Block (New Building),3,0
+F-312,Sat,13,F-Block (New Building),3,0
+Lab-1,Sat,13,L-Block (Labs),1,0
+Lab-13,Sat,13,L-Block (Labs),2,0
+Lab-14,Sat,13,L-Block (Labs),2,0
+Lab-15,Sat,13,L-Block (Labs),2,0
+Lab-16,Sat,13,L-Block (Labs),2,0
+Lab-17,Sat,13,L-Block (Labs),2,0
+Lab-18,Sat,13,L-Block (Labs),2,0
+Lab-2,Sat,13,L-Block (Labs),1,0
+Lab-3,Sat,13,L-Block (Labs),1,0
+Lab-4,Sat,13,L-Block (Labs),1,0
+Lab-6,Sat,13,L-Block (Labs),1,0
+Lab-8,Sat,13,L-Block (Labs),1,0
+Micro Lab,Sat,13,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,13,D-Block (Electrical/Management),1,0
+S. Hall,Sat,13,D-Block (Electrical/Management),1,0
+lab-17,Sat,13,L-Block (Labs),2,0
+C-1,Sat,14,C-Block (Computing),1,0
+C-13,Sat,14,C-Block (Computing),2,0
+C-14,Sat,14,C-Block (Computing),2,0
+C-2,Sat,14,C-Block (Computing),1,0
+C-3,Sat,14,C-Block (Computing),1,0
+C-4,Sat,14,C-Block (Computing),1,0
+C-5,Sat,14,C-Block (Computing),1,0
+C-6,Sat,14,C-Block (Computing),1,0
+C-7,Sat,14,C-Block (Computing),1,0
+D-11,Sat,14,D-Block (Electrical/Management),2,0
+D-2,Sat,14,D-Block (Electrical/Management),1,0
+D-5,Sat,14,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,14,E-Block (Library),1,0
+Eng Lab-1,Sat,14,E-Block (Library),1,0
+Eng Lab-2,Sat,14,E-Block (Library),1,0
+Eng Lab-3,Sat,14,E-Block (Library),1,0
+Eng Lab-4,Sat,14,E-Block (Library),1,0
+Eng Lab-5,Sat,14,E-Block (Library),1,0
+Eng Lab-6,Sat,14,E-Block (Library),1,0
+F-201,Sat,14,F-Block (New Building),2,0
+F-202,Sat,14,F-Block (New Building),2,0
+F-203,Sat,14,F-Block (New Building),2,0
+F-204,Sat,14,F-Block (New Building),2,0
+F-205,Sat,14,F-Block (New Building),2,0
+F-206,Sat,14,F-Block (New Building),2,0
+F-207,Sat,14,F-Block (New Building),2,0
+F-208,Sat,14,F-Block (New Building),2,0
+F-209,Sat,14,F-Block (New Building),2,0
+F-210,Sat,14,F-Block (New Building),2,0
+F-301,Sat,14,F-Block (New Building),3,0
+F-302,Sat,14,F-Block (New Building),3,0
+F-303,Sat,14,F-Block (New Building),3,0
+F-304,Sat,14,F-Block (New Building),3,0
+F-305,Sat,14,F-Block (New Building),3,0
+F-306,Sat,14,F-Block (New Building),3,0
+F-307,Sat,14,F-Block (New Building),3,0
+F-308,Sat,14,F-Block (New Building),3,0
+F-309,Sat,14,F-Block (New Building),3,0
+F-310,Sat,14,F-Block (New Building),3,0
+F-311,Sat,14,F-Block (New Building),3,0
+F-312,Sat,14,F-Block (New Building),3,0
+Lab-1,Sat,14,L-Block (Labs),1,0
+Lab-13,Sat,14,L-Block (Labs),2,0
+Lab-14,Sat,14,L-Block (Labs),2,0
+Lab-15,Sat,14,L-Block (Labs),2,0
+Lab-16,Sat,14,L-Block (Labs),2,0
+Lab-17,Sat,14,L-Block (Labs),2,0
+Lab-18,Sat,14,L-Block (Labs),2,0
+Lab-2,Sat,14,L-Block (Labs),1,0
+Lab-3,Sat,14,L-Block (Labs),1,0
+Lab-4,Sat,14,L-Block (Labs),1,0
+Lab-6,Sat,14,L-Block (Labs),1,0
+Lab-8,Sat,14,L-Block (Labs),1,0
+Micro Lab,Sat,14,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,14,D-Block (Electrical/Management),1,0
+S. Hall,Sat,14,D-Block (Electrical/Management),1,0
+lab-17,Sat,14,L-Block (Labs),2,0
+C-1,Sat,15,C-Block (Computing),1,0
+C-13,Sat,15,C-Block (Computing),2,0
+C-14,Sat,15,C-Block (Computing),2,0
+C-2,Sat,15,C-Block (Computing),1,0
+C-3,Sat,15,C-Block (Computing),1,0
+C-4,Sat,15,C-Block (Computing),1,0
+C-5,Sat,15,C-Block (Computing),1,0
+C-6,Sat,15,C-Block (Computing),1,0
+C-7,Sat,15,C-Block (Computing),1,0
+D-11,Sat,15,D-Block (Electrical/Management),2,0
+D-2,Sat,15,D-Block (Electrical/Management),1,0
+D-5,Sat,15,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,15,E-Block (Library),1,0
+Eng Lab-1,Sat,15,E-Block (Library),1,0
+Eng Lab-2,Sat,15,E-Block (Library),1,0
+Eng Lab-3,Sat,15,E-Block (Library),1,0
+Eng Lab-4,Sat,15,E-Block (Library),1,0
+Eng Lab-5,Sat,15,E-Block (Library),1,0
+Eng Lab-6,Sat,15,E-Block (Library),1,0
+F-201,Sat,15,F-Block (New Building),2,0
+F-202,Sat,15,F-Block (New Building),2,0
+F-203,Sat,15,F-Block (New Building),2,0
+F-204,Sat,15,F-Block (New Building),2,0
+F-205,Sat,15,F-Block (New Building),2,0
+F-206,Sat,15,F-Block (New Building),2,0
+F-207,Sat,15,F-Block (New Building),2,0
+F-208,Sat,15,F-Block (New Building),2,0
+F-209,Sat,15,F-Block (New Building),2,0
+F-210,Sat,15,F-Block (New Building),2,0
+F-301,Sat,15,F-Block (New Building),3,0
+F-302,Sat,15,F-Block (New Building),3,0
+F-303,Sat,15,F-Block (New Building),3,0
+F-304,Sat,15,F-Block (New Building),3,0
+F-305,Sat,15,F-Block (New Building),3,0
+F-306,Sat,15,F-Block (New Building),3,0
+F-307,Sat,15,F-Block (New Building),3,0
+F-308,Sat,15,F-Block (New Building),3,0
+F-309,Sat,15,F-Block (New Building),3,0
+F-310,Sat,15,F-Block (New Building),3,0
+F-311,Sat,15,F-Block (New Building),3,0
+F-312,Sat,15,F-Block (New Building),3,0
+Lab-1,Sat,15,L-Block (Labs),1,0
+Lab-13,Sat,15,L-Block (Labs),2,0
+Lab-14,Sat,15,L-Block (Labs),2,0
+Lab-15,Sat,15,L-Block (Labs),2,0
+Lab-16,Sat,15,L-Block (Labs),2,0
+Lab-17,Sat,15,L-Block (Labs),2,0
+Lab-18,Sat,15,L-Block (Labs),2,0
+Lab-2,Sat,15,L-Block (Labs),1,0
+Lab-3,Sat,15,L-Block (Labs),1,0
+Lab-4,Sat,15,L-Block (Labs),1,0
+Lab-6,Sat,15,L-Block (Labs),1,0
+Lab-8,Sat,15,L-Block (Labs),1,0
+Micro Lab,Sat,15,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,15,D-Block (Electrical/Management),1,0
+S. Hall,Sat,15,D-Block (Electrical/Management),1,0
+lab-17,Sat,15,L-Block (Labs),2,0
+C-1,Sat,16,C-Block (Computing),1,0
+C-13,Sat,16,C-Block (Computing),2,0
+C-14,Sat,16,C-Block (Computing),2,0
+C-2,Sat,16,C-Block (Computing),1,0
+C-3,Sat,16,C-Block (Computing),1,0
+C-4,Sat,16,C-Block (Computing),1,0
+C-5,Sat,16,C-Block (Computing),1,0
+C-6,Sat,16,C-Block (Computing),1,0
+C-7,Sat,16,C-Block (Computing),1,0
+D-11,Sat,16,D-Block (Electrical/Management),2,0
+D-2,Sat,16,D-Block (Electrical/Management),1,0
+D-5,Sat,16,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,16,E-Block (Library),1,0
+Eng Lab-1,Sat,16,E-Block (Library),1,0
+Eng Lab-2,Sat,16,E-Block (Library),1,0
+Eng Lab-3,Sat,16,E-Block (Library),1,0
+Eng Lab-4,Sat,16,E-Block (Library),1,0
+Eng Lab-5,Sat,16,E-Block (Library),1,0
+Eng Lab-6,Sat,16,E-Block (Library),1,0
+F-201,Sat,16,F-Block (New Building),2,0
+F-202,Sat,16,F-Block (New Building),2,0
+F-203,Sat,16,F-Block (New Building),2,0
+F-204,Sat,16,F-Block (New Building),2,0
+F-205,Sat,16,F-Block (New Building),2,0
+F-206,Sat,16,F-Block (New Building),2,0
+F-207,Sat,16,F-Block (New Building),2,0
+F-208,Sat,16,F-Block (New Building),2,0
+F-209,Sat,16,F-Block (New Building),2,0
+F-210,Sat,16,F-Block (New Building),2,0
+F-301,Sat,16,F-Block (New Building),3,0
+F-302,Sat,16,F-Block (New Building),3,0
+F-303,Sat,16,F-Block (New Building),3,0
+F-304,Sat,16,F-Block (New Building),3,0
+F-305,Sat,16,F-Block (New Building),3,0
+F-306,Sat,16,F-Block (New Building),3,0
+F-307,Sat,16,F-Block (New Building),3,0
+F-308,Sat,16,F-Block (New Building),3,0
+F-309,Sat,16,F-Block (New Building),3,0
+F-310,Sat,16,F-Block (New Building),3,0
+F-311,Sat,16,F-Block (New Building),3,0
+F-312,Sat,16,F-Block (New Building),3,0
+Lab-1,Sat,16,L-Block (Labs),1,0
+Lab-13,Sat,16,L-Block (Labs),2,0
+Lab-14,Sat,16,L-Block (Labs),2,0
+Lab-15,Sat,16,L-Block (Labs),2,0
+Lab-16,Sat,16,L-Block (Labs),2,0
+Lab-17,Sat,16,L-Block (Labs),2,0
+Lab-18,Sat,16,L-Block (Labs),2,0
+Lab-2,Sat,16,L-Block (Labs),1,0
+Lab-3,Sat,16,L-Block (Labs),1,0
+Lab-4,Sat,16,L-Block (Labs),1,0
+Lab-6,Sat,16,L-Block (Labs),1,0
+Lab-8,Sat,16,L-Block (Labs),1,0
+Micro Lab,Sat,16,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,16,D-Block (Electrical/Management),1,0
+S. Hall,Sat,16,D-Block (Electrical/Management),1,0
+lab-17,Sat,16,L-Block (Labs),2,0
+C-1,Sat,17,C-Block (Computing),1,0
+C-13,Sat,17,C-Block (Computing),2,0
+C-14,Sat,17,C-Block (Computing),2,0
+C-2,Sat,17,C-Block (Computing),1,0
+C-3,Sat,17,C-Block (Computing),1,0
+C-4,Sat,17,C-Block (Computing),1,0
+C-5,Sat,17,C-Block (Computing),1,0
+C-6,Sat,17,C-Block (Computing),1,0
+C-7,Sat,17,C-Block (Computing),1,0
+D-11,Sat,17,D-Block (Electrical/Management),2,0
+D-2,Sat,17,D-Block (Electrical/Management),1,0
+D-5,Sat,17,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,17,E-Block (Library),1,0
+Eng Lab-1,Sat,17,E-Block (Library),1,0
+Eng Lab-2,Sat,17,E-Block (Library),1,0
+Eng Lab-3,Sat,17,E-Block (Library),1,0
+Eng Lab-4,Sat,17,E-Block (Library),1,0
+Eng Lab-5,Sat,17,E-Block (Library),1,0
+Eng Lab-6,Sat,17,E-Block (Library),1,0
+F-201,Sat,17,F-Block (New Building),2,0
+F-202,Sat,17,F-Block (New Building),2,0
+F-203,Sat,17,F-Block (New Building),2,0
+F-204,Sat,17,F-Block (New Building),2,0
+F-205,Sat,17,F-Block (New Building),2,0
+F-206,Sat,17,F-Block (New Building),2,0
+F-207,Sat,17,F-Block (New Building),2,0
+F-208,Sat,17,F-Block (New Building),2,0
+F-209,Sat,17,F-Block (New Building),2,0
+F-210,Sat,17,F-Block (New Building),2,0
+F-301,Sat,17,F-Block (New Building),3,0
+F-302,Sat,17,F-Block (New Building),3,0
+F-303,Sat,17,F-Block (New Building),3,0
+F-304,Sat,17,F-Block (New Building),3,0
+F-305,Sat,17,F-Block (New Building),3,0
+F-306,Sat,17,F-Block (New Building),3,0
+F-307,Sat,17,F-Block (New Building),3,0
+F-308,Sat,17,F-Block (New Building),3,0
+F-309,Sat,17,F-Block (New Building),3,0
+F-310,Sat,17,F-Block (New Building),3,0
+F-311,Sat,17,F-Block (New Building),3,0
+F-312,Sat,17,F-Block (New Building),3,0
+Lab-1,Sat,17,L-Block (Labs),1,0
+Lab-13,Sat,17,L-Block (Labs),2,0
+Lab-14,Sat,17,L-Block (Labs),2,0
+Lab-15,Sat,17,L-Block (Labs),2,0
+Lab-16,Sat,17,L-Block (Labs),2,0
+Lab-17,Sat,17,L-Block (Labs),2,0
+Lab-18,Sat,17,L-Block (Labs),2,0
+Lab-2,Sat,17,L-Block (Labs),1,0
+Lab-3,Sat,17,L-Block (Labs),1,0
+Lab-4,Sat,17,L-Block (Labs),1,0
+Lab-6,Sat,17,L-Block (Labs),1,0
+Lab-8,Sat,17,L-Block (Labs),1,0
+Micro Lab,Sat,17,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,17,D-Block (Electrical/Management),1,0
+S. Hall,Sat,17,D-Block (Electrical/Management),1,0
+lab-17,Sat,17,L-Block (Labs),2,0
+C-1,Sat,18,C-Block (Computing),1,0
+C-13,Sat,18,C-Block (Computing),2,0
+C-14,Sat,18,C-Block (Computing),2,0
+C-2,Sat,18,C-Block (Computing),1,0
+C-3,Sat,18,C-Block (Computing),1,0
+C-4,Sat,18,C-Block (Computing),1,0
+C-5,Sat,18,C-Block (Computing),1,0
+C-6,Sat,18,C-Block (Computing),1,0
+C-7,Sat,18,C-Block (Computing),1,0
+D-11,Sat,18,D-Block (Electrical/Management),2,0
+D-2,Sat,18,D-Block (Electrical/Management),1,0
+D-5,Sat,18,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,18,E-Block (Library),1,0
+Eng Lab-1,Sat,18,E-Block (Library),1,0
+Eng Lab-2,Sat,18,E-Block (Library),1,0
+Eng Lab-3,Sat,18,E-Block (Library),1,0
+Eng Lab-4,Sat,18,E-Block (Library),1,0
+Eng Lab-5,Sat,18,E-Block (Library),1,0
+Eng Lab-6,Sat,18,E-Block (Library),1,0
+F-201,Sat,18,F-Block (New Building),2,0
+F-202,Sat,18,F-Block (New Building),2,0
+F-203,Sat,18,F-Block (New Building),2,0
+F-204,Sat,18,F-Block (New Building),2,0
+F-205,Sat,18,F-Block (New Building),2,0
+F-206,Sat,18,F-Block (New Building),2,0
+F-207,Sat,18,F-Block (New Building),2,0
+F-208,Sat,18,F-Block (New Building),2,0
+F-209,Sat,18,F-Block (New Building),2,0
+F-210,Sat,18,F-Block (New Building),2,0
+F-301,Sat,18,F-Block (New Building),3,0
+F-302,Sat,18,F-Block (New Building),3,0
+F-303,Sat,18,F-Block (New Building),3,0
+F-304,Sat,18,F-Block (New Building),3,0
+F-305,Sat,18,F-Block (New Building),3,0
+F-306,Sat,18,F-Block (New Building),3,0
+F-307,Sat,18,F-Block (New Building),3,0
+F-308,Sat,18,F-Block (New Building),3,0
+F-309,Sat,18,F-Block (New Building),3,0
+F-310,Sat,18,F-Block (New Building),3,0
+F-311,Sat,18,F-Block (New Building),3,0
+F-312,Sat,18,F-Block (New Building),3,0
+Lab-1,Sat,18,L-Block (Labs),1,0
+Lab-13,Sat,18,L-Block (Labs),2,0
+Lab-14,Sat,18,L-Block (Labs),2,0
+Lab-15,Sat,18,L-Block (Labs),2,0
+Lab-16,Sat,18,L-Block (Labs),2,0
+Lab-17,Sat,18,L-Block (Labs),2,0
+Lab-18,Sat,18,L-Block (Labs),2,0
+Lab-2,Sat,18,L-Block (Labs),1,0
+Lab-3,Sat,18,L-Block (Labs),1,0
+Lab-4,Sat,18,L-Block (Labs),1,0
+Lab-6,Sat,18,L-Block (Labs),1,0
+Lab-8,Sat,18,L-Block (Labs),1,0
+Micro Lab,Sat,18,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,18,D-Block (Electrical/Management),1,0
+S. Hall,Sat,18,D-Block (Electrical/Management),1,0
+lab-17,Sat,18,L-Block (Labs),2,0
+C-1,Sat,19,C-Block (Computing),1,0
+C-13,Sat,19,C-Block (Computing),2,0
+C-14,Sat,19,C-Block (Computing),2,0
+C-2,Sat,19,C-Block (Computing),1,0
+C-3,Sat,19,C-Block (Computing),1,0
+C-4,Sat,19,C-Block (Computing),1,0
+C-5,Sat,19,C-Block (Computing),1,0
+C-6,Sat,19,C-Block (Computing),1,0
+C-7,Sat,19,C-Block (Computing),1,0
+D-11,Sat,19,D-Block (Electrical/Management),2,0
+D-2,Sat,19,D-Block (Electrical/Management),1,0
+D-5,Sat,19,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,19,E-Block (Library),1,0
+Eng Lab-1,Sat,19,E-Block (Library),1,0
+Eng Lab-2,Sat,19,E-Block (Library),1,0
+Eng Lab-3,Sat,19,E-Block (Library),1,0
+Eng Lab-4,Sat,19,E-Block (Library),1,0
+Eng Lab-5,Sat,19,E-Block (Library),1,0
+Eng Lab-6,Sat,19,E-Block (Library),1,0
+F-201,Sat,19,F-Block (New Building),2,0
+F-202,Sat,19,F-Block (New Building),2,0
+F-203,Sat,19,F-Block (New Building),2,0
+F-204,Sat,19,F-Block (New Building),2,0
+F-205,Sat,19,F-Block (New Building),2,0
+F-206,Sat,19,F-Block (New Building),2,0
+F-207,Sat,19,F-Block (New Building),2,0
+F-208,Sat,19,F-Block (New Building),2,0
+F-209,Sat,19,F-Block (New Building),2,0
+F-210,Sat,19,F-Block (New Building),2,0
+F-301,Sat,19,F-Block (New Building),3,0
+F-302,Sat,19,F-Block (New Building),3,0
+F-303,Sat,19,F-Block (New Building),3,0
+F-304,Sat,19,F-Block (New Building),3,0
+F-305,Sat,19,F-Block (New Building),3,0
+F-306,Sat,19,F-Block (New Building),3,0
+F-307,Sat,19,F-Block (New Building),3,0
+F-308,Sat,19,F-Block (New Building),3,0
+F-309,Sat,19,F-Block (New Building),3,0
+F-310,Sat,19,F-Block (New Building),3,0
+F-311,Sat,19,F-Block (New Building),3,0
+F-312,Sat,19,F-Block (New Building),3,0
+Lab-1,Sat,19,L-Block (Labs),1,0
+Lab-13,Sat,19,L-Block (Labs),2,0
+Lab-14,Sat,19,L-Block (Labs),2,0
+Lab-15,Sat,19,L-Block (Labs),2,0
+Lab-16,Sat,19,L-Block (Labs),2,0
+Lab-17,Sat,19,L-Block (Labs),2,0
+Lab-18,Sat,19,L-Block (Labs),2,0
+Lab-2,Sat,19,L-Block (Labs),1,0
+Lab-3,Sat,19,L-Block (Labs),1,0
+Lab-4,Sat,19,L-Block (Labs),1,0
+Lab-6,Sat,19,L-Block (Labs),1,0
+Lab-8,Sat,19,L-Block (Labs),1,0
+Micro Lab,Sat,19,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,19,D-Block (Electrical/Management),1,0
+S. Hall,Sat,19,D-Block (Electrical/Management),1,0
+lab-17,Sat,19,L-Block (Labs),2,0
+C-1,Sat,20,C-Block (Computing),1,0
+C-13,Sat,20,C-Block (Computing),2,0
+C-14,Sat,20,C-Block (Computing),2,0
+C-2,Sat,20,C-Block (Computing),1,0
+C-3,Sat,20,C-Block (Computing),1,0
+C-4,Sat,20,C-Block (Computing),1,0
+C-5,Sat,20,C-Block (Computing),1,0
+C-6,Sat,20,C-Block (Computing),1,0
+C-7,Sat,20,C-Block (Computing),1,0
+D-11,Sat,20,D-Block (Electrical/Management),2,0
+D-2,Sat,20,D-Block (Electrical/Management),1,0
+D-5,Sat,20,D-Block (Electrical/Management),1,0
+Embedded Lab,Sat,20,E-Block (Library),1,0
+Eng Lab-1,Sat,20,E-Block (Library),1,0
+Eng Lab-2,Sat,20,E-Block (Library),1,0
+Eng Lab-3,Sat,20,E-Block (Library),1,0
+Eng Lab-4,Sat,20,E-Block (Library),1,0
+Eng Lab-5,Sat,20,E-Block (Library),1,0
+Eng Lab-6,Sat,20,E-Block (Library),1,0
+F-201,Sat,20,F-Block (New Building),2,0
+F-202,Sat,20,F-Block (New Building),2,0
+F-203,Sat,20,F-Block (New Building),2,0
+F-204,Sat,20,F-Block (New Building),2,0
+F-205,Sat,20,F-Block (New Building),2,0
+F-206,Sat,20,F-Block (New Building),2,0
+F-207,Sat,20,F-Block (New Building),2,0
+F-208,Sat,20,F-Block (New Building),2,0
+F-209,Sat,20,F-Block (New Building),2,0
+F-210,Sat,20,F-Block (New Building),2,0
+F-301,Sat,20,F-Block (New Building),3,0
+F-302,Sat,20,F-Block (New Building),3,0
+F-303,Sat,20,F-Block (New Building),3,0
+F-304,Sat,20,F-Block (New Building),3,0
+F-305,Sat,20,F-Block (New Building),3,0
+F-306,Sat,20,F-Block (New Building),3,0
+F-307,Sat,20,F-Block (New Building),3,0
+F-308,Sat,20,F-Block (New Building),3,0
+F-309,Sat,20,F-Block (New Building),3,0
+F-310,Sat,20,F-Block (New Building),3,0
+F-311,Sat,20,F-Block (New Building),3,0
+F-312,Sat,20,F-Block (New Building),3,0
+Lab-1,Sat,20,L-Block (Labs),1,0
+Lab-13,Sat,20,L-Block (Labs),2,0
+Lab-14,Sat,20,L-Block (Labs),2,0
+Lab-15,Sat,20,L-Block (Labs),2,0
+Lab-16,Sat,20,L-Block (Labs),2,0
+Lab-17,Sat,20,L-Block (Labs),2,0
+Lab-18,Sat,20,L-Block (Labs),2,0
+Lab-2,Sat,20,L-Block (Labs),1,0
+Lab-3,Sat,20,L-Block (Labs),1,0
+Lab-4,Sat,20,L-Block (Labs),1,0
+Lab-6,Sat,20,L-Block (Labs),1,0
+Lab-8,Sat,20,L-Block (Labs),1,0
+Micro Lab,Sat,20,D-Block (Electrical/Management),1,0
+Physics Lab,Sat,20,D-Block (Electrical/Management),1,0
+S. Hall,Sat,20,D-Block (Electrical/Management),1,0
+lab-17,Sat,20,L-Block (Labs),2,0

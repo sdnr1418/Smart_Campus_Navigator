@@ -1,0 +1,146 @@
+# Guide: Room Usability Dataset Generation
+## `7_generate_dataset.py`
+
+This script is the **Feature Engineering** engine of the Smart Campus Navigator. It transforms raw schedules into a high-dimensional dataset that an AI model can understand.
+
+---
+
+## File I/O
+
+```
+READS:
+  Data/raw/all_rooms.csv         ← campus room registry (which rooms exist + location)
+  Data/raw/prev_sem_data.csv     ← historical timetable (what was occupied when)
+
+WRITES:
+  Data/room_usability_dataset.csv  ← ML-ready dataset (one row per room/day/hour slot)
+```
+
+### Input 1: `Data/raw/all_rooms.csv`
+The static room registry. One row per room in the university.
+
+| Column | Example | Meaning |
+| :--- | :--- | :--- |
+| `Room` | Lab-101 | Unique room name / identifier |
+| `Building` | A-Block | Block the room belongs to |
+| `floor_number` | 1 | Which floor it is on |
+
+### Input 2: `Data/raw/prev_sem_data.csv`
+Historical occupancy records from the previous semester.
+
+| Column | Example | Meaning |
+| :--- | :--- | :--- |
+| `Room` | Lab-101 | Room name (normalized before use) |
+| `Day` | Mon | Day of the week (3-letter abbreviation) |
+| `Hour` | 10 | Hour of day (integer, 8–20) |
+| `Status` | 1 | 1 = room was occupied, 0 = room was free |
+
+---
+
+## Output: `Data/room_usability_dataset.csv`
+
+**Size:** ~78 rows per room × number of rooms (13 hours × 6 days = 78 slots/room/week).
+
+### Complete Column Reference
+
+| # | Column | Type | Range / Example | Description |
+|---|--------|------|-----------------|-------------|
+| 1 | `room` | String | `Lab-101` | Room identifier |
+| 2 | `building` | String | `A-Block` | Full building name |
+| 3 | `block` | String | `A` | Single-letter block code |
+| 4 | `day_of_week` | Integer | 0–5 | 0=Mon, 1=Tue, 2=Wed, 3=Thu, 4=Fri, 5=Sat |
+| 5 | `hour` | Integer | 8–20 | Hour of day (24-hour clock) |
+| 6 | `hour_sin` | Float | -1.0 to 1.0 | `sin(2π × hour / 24)` — cyclical time encoding |
+| 7 | `hour_cos` | Float | -1.0 to 1.0 | `cos(2π × hour / 24)` — cyclical time encoding |
+| 8 | `floor` | Integer | 0, 1, 2... | Floor number of the room |
+| 9 | `is_lab` | Boolean (0/1) | 0 or 1 | 1 if room name matches `Lab-N` or `Eng Lab-N` pattern |
+| 10 | `is_special` | Boolean (0/1) | 0 or 1 | 1 if room is in `SPECIAL_ROOMS` (Seminar Hall, CRMG, etc.) |
+| 11 | `room_overall_occupancy_rate` | Float | 0.0–1.0 | Fraction of total weekly slots this room was occupied in prev sem |
+| 12 | `block_hour_occupancy_rate` | Float | 0.0–1.0 | Fraction of rooms in this block that were occupied at this hour across all days |
+| 13 | `neighbor_hour_occupancy_rate` | Float | 0.0–1.0 | Fraction of adjacent rooms (±2 room numbers) occupied at this hour |
+| 14 | `is_weekday` | Boolean (0/1) | 0 or 1 | 1 if Mon–Fri, 0 if Saturday |
+| 15 | `room_popularity_bucket` | Integer | 0–3 | Quartile rank of room's overall occupancy rate (0=least, 3=most popular) |
+| 16 | `scheduled_class` | Boolean (0/1) | 0 or 1 | ⚠️ **Analysis only** — was a class scheduled for this exact slot? |
+| 17 | `prev_hour_occupied` | Boolean (0/1) | 0 or 1 | ⚠️ **Analysis only** — was this room occupied the previous hour? |
+| 18 | `next_hour_occupied` | Boolean (0/1) | 0 or 1 | ⚠️ **Analysis only** — will this room be occupied the next hour? |
+| 19 | `usable` | Boolean (0/1) | 0 or 1 | 🎯 **The ML target label** — 1 if safe for a student to use |
+| 20 | `block_A` | Boolean (0/1) | 0 or 1 | One-hot: 1 if room is in A-Block |
+| 21 | `block_B` | Boolean (0/1) | 0 or 1 | One-hot: 1 if room is in B-Block |
+| 22 | `block_C` | Boolean (0/1) | 0 or 1 | One-hot: 1 if room is in C-Block |
+| 23 | `block_D` | Boolean (0/1) | 0 or 1 | One-hot: 1 if room is in D-Block |
+| 24 | `block_E` | Boolean (0/1) | 0 or 1 | One-hot: 1 if room is in E-Block |
+| 25 | `block_F` | Boolean (0/1) | 0 or 1 | One-hot: 1 if room is in F-Block |
+| 26 | `block_L` | Boolean (0/1) | 0 or 1 | One-hot: 1 if room is in L-Block |
+
+> **Note on columns 16–18:** `scheduled_class`, `prev_hour_occupied`, and `next_hour_occupied` are included for analysis and debugging but are **excluded from model training** in `8_train_model.py` to prevent data leakage.
+
+---
+
+### 1. The Core Objective
+The script creates a "Labelled Dataset". It looks at every possible room at every possible hour and asks: **"If a student went here right now, would they have a good experience?"**
+
+### 2. Feature Breakdown & Examples
+
+#### A. The "Usability" Rule (The Target Variable)
+This is the most important logic in the entire project. A room is only marked `usable` if it passes the **Buffer Test**.
+
+| Scenario | Scheduled Now? | Prev Hour Busy? | Next Hour Busy? | **Usable?** | Rationale |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Case 1** | Yes | No | No | **0** | Room is occupied by a class. |
+| **Case 2** | No | Yes | No | **0** | Buffer: Students might still be leaving/cleaning up. |
+| **Case 3** | No | No | Yes | **0** | Buffer: You'd have to leave soon; not worth going. |
+| **Case 4** | No | No | No | **1** | Perfect: The room is clear for a long stretch. |
+
+**Code Snippet:**
+```python
+# Line 155
+usable = 0 if (sched or prev_occ or next_occ or is_special) else 1
+```
+
+#### B. Neighbor Density (`neighbor_hour_occupancy_rate`)
+The script identifies "Neighbors" by looking at room numbers in the same block.
+*   **Example**: For **Room A-105**, neighbors (radius 2) are **A-103, A-104, A-106, A-107**.
+*   **Logic**: If 4/4 neighbors are busy, the rate is `1.0`. If 0/4 are busy, the rate is `0.0`.
+*   **Why?** High neighbor occupancy usually means high noise and crowded corridors.
+
+#### C. Cyclical Time Encoding
+Standard integers (1, 2, 3...24) don't tell a model that 11 PM is close to 1 AM. We use trigonometry to fix this.
+*   `hour_sin = sin(2 * pi * hour / 24)`
+*   `hour_cos = cos(2 * pi * hour / 24)`
+*   **Result**: Time is represented as a circle, which is how human schedules actually work.
+
+---
+
+### 3. Data Transformation Steps
+
+1.  **Normalizing**: Converts messy input like `"lab-101"` or `"LAB 101"` into a standard `"Lab-101"`.
+2.  **Mapping**: Builds a high-speed Lookup Table (Set) of all occupied slots from the previous semester.
+3.  **Expansion**: For every room in `all_rooms.csv`, it generates **78 slots per week** (13 hours × 6 days).
+4.  **One-Hot Encoding**: 
+    *   Computers can't "read" the letter 'A' or 'B'. 
+    *   The script turns `block: 'A'` into `block_A: 1, block_B: 0, block_C: 0...`.
+
+### 4. Code Logic Flow
+```mermaid
+graph TD
+    A[raw/all_rooms.csv] --> D[Main Loop]
+    B[raw/prev_sem_data.csv] --> C[Build Occupancy Set]
+    C --> D
+    D --> E{For each Room/Day/Hour}
+    E --> F[Calculate Occupancy Rates]
+    E --> G[Apply Buffer Logic]
+    E --> H[Encode Time & Blocks]
+    F & G & H --> I[room_usability_dataset.csv]
+```
+
+---
+
+### 5. Summary of Features Generated
+| Feature Name | Type | Description |
+| :--- | :--- | :--- |
+| `is_lab` | Boolean | Is it a laboratory (usually has computers)? |
+| `floor` | Integer | Which level of the building is it on? |
+| `room_overall_occupancy_rate` | Float | General popularity of the room. |
+| `room_popularity_bucket` | Integer (0-3) | Quartile ranking of the room. |
+| `block_hour_occupancy_rate` | Float | How busy this building is at this specific time. |
+| `usable` | **Label** | **The answer we want the AI to predict.** |

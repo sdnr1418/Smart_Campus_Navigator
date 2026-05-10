@@ -1,0 +1,486 @@
+# Deep Dive: Scripts 7 & 8 — Dataset Generation → Model Training
+### Smart Campus Navigator · Room Usability Prediction Pipeline
+
+---
+
+## File I/O Map
+
+```
+Data/raw/all_rooms.csv          ──┐
+Data/raw/prev_sem_data.csv      ──┼──▶  [7_generate_dataset.py]  ──▶  Data/room_usability_dataset.csv
+                                  ┘                                            │
+                                                                               ▼
+                                                                    [8_train_model.py]
+                                                                    ├──▶  Models/room_usability_model.pkl
+                                                                    ├──▶  Results/training_report.txt
+                                                                    └──▶  Results/confusion_matrices.png
+```
+
+---
+
+# Part 1: `7_generate_dataset.py`
+
+## What It Does
+Takes raw, messy timetable data and converts it into a structured ML-ready dataset.
+Every row in the output = one (room, day, hour) combination — with computed features and a label.
+
+---
+
+## Input Files
+
+### `Data/raw/all_rooms.csv`
+The campus room registry. Contains at minimum:
+
+| Room | Building | floor_number |
+|------|----------|--------------|
+| Lab-101 | A-Block | 1 |
+| Seminar Hall | B-Block | 0 |
+
+This is the **skeleton** — it tells the script which rooms exist and where.
+
+### `Data/raw/prev_sem_data.csv`
+Historical timetable data from the previous semester. Contains:
+
+| Room | Day | Hour | Status |
+|------|-----|------|--------|
+| Lab-101 | Mon | 10 | 1 |
+| Lab-102 | Tue | 14 | 0 |
+
+- `Status = 1` → Room was occupied (class was running)
+- `Status = 0` → Room was free
+
+This is the **historical memory** — it teaches the model about usage patterns.
+
+---
+
+## Output File
+
+### `Data/room_usability_dataset.csv`
+A structured dataset with **78 rows per room** (13 hours × 6 days).
+
+| Column | Example | Meaning |
+|--------|---------|---------|
+| `room` | Lab-101 | Room name |
+| `day_of_week` | 0 | 0=Mon ... 5=Sat |
+| `hour` | 10 | Hour of day (8–20) |
+| `hour_sin` | 0.9659 | Sine encoding of hour |
+| `hour_cos` | 0.2588 | Cosine encoding of hour |
+| `floor` | 1 | Floor number |
+| `is_lab` | 1 | Is it a computer lab? |
+| `is_special` | 0 | Is it locked/special use? |
+| `room_overall_occupancy_rate` | 0.42 | How often this room is busy |
+| `block_hour_occupancy_rate` | 0.61 | How busy this block is at this hour |
+| `neighbor_hour_occupancy_rate` | 0.50 | How busy adjacent rooms are |
+| `is_weekday` | 1 | Mon–Fri = 1, Sat = 0 |
+| `room_popularity_bucket` | 3 | Quartile rank (0=least, 3=most popular) |
+| `scheduled_class` | 0 | ⚠️ Analysis only — excluded from training |
+| `prev_hour_occupied` | 1 | ⚠️ Analysis only — excluded from training |
+| `next_hour_occupied` | 0 | ⚠️ Analysis only — excluded from training |
+| `usable` | **0** | **The label the AI must learn to predict** |
+| `block_A` … `block_L` | 1/0 | One-hot encoded block |
+
+---
+
+## Function-by-Function Walkthrough
+
+### `normalize_room(name)`
+**Purpose:** Standardizes room names so data from different sources matches.
+
+```python
+normalize_room("lab-1")       # → "Lab-1"
+normalize_room("S. Hall")     # → "Seminar Hall"
+normalize_room("English Lab-IV") # → "Eng Lab-IV"
+normalize_room("Lab-101")     # → "Lab-101"  (unchanged)
+```
+
+**Why needed?** If the CSV has `"lab-1"` and the timetable has `"Lab-1"`, they would be treated as different rooms without this step. All occupancy data would be missed.
+
+---
+
+### `build_occupied_set_from_csv(prev_csv)`
+**Purpose:** Creates a fast-lookup Set of all busy slots.
+
+```python
+# Input CSV rows:
+#  Room=Lab-101, Day=Mon, Hour=10, Status=1
+#  Room=Lab-101, Day=Mon, Hour=11, Status=0
+
+occupied = build_occupied_set_from_csv("prev_sem_data.csv")
+# Result: {("mon", 10, "Lab-101"), ...}
+
+# To check if a room is busy:
+("mon", 10, "Lab-101") in occupied  # → True  (fast O(1) lookup)
+("mon", 11, "Lab-101") in occupied  # → False
+```
+
+**Why a Set?** Sets have O(1) average lookup. The main loop does millions of lookups — a list would be 100x slower.
+
+---
+
+### `build_room_occupancy_rates(occupied, rooms)`
+**Purpose:** For each room, calculates what fraction of the week it is occupied.
+
+```python
+# If Lab-101 is busy for 20 out of 78 possible slots (6 days × 13 hours):
+# rate = 20 / 78 = 0.256
+
+rates = {"Lab-101": 0.256, "Lab-102": 0.487, ...}
+```
+
+**Use:** The model learns that a room with rate 0.9 (almost always busy) is rarely a good choice.
+
+---
+
+### `build_block_hour_occupancy_rates(occupied, rooms_df)`
+**Purpose:** For each Block+Hour combination, what fraction of rooms in that block are busy?
+
+**Example:**
+- A-Block has 10 rooms
+- At 10 AM on Monday, 7 of them are scheduled
+- `block_hour_occupancy_rate[("A", 10)] = 7 / (10 rooms × 6 days) = 0.116`
+
+Wait — it divides by `n_rooms × n_days` because it counts across all days, not just one day.
+
+**Why useful?** Even if a specific room is free, if its whole block is packed, it is likely noisy.
+
+---
+
+### `build_neighbor_lookup(rooms_df)`
+**Purpose:** Builds a dictionary that maps `(Block, RoomNumber)` → Room name.
+
+```python
+# For rooms: A-103, A-104, A-105, A-106, A-107
+lookup = {
+    ("A", 103): "A-103",
+    ("A", 104): "A-104",
+    ("A", 105): "A-105",
+    ...
+}
+```
+
+This allows the next function to efficiently find "rooms with numbers close to mine."
+
+---
+
+### `build_neighbor_hour_rates(occupied, rooms_df, neighbor_lookup, radius=2)`
+**Purpose:** For each (room, hour) pair, what fraction of its neighbors are busy?
+
+**Example for Room A-105 at Hour 10:**
+1. Neighbors (radius 2): A-103, A-104, A-106, A-107
+2. At hour 10, check all 6 days → 24 possible (day, room) slots
+3. If 18 are occupied: `rate = 18/24 = 0.75`
+
+```python
+neighbor_hour_rates[("A-105", 10)] = 0.75  # Very busy corridor
+neighbor_hour_rates[("A-105", 8)]  = 0.10  # Quiet in the morning
+```
+
+**Why non-leaky?** This uses *other* rooms' schedules, not the room's own schedule. It's environmental context, not direct information.
+
+---
+
+### `build_popularity_buckets(room_rates, q=4)`
+**Purpose:** Divides rooms into 4 popularity tiers using quartile cuts.
+
+```python
+# Given room occupancy rates:
+# Lab-101: 0.10, Lab-102: 0.25, Lab-103: 0.55, Lab-104: 0.90
+
+# After qcut with q=4 (quartiles):
+# Lab-101 → bucket 0 (least popular)
+# Lab-102 → bucket 1
+# Lab-103 → bucket 2
+# Lab-104 → bucket 3 (most popular)
+```
+
+**Why not just use the rate directly?** Bucketing makes the model more robust to outliers. A room at 0.89 vs 0.91 is essentially the same — both are "very busy."
+
+---
+
+### The "Usability" Label — Core Logic
+
+```python
+# For each (room, day, hour):
+sched     = 1 if (day, hour,   room) in occupied else 0  # Is it busy NOW?
+prev_occ  = 1 if (day, hour-1, room) in occupied else 0  # Was it busy 1hr ago?
+next_occ  = 1 if (day, hour+1, room) in occupied else 0  # Will it be busy in 1hr?
+
+usable = 0 if (sched or prev_occ or next_occ or is_special) else 1
+```
+
+**Case Analysis:**
+
+| Case | sched | prev_occ | next_occ | is_special | usable | Reason |
+|------|-------|----------|----------|------------|--------|--------|
+| Busy now | 1 | 0 | 0 | 0 | **0** | Obviously occupied |
+| Class just ended | 0 | 1 | 0 | 0 | **0** | Students still leaving, room being cleaned |
+| Class starting soon | 0 | 0 | 1 | 0 | **0** | You'd only have 1 hour — risky |
+| Locked room | 0 | 0 | 0 | 1 | **0** | Seminar Hall, Embedded Lab, etc. |
+| Truly free | 0 | 0 | 0 | 0 | **1** | Good to go! |
+
+---
+
+### Cyclical Time Encoding
+
+Standard representation: Hour 23 and Hour 1 are 22 apart. But in reality they are 2 apart.
+
+```python
+hour = 8   # 8 AM
+h_sin = sin(2 * pi * 8  / 24)  # = 0.866
+h_cos = cos(2 * pi * 8  / 24)  # = 0.500
+
+hour = 20  # 8 PM
+h_sin = sin(2 * pi * 20 / 24)  # = -0.866
+h_cos = cos(2 * pi * 20 / 24)  # =  0.500
+```
+
+Both 8 AM and 8 PM share the same `h_cos` value — the model learns their symmetry naturally.
+
+---
+
+### One-Hot Encoding for Blocks
+
+```python
+df['block'] = ['A', 'A', 'B', 'C', ...]
+block_dummies = pd.get_dummies(df['block'], prefix='block')
+
+# Result:
+#   block_A  block_B  block_C ...
+#      1        0        0
+#      1        0        0
+#      0        1        0
+#      0        0        1
+```
+
+The script **guarantees** all 7 block columns (A, B, C, D, E, F, L) exist even if a block has no rooms in the data — preventing shape mismatches when the model later receives new input.
+
+---
+
+---
+
+# Part 2: `8_train_model.py`
+
+## What It Does
+Loads the dataset from Script 7, trains **3 different ML models**, compares them, saves the best one, and generates evaluation reports.
+
+---
+
+## Input File
+### `Data/room_usability_dataset.csv`
+Generated by Script 7. Used as X (features) and y (labels).
+
+---
+
+## Output Files
+
+| File | What it contains |
+|------|-----------------|
+| `Models/room_usability_model.pkl` | The best trained model, serialized with pickle |
+| `Results/training_report.txt` | Precision, Recall, F1, Confusion Matrix, AUC for all 3 models |
+| `Results/confusion_matrices.png` | Side-by-side confusion matrix plots for all 3 models |
+
+---
+
+## Why These 3 Models?
+
+| Model | Type | Strength | Weakness |
+|-------|------|----------|----------|
+| Logistic Regression | Linear | Fast, interpretable | Can't learn non-linear patterns |
+| Random Forest | Tree Ensemble | Handles non-linearity, robust | Slower, less interpretable |
+| ANN (MLP) | Neural Network | Learns complex patterns | Needs more data, risk of overfitting |
+
+They are run in this order intentionally: **baseline → better → best**.
+
+---
+
+## Why NOT use `scheduled_class`, `prev_hour_occupied`, `next_hour_occupied` as features?
+
+> [!CAUTION]
+> **Data Leakage!** These three columns are directly derived from the same timetable that created the `usable` label. Including them would give the model "cheat codes" — it would see the answer embedded in the question.
+
+**Example of the problem:**
+```
+If scheduled_class = 1, then usable = 0.  (Always!)
+```
+A model that sees `scheduled_class` will get 99% accuracy — but zero real-world value. In production, you don't know next semester's schedule upfront. The model must learn from **environmental signals** (time, block patterns, neighbor rates) only.
+
+---
+
+## The 80/20 Stratified Split
+
+```python
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y,
+    test_size=0.2,
+    random_state=42,
+    stratify=y          # ← Key!
+)
+```
+
+`stratify=y` ensures that both the training and test sets have the **same ratio of usable:not-usable** as the full dataset. Without this, a split might accidentally put all "usable" samples in training and none in the test — giving misleading accuracy numbers.
+
+---
+
+## Model 1: Logistic Regression (Baseline)
+
+```python
+lr_pipe = Pipeline([
+    ("scaler", StandardScaler()),    # Step 1: Normalize all features to mean=0, std=1
+    ("clf",    LogisticRegression(max_iter=1000)),  # Step 2: Train the classifier
+])
+```
+
+**Why StandardScaler?** Logistic Regression is sensitive to feature scale. `hour` ranges 8–20, but `room_overall_occupancy_rate` ranges 0–1. Without scaling, the model over-weights `hour`.
+
+**What it learns:** A straight line (or hyperplane) that separates "usable" from "not usable" in 19-dimensional space. This is the simplest possible decision boundary.
+
+**Expected output:**
+```
+              precision    recall  f1-score
+  Not Usable      0.88      0.91      0.89
+      Usable      0.75      0.68      0.71
+```
+
+---
+
+## Model 2: Random Forest
+
+```python
+rf = RandomForestClassifier(
+    n_estimators=100,   # Build 100 decision trees
+    max_depth=15,       # Each tree can be at most 15 levels deep
+    random_state=42,
+    n_jobs=-1           # Use all CPU cores in parallel
+)
+```
+
+**How it works:**
+1. Builds 100 decision trees, each trained on a random subset of rows and features.
+2. For prediction, all 100 trees vote — majority wins.
+
+**Example decision tree path:**
+```
+Is hour < 9?
+  ├─ YES → Is room_overall_occupancy_rate < 0.3?
+  │         ├─ YES → USABLE ✓
+  │         └─ NO  → NOT USABLE ✗
+  └─ NO  → Is block_hour_occupancy_rate < 0.5?
+            ├─ YES → Is is_special = 0?
+            │         └─ YES → USABLE ✓
+            └─ NO  → NOT USABLE ✗
+```
+
+**Feature Importance:** Random Forest automatically ranks which features mattered most — this gets printed in the training report.
+
+---
+
+## Model 3: Artificial Neural Network (ANN / MLP)
+
+```python
+ann_pipe = Pipeline([
+    ("scaler", StandardScaler()),          # ANN is also scale-sensitive
+    ("mlp", MLPClassifier(
+        hidden_layer_sizes=(64, 32),       # Two hidden layers
+        max_iter=500,                      # Max training epochs
+        early_stopping=True,               # Stop if no improvement
+        validation_fraction=0.1,           # 10% of train set used for validation
+        n_iter_no_change=20,               # Stop if no improvement for 20 epochs
+    )),
+])
+```
+
+**Network Architecture:**
+```
+Input Layer     Hidden Layer 1    Hidden Layer 2    Output
+(19 features) → (64 neurons)    → (32 neurons)    → (1: usable/not-usable)
+                  ReLU activation   ReLU activation   Sigmoid activation
+```
+
+**Early Stopping:** If the validation loss doesn't improve for 20 consecutive epochs, training stops. This prevents overfitting (memorizing training data instead of learning patterns).
+
+---
+
+## Model Comparison & Winner Selection
+
+```python
+best_name = max(results, key=lambda k: results[k]["f1"])
+```
+
+The winner is selected by **F1-macro** score — the average of F1 for both classes.
+
+**Why F1 and not Accuracy?**
+If the dataset has 80% "not usable" rows, a dumb model that always says "not usable" achieves 80% accuracy. F1 penalizes this by requiring the model to perform well on *both* classes.
+
+**Typical expected ranking (best to worst):**
+1. 🥇 Random Forest — best balance of accuracy and robustness
+2. 🥈 Neural Network — learns complex patterns but needs more data to shine
+3. 🥉 Logistic Regression — linear boundary is too simple for this problem
+
+---
+
+## The Saved Model (`room_usability_model.pkl`)
+
+```python
+pickle.dump({
+    "model":        best_model,    # The trained sklearn Pipeline/Estimator
+    "model_name":   best_name,     # e.g., "Random Forest"
+    "feature_cols": FEATURE_COLS,  # The exact list of 19 feature column names
+}, f)
+```
+
+> [!IMPORTANT]
+> The `feature_cols` list is saved alongside the model. When the live app makes a prediction, it must feed features **in the exact same order**. If the order changes, the model will silently produce wrong predictions.
+
+To load and use it later:
+```python
+with open("Models/room_usability_model.pkl", "rb") as f:
+    bundle = pickle.load(f)
+
+model    = bundle["model"]
+features = bundle["feature_cols"]
+
+# Predict on new data:
+X_new = df[features].values   # Must match the saved feature_cols exactly
+prediction = model.predict(X_new)   # 0 = not usable, 1 = usable
+```
+
+---
+
+## Confusion Matrix Interpretation
+
+```
+                 Predicted: Not Usable   Predicted: Usable
+Actual: Not Usable      TN (correct)         FP (false alarm)
+Actual: Usable          FN (missed!)         TP (correct)
+```
+
+- **FP (False Positive):** Model says "usable" but room is actually busy → student goes there and finds it occupied. **Bad UX.**
+- **FN (False Negative):** Model says "not usable" but room is actually free → missed opportunity. Less harmful.
+
+The model is optimized to minimize FP to protect student experience.
+
+---
+
+## Known Limitations (from the script's own Failure Analysis)
+
+1. **B-Block is permanently "not usable"** — CRMG and Embedded Lab are `SPECIAL_ROOMS`, so every B-Block slot is labeled 0. The model correctly learns this but provides no value for B-Block. Fix: collect booking calendar data for these rooms.
+
+2. **Logistic Regression cannot capture interactions** — Whether a room is free *and* its next hour is also free is a non-linear pattern (AND logic). Linear models can't learn this without explicit feature engineering.
+
+---
+
+## End-to-End Summary
+
+```
+prev_sem_data.csv  →  Build occupancy set  →  Feature engineering
+                                            ↓
+                                    room_usability_dataset.csv
+                                            ↓
+                              Train: LR + RF + ANN
+                                            ↓
+                              Compare by F1-macro
+                                            ↓
+                   room_usability_model.pkl  +  training_report.txt  +  confusion_matrices.png
+```
+
+**Next Step:** The saved `.pkl` model is loaded by the live navigator to score rooms in real time. A student requests a path → the system queries the model for each candidate room → only "usable=1" rooms are recommended.

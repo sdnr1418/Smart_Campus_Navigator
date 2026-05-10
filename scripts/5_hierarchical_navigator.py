@@ -119,7 +119,7 @@ def load_rooms(csv_path=None):
         import os
         script_dir = os.path.dirname(os.path.abspath(__file__))
         project_root = os.path.dirname(script_dir)
-        csv_path = os.path.join(project_root, "rooms_complete.csv")
+        csv_path = os.path.join(project_root, "Data", "raw", "all_rooms.csv")
     df = pd.read_csv(csv_path)
     rooms_info = {}
     for _, row in df.iterrows():
@@ -133,9 +133,13 @@ def load_rooms(csv_path=None):
 # BUILDING EXIT ROOM (lowest-numbered room on ground floor)
 # ============================================================
 def extract_room_number(room):
-    """Extract numeric suffix from room name (e.g., 'F-201' -> 201)."""
-    m = re.search(r'-(\d+)', room)
-    return int(m.group(1)) if m else 0
+    """Extract numeric suffix from room name (e.g., 'F-201' -> 201).
+
+    Named rooms with no digits (for example, 'Micro Lab' or 'Seminar Hall')
+    should sort after numbered rooms when picking exits.
+    """
+    m = re.search(r'\d+', room)
+    return int(m.group()) if m else 999_999
 
 
 def build_room_graph(building, rooms_info):

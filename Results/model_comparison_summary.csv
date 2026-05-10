@@ -1,0 +1,5 @@
+name,test_macro_f1,test_roc_auc,cv_best_f1,val_best_threshold,default_test_f1,tuned_test_f1,source_report,notes
+"Baseline Random Forest","0.9328","0.9834","","","","","C:\Users\sdnr1\OneDrive\Desktop\AI_project\Results\training_report.txt","Untuned baseline from script 8."
+"Tuned Random Forest","0.9321","0.9881","0.9334","0.52","0.9329","0.9321","C:\Users\sdnr1\OneDrive\Desktop\AI_project\Results\training_report_tuned_rf.txt","Random Forest tuned with RandomizedSearchCV"
+"Tuned ANN","0.9321","0.9849","0.9259","0.48","0.9337","0.9321","C:\Users\sdnr1\OneDrive\Desktop\AI_project\Results\training_report_tuned_ann.txt","ANN tuned with MLPClassifier"
+"Tuned Logistic Regression","0.8751","0.9598","0.8705","0.40","0.8624","0.8751","C:\Users\sdnr1\OneDrive\Desktop\AI_project\Results\training_report_tuned_lr.txt","Logistic Regression tuned with L1/L2"

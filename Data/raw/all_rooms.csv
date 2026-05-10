@@ -1,42 +1,46 @@
 Room,Building,Department,floor_number
 A-4,A-Block (Admin),Management,1
 A-7,A-Block (Admin),Management,1
-C-1,C-Block (Computing),Computing,1
+CRMG,B-Block (Civil),Management,1
+Embedded Lab,B-Block (Civil),Computing,1
+C-1,C-Block (Computing),Both,1
 C-10,C-Block (Computing),Management,2
 C-11,C-Block (Computing),Management,2
 C-12,C-Block (Computing),Management,2
-C-13,C-Block (Computing),Computing,2
-C-14,C-Block (Computing),Computing,2
+C-13,C-Block (Computing),Both,2
+C-14,C-Block (Computing),Both,2
 C-15,C-Block (Computing),Management,2
 C-16,C-Block (Computing),Management,2
-C-2,C-Block (Computing),Computing,1
-C-3,C-Block (Computing),Computing,1
-C-4,C-Block (Computing),Computing,1
-C-5,C-Block (Computing),Computing,1
-C-6,C-Block (Computing),Computing,1
-C-7,C-Block (Computing),Computing,1
+C-2,C-Block (Computing),Both,1
+C-3,C-Block (Computing),Both,1
+C-4,C-Block (Computing),Both,1
+C-5,C-Block (Computing),Both,1
+C-6,C-Block (Computing),Both,1
+C-7,C-Block (Computing),Both,1
 C-8,C-Block (Computing),Management,1
 C-9,C-Block (Computing),Management,1
-CRMG,D-Block (Electrical/Management),Management,1
+Seminar Hall,C-Block (Computing),Both,1
 D-1,D-Block (Electrical/Management),Management,1
-D-11,D-Block (Electrical/Management),Computing,2
+D-11,D-Block (Electrical/Management),Both,2
 D-12,D-Block (Electrical/Management),Management,2
 D-13,D-Block (Electrical/Management),Management,2
 D-14,D-Block (Electrical/Management),Management,2
 D-15,D-Block (Electrical/Management),Management,2
 D-16,D-Block (Electrical/Management),Management,2
 D-17,D-Block (Electrical/Management),Management,2
-D-2,D-Block (Electrical/Management),Computing,1
+D-2,D-Block (Electrical/Management),Both,1
 D-3,D-Block (Electrical/Management),Management,1
 D-4,D-Block (Electrical/Management),Management,1
-D-5,D-Block (Electrical/Management),Computing,1
-Embedded Lab,E-Block (Library),Computing,1
-Eng Lab-1,E-Block (Library),Computing,1
-Eng Lab-2,E-Block (Library),Computing,1
-Eng Lab-3,E-Block (Library),Computing,1
-Eng Lab-4,E-Block (Library),Computing,1
-Eng Lab-5,E-Block (Library),Computing,1
-Eng Lab-6,E-Block (Library),Computing,1
+D-5,D-Block (Electrical/Management),Both,1
+Micro Lab,D-Block (Electrical/Management),Computing,1
+Old Audi,D-Block (Electrical/Management),Management,1
+Physics Lab,D-Block (Electrical/Management),Computing,1
+Eng Lab-1,E-Block (English Labs),Both,1
+Eng Lab-2,E-Block (English Labs),Both,1
+Eng Lab-3,E-Block (English Labs),Both,1
+Eng Lab-4,E-Block (English Labs),Both,1
+Eng Lab-5,E-Block (English Labs),Both,1
+Eng Lab-6,E-Block (English Labs),Both,1
 F-201,F-Block (New Building),Computing,2
 F-202,F-Block (New Building),Computing,2
 F-203,F-Block (New Building),Computing,2
@@ -52,14 +56,14 @@ F-302,F-Block (New Building),Computing,3
 F-303,F-Block (New Building),Computing,3
 F-304,F-Block (New Building),Computing,3
 F-305,F-Block (New Building),Computing,3
-F-306,F-Block (New Building),Computing,3
+F-306,F-Block (New Building),Both,3
 F-307,F-Block (New Building),Computing,3
 F-308,F-Block (New Building),Computing,3
 F-309,F-Block (New Building),Computing,3
 F-310,F-Block (New Building),Computing,3
 F-311,F-Block (New Building),Computing,3
 F-312,F-Block (New Building),Computing,3
-Lab-1,L-Block (Labs),Computing,1
+Lab-1,L-Block (Labs),Both,1
 Lab-13,L-Block (Labs),Computing,2
 Lab-14,L-Block (Labs),Computing,2
 Lab-15,L-Block (Labs),Computing,2
@@ -67,14 +71,8 @@ Lab-16,L-Block (Labs),Computing,2
 Lab-17,L-Block (Labs),Computing,2
 Lab-18,L-Block (Labs),Computing,2
 Lab-2,L-Block (Labs),Computing,1
-Lab-3,L-Block (Labs),Computing,1
+Lab-3,L-Block (Labs),Both,1
 Lab-4,L-Block (Labs),Computing,1
-Lab-6,L-Block (Labs),Computing,1
+Lab-6,L-Block (Labs),Both,1
 Lab-7,L-Block (Labs),Management,1
-Lab-8,L-Block (Labs),Computing,1
-Micro Lab,D-Block (Electrical/Management),Computing,1
-Old Audi,C-Block (Computing),Management,1
-Physics Lab,D-Block (Electrical/Management),Computing,1
-S. Hall,D-Block (Electrical/Management),Computing,1
-Seminar Hall,D-Block (Electrical/Management),Management,1
-lab-17,L-Block (Labs),Computing,2
+Lab-8,L-Block (Labs),Both,1

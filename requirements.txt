@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+numpy
+scipy
+matplotlib
+flask
+streamlit>=1.0
+plotly>=5.0
+networkx
+openpyxl

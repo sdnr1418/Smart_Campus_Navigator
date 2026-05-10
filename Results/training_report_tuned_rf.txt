@@ -1,0 +1,74 @@
+ROOM USABILITY CLASSIFIER - RANDOM FOREST TUNING REPORT
+Dataset rows : 6006
+Features     : 19
+Split sizes  : Train=3603, Val=1201, Test=1202 (60/20/20 stratified)
+Class balance: 4072 usable | 1934 not-usable
+
+================================================================
+HYPERPARAMETER SEARCH
+================================================================
+Search method: RandomizedSearchCV
+Scoring      : f1_macro
+CV folds     : 5
+Iterations   : 40
+Best CV F1   : 0.9334
+Best Params:
+  - n_estimators: 800
+  - min_samples_split: 5
+  - min_samples_leaf: 4
+  - max_features: 1.0
+  - max_depth: 10
+  - class_weight: None
+  - bootstrap: True
+
+Top 10 CV candidates:
+  rank= 1 | mean_f1=0.9334 (+/- 0.0023) | n_est=800 depth=10 split=5 leaf=4 max_feat=1.0 class_wt=None boot=True
+  rank= 2 | mean_f1=0.9322 (+/- 0.0039) | n_est=100 depth=20 split=5 leaf=2 max_feat=0.5 class_wt=balanced boot=True
+  rank= 3 | mean_f1=0.9317 (+/- 0.0024) | n_est=200 depth=15 split=10 leaf=1 max_feat=0.7 class_wt=balanced_subsample boot=True
+  rank= 4 | mean_f1=0.9315 (+/- 0.0031) | n_est=300 depth=10 split=5 leaf=2 max_feat=1.0 class_wt=balanced boot=True
+  rank= 5 | mean_f1=0.9313 (+/- 0.0036) | n_est=200 depth=10 split=5 leaf=2 max_feat=0.7 class_wt=balanced boot=False
+  rank= 6 | mean_f1=0.9309 (+/- 0.0076) | n_est=800 depth=None split=5 leaf=2 max_feat=0.5 class_wt=None boot=True
+  rank= 7 | mean_f1=0.9284 (+/- 0.0025) | n_est=100 depth=20 split=10 leaf=2 max_feat=0.5 class_wt=balanced_subsample boot=True
+  rank= 8 | mean_f1=0.9274 (+/- 0.0049) | n_est=100 depth=15 split=5 leaf=4 max_feat=0.5 class_wt=balanced boot=True
+  rank= 9 | mean_f1=0.9269 (+/- 0.0033) | n_est=200 depth=15 split=20 leaf=4 max_feat=0.7 class_wt=balanced_subsample boot=False
+  rank=10 | mean_f1=0.9267 (+/- 0.0038) | n_est=800 depth=10 split=10 leaf=1 max_feat=1.0 class_wt=balanced boot=True
+
+================================================================
+THRESHOLD TUNING (VALIDATION SET)
+================================================================
+Default threshold (0.50) macro-F1 : 0.9467
+Best threshold                    : 0.52
+Best validation macro-F1          : 0.9526
+
+================================================================
+TEST SET EVALUATION (UNTOUCHED)
+================================================================
+Macro-F1 @ threshold 0.50 : 0.9329
+Macro-F1 @ tuned threshold: 0.9321
+
+Detailed metrics with tuned threshold:
+              precision    recall  f1-score   support
+
+  Not Usable      0.891     0.928     0.909       387
+      Usable      0.965     0.946     0.955       815
+
+    accuracy                          0.940      1202
+   macro avg      0.928     0.937     0.932      1202
+weighted avg      0.941     0.940     0.940      1202
+
+Confusion Matrix:
+[[359  28]
+ [ 44 771]]
+ROC-AUC: 0.9881
+
+Feature Importances (top 10):
+  day_of_week               0.2339  ##############################################
+  is_special                0.2057  #########################################
+  room_overall_occupancy_rate 0.1832  ####################################
+  hour                      0.0952  ###################
+  hour_sin                  0.0895  #################
+  room_popularity_bucket    0.0594  ###########
+  hour_cos                  0.0531  ##########
+  neighbor_hour_occupancy_rate 0.0191  ###
+  block_hour_occupancy_rate 0.0190  ###
+  block_L                   0.0114  ##
