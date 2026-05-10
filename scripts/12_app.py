@@ -15,6 +15,7 @@ import os
 import sys
 import importlib.util
 from datetime import datetime
+from sklearn.ensemble import RandomForestClassifier
 
 # ============================================================
 # PATH SETUP
@@ -36,9 +37,20 @@ build_feature_extractors = smart_nav.build_feature_extractors
 compare_routing          = smart_nav.compare_routing
 
 MODEL_PKL      = os.path.join(PROJECT_ROOT, "Models", "room_usability_model_tuned_rf.pkl")
+BASE_MODEL_PKL  = os.path.join(PROJECT_ROOT, "Models", "room_usability_model.pkl")
 DATASET_CSV    = os.path.join(PROJECT_ROOT, "Data", "room_usability_dataset.csv")
 ROOMS_CSV      = os.path.join(PROJECT_ROOT, "Data", "raw", "all_rooms.csv")
 TIMETABLE_CSV  = os.path.join(PROJECT_ROOT, "Data", "raw", "room_timetable.csv")
+
+FEATURE_COLS = [
+    "day_of_week", "hour", "hour_sin", "hour_cos",
+    "floor", "is_lab", "is_special",
+    "room_overall_occupancy_rate", "block_hour_occupancy_rate",
+    "neighbor_hour_occupancy_rate", "is_weekday", "room_popularity_bucket",
+    "block_A", "block_B", "block_C", "block_D",
+    "block_E", "block_F", "block_L",
+]
+TARGET_COL = "usable"
 
 DAY_PREFIXES = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
@@ -224,8 +236,36 @@ def load_all_data():
                 ))
                 
     extractors = build_feature_extractors(rooms_df, occupied_set)
-    with open(MODEL_PKL, "rb") as f:
-        bundle = pickle.load(f)
+
+    bundle = None
+    for model_path in (MODEL_PKL, BASE_MODEL_PKL):
+        if os.path.exists(model_path):
+            with open(model_path, "rb") as f:
+                bundle = pickle.load(f)
+            break
+
+    if bundle is None:
+        df = pd.read_csv(DATASET_CSV)
+        missing_cols = [col for col in FEATURE_COLS + [TARGET_COL] if col not in df.columns]
+        if missing_cols:
+            raise FileNotFoundError(
+                "No model artifact found and the fallback training dataset is incomplete. "
+                f"Missing columns: {', '.join(missing_cols)}"
+            )
+
+        fallback_model = RandomForestClassifier(
+            n_estimators=200,
+            max_depth=15,
+            random_state=42,
+            n_jobs=-1,
+        )
+        fallback_model.fit(df[FEATURE_COLS], df[TARGET_COL])
+        bundle = {
+            "model": fallback_model,
+            "model_name": "Random Forest (Fallback)",
+            "feature_cols": FEATURE_COLS,
+        }
+
     model        = bundle["model"]
     feature_cols = bundle["feature_cols"]
     all_rooms    = sorted(rooms_df["Room"].unique().tolist())
